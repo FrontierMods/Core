@@ -1,4 +1,4 @@
-# What are Frontier Mods
+# Frontier Mods
 
 Frontier Mods is a collection of mods for *Cataclysm: Dark Days Ahead*. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods.
 
