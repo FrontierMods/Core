@@ -14,6 +14,17 @@ The mods are designed to be compatible with the latest stable release only.
 Currently supported: version **0.F**.
 
 
+# Lore
+
+Most of the Frontier mods follow shared lore. Those that don't, note so in their `README.md` file.
+
+The lore is based off the base game's, in an attempt to expand and enliven its worldbuilding. Together, Frontier Mods create a separate timeline, where the flow of events resulted in a more paranoid, more prepper, and more technologically-advanced world, in an attempt to circumvent or combat the increasing threat in an unstable political environment.
+
+See [`LORE.md`](LORE.md) for a more detailed description of the changes.
+
+Large mods offer their own lore in addition to the shared one. See `LORE.md` in the root directory of each mod.
+
+
 # Sponsor
 
 Frontiers Mods are developed by a single person.
