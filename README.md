@@ -25,6 +25,13 @@ See [`LORE.md`](LORE.md) for a more detailed description of the changes.
 Large mods offer their own lore in addition to the shared one. See `LORE.md` in the root directory of each mod.
 
 
+# Reference
+
+Many of the mods include notes and reference documents. These were written during development and are being shared openly for the purposes of expanding the arsenal of ideas.
+
+Each mod provides its own notes. See `REFERENCE.md` in the root directory of each mod.
+
+
 # Sponsor
 
 Frontiers Mods are developed by a single person.
