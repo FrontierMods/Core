@@ -102,4 +102,3 @@ Third Doctrine firearms range from concealable options which would not cause con
 In a world where laws still apply, many of the Third Doctrine practices would be immoral at best and illegal at worst. Opinions of the doctrine's advocates – often hiding behind usernames online – ranged from pointing out that self-defence is not illegal, only ownership of unregistered firearms is, to referring the the United States as a police state and using that to justify being able to fire first as a human right.
 
 
-Private Defense is the perfect example of [the Third Doctrine](#the-third-doctrine).
