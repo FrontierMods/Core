@@ -6,30 +6,23 @@ Ultimately, the goal of Frontier Mods is to create an ecosystem of interreliable
 
 Implenenting the author-driven expansion of content – independently of the goals of the base game – is the foundation of Frontier Mods.
 
-
-## Compatibility
-
 The mods are designed to be compatible with the latest stable release only.
-
-Currently supported: version **0.F**.
 
 
 # Lore
 
-Most of the Frontier mods follow shared lore. Those that don't, note so in their `README.md` file.
+Most of the Frontier mods follow shared lore.
 
-The lore is based off the base game's, in an attempt to expand and enliven its worldbuilding. Together, Frontier Mods create a separate timeline, where the flow of events resulted in a more paranoid, more prepper, and more technologically-advanced world, in an attempt to circumvent or combat the increasing threat in an unstable political environment.
+Said lore is based off the base game's, in an attempt to expand and enliven its worldbuilding. Together, Frontier Mods create a separate timeline, where the flow of events resulted in a more paranoid, more prepper, and more technologically-advanced world, in an attempt to circumvent or combat the increasing threat in an unstable political environment.
 
 See [`LORE.md`](LORE.md) for a more detailed description of the changes.
 
-Large mods offer their own lore in addition to the shared one. See `LORE.md` in the root directory of each mod.
+Large mods offer their own lore in addition to the shared one.
 
 
-# Reference
+# Notes
 
-Many of the mods include notes and reference documents. These were written during development and are being shared openly for the purposes of expanding the arsenal of ideas.
-
-Each mod provides its own notes. See `REFERENCE.md` in the root directory of each mod.
+Many of the mods also include notes and reference documents. These were written during development and shared with other modders for the purposes of expanding the arsenal of ideas.
 
 
 # Sponsor
@@ -38,4 +31,4 @@ Frontiers Mods are developed by a single person.
 
 While the mods themselves confer no overhead costs – such as, for example, hosting – each takes a considerable amount of time to research, develop, and polish, to say nothing of the post-release support.
 
-You can support the project by donating. The sidebar contains links for doing so. You can give a one-time donation or support the project continuously.
+You can support the project by donating to it. The sidebar contains links for doing so. You can give a one-time donation or support the project continuously.
