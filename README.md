@@ -30,6 +30,15 @@ Large mods offer their own lore in addition to the shared one.
 Many of the mods also include notes and reference documents. These were written during development and shared with other modders for the purposes of expanding the arsenal of ideas.
 
 
+# Frontier Mods Extra
+
+[Frontier Mods Extra](https://github.com/FrontierModsExtra) are mods that don't fit into the Frontier ecosystem but are developed by the same author (me).
+
+These are usually smaller mods, often experimental in nature, and don't follow the shared lore. Their goal is to speculate and explore.
+
+Extra mods may or may not be later absorbed into the Frontier mods proper.
+
+
 # Sponsor
 
 Frontiers Mods are developed by a single person.
