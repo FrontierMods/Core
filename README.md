@@ -6,7 +6,12 @@ Ultimately, the goal of Frontier Mods is to create an ecosystem of interreliable
 
 Implenenting the author-driven expansion of content – independently of the goals of the base game – is the foundation of Frontier Mods.
 
+
+## Support
+
 The mods are designed to be compatible with the latest stable release only.
+
+Current version supported: **0.F-1**.
 
 
 # Lore
