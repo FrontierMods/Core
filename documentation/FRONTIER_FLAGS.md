@@ -18,7 +18,7 @@ The intended use for `CARD_STANDARD` is to signal the card's adherence to the st
 
 **In-game description**: "This item is a decorative piece for the <info>MOLLE gear system</info>. It can be attached to <info>MOLLE carrying equipment</info>, such as a vest or a backpack.  It does not provide any benefit beyond asserting you into the empty world."
 
-(See `MOLLE_POUCH` for the description of the MOLLE system itself.)
+(See [`MOLLE_POUCH`](#molle_pouch) for the description of the MOLLE system itself.)
 
 MOLLE decorative panels use the `MOLLE_DECOR` flag, allowing them to be attached to a dedicated velcro panel on some MOLLE equipment. MOLLE webbing itself does not accept these. Not all MOLLE-enabled items also have decorative panels.
 
@@ -59,7 +59,7 @@ Shoulder rigs are wearable structures of leather or cotton, worn around the shou
 
 Shoulder rigs come in two varieties: pre-assembled and modular.
 
-The primary use of the `SHOULDER_RIG` flag is for the latter: it indicates to the player that the rig is modular. The `SHOULDER_RIG` alone is not enough to enable rig modularity. The `SHOULDER_RIG_MODULE` flag (see `SHOULDER_RIG_MODULE`) is used to filter allowed items inside the rig's pockets.
+The primary use of the `SHOULDER_RIG` flag is for the latter: it indicates to the player that the rig is modular. The `SHOULDER_RIG` alone is not enough to enable rig modularity. The `SHOULDER_RIG_MODULE` flag (see [`SHOULDER_RIG_MODULE`](#shoulder_rig_module)) is used to filter allowed items inside the rig's pockets.
 
 Pre-assembled / non-modular shoulder rigs **should not** use this flag.
 
@@ -68,6 +68,6 @@ Pre-assembled / non-modular shoulder rigs **should not** use this flag.
 
 **In-game description**: "This item is a <info>shoulder rig module</info>. It can be attached to a shoulder rig and used as a piece of carrying equipment."
 
-Modular shoulder rigs (see `SHOULDER_RIG`) rely on using special pockets to be effective. These are referred to as shoulder rig modules.
+Modular shoulder rigs (see [`SHOULDER_RIG`](#shoulder_rig)) rely on using special pockets to be effective. These are referred to as shoulder rig modules.
 
 These modules may host a number of items, most often small fireams (such as pistols and revolvers, and – rarely – compact submachine guns) and related magazines. Modules to carry other sorts of items exist but are uncommon, and never used in the fields of work where a shoulder rig is required.
