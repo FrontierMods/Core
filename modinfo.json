@@ -1,0 +1,19 @@
+[ 
+	{ 
+		"type": "MOD_INFO",
+		"id": "frontier_core",
+		
+		"name": "Frontier Mods Core",
+		"description": "Frontier Mods Core serves as the foundation of mods in the Frontier Mods collection. Also includes a handful of content bugfixes",
+		
+		"authors": [ 
+			"Hyperseeker" 
+		],
+		
+		"category": "content",
+		
+		"dependencies": [ 
+			"dda" 
+		] 
+	} 
+]
