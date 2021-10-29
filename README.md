@@ -41,7 +41,7 @@ You can find the list of flags and their intended uses in [`/documentation/FRONT
 
 Overrides are included as necessary. They are not designed to include all mischaracterized items from the base game, since not all items need to be fixed.
 
-Override files are located in the [`/overrides/`](/overrides/) folder.
+Override files are located in the [`/override/`](/override/) folder.
 
 
 ## Core Content
