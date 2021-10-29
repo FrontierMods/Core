@@ -13,7 +13,7 @@ Implenenting the author-driven expansion of content – independently of the goa
 
 The mods are designed to be compatible with the latest stable release only.
 
-Current version supported: **0.F-1**.
+Current version supported: **0.F-2**.
 
 
 # Lore
