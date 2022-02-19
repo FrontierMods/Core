@@ -8,6 +8,8 @@ The goal of Frontier Mods is to create an ecosystem of independent, compatible, 
 
 Implenenting the author-driven expansion of content – independently of the goals of the base game – is the foundation of Frontier Mods.
 
+Frontier Mods also hosts [a blog](https://github.com/FrontierMods/Blog) and [a design document](https://github.com/FrontierMods/Design). Subscribe to those to stay in touch with the development of the mods.
+
 
 ## Support
 
