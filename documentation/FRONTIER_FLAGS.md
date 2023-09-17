@@ -27,19 +27,6 @@ In real-life combat, these panels can be used to identify soldiers and their imp
 In a post-apocalyptic situation, these panels offer no pragmatic benefit. Their primary role in *Cataclysm* is self-expression: you can attach to your equipment whatever panels that suit your personality.
 
 
-## `MOLLE_POUCH`
-
-**In-game description**: "This item is part of the <info>MOLLE gear system</info>. It can be attached to <info>MOLLE carrying equipment</info>, such as a vest or a backpack."
-
-MOLLE pouches derive their name from the [MOLLE](https://en.wikipedia.org/wiki/MOLLE), or the Modular Lightweight Load-carrying Equipment. MOLLE is a standard of modular equipment used in NATO countries, which includes the United States. MOLLE is not a generic standard: that is, not every modular-equipment system is MOLLE.
-
-MOLLE pouches may be attached to an item's MOLLE webbing. MOLLE webbing is usually limited to military and military-affiliated equipment: ballistic vests, backpacks, and certain kinds of belts.
-
-Attaching MOLLE pouches enables additional carry volume, often for specialized equipment, in exchange for exacerbated encumbrance. Specific pouches exist for storing magazines, small firearms (e.g. pistols), knives, stationery (e.g. maps, pens), handheld radios, first-aid medical supplies, and many more kinds of equipment.
-
-Mechanically, the `MOLLE_POUCH` flag is used to distinguish a container as MOLLE-enabled, thus allowing certain pockets to accept the pouches as attachable equipment. That is, some Frontier items have additional space dedicated entirely to MOLLE equipment, as a way to simulate attaching these pouches onto an item, which is impossible otherwise.
-
-
 ## `PAPER_FILE_SIZED`
 
 **In-game description**: "This item has the right dimensions to be stored in <info>file compartments</info>."
