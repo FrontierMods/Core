@@ -15,7 +15,7 @@ Frontier Mods also hosts [a blog](https://github.com/FrontierMods/Blog) and [a d
 
 The mods are designed to be compatible with the latest stable release only.
 
-Current version supported: **0.F-2**.
+Current version supported: **0.G**.
 
 
 # Frontier Core
@@ -34,7 +34,7 @@ You can find the list of flags and their intended uses in [`/documentation/FRONT
 
 Some features ­– including basic disassembly when appropriate mods are installed – operate by relying on flags.
 
-You can find the list of flags and their intended uses in [`/documentation/FRONTIER_TOOL_QUALITIES.md`](/documentation/FRONTIER_TOOL_QUALITIES.md).
+You can find the list of flags and their intended uses in ~~[`/documentation/FRONTIER_TOOL_QUALITIES.md`](/documentation/FRONTIER_TOOL_QUALITIES.md)~~.
 
 
 ## Overrides
@@ -43,7 +43,7 @@ You can find the list of flags and their intended uses in [`/documentation/FRONT
 
 Overrides are included as necessary. They are not designed to include all mischaracterized items from the base game, since not all items need to be fixed.
 
-Override files are located in the [`/override/`](/override/) folder.
+Override files are located in the ~~[`/override/`](/override/)~~ folder.
 
 
 ## Core Content
@@ -66,23 +66,21 @@ Extra mods may be absorbed into main Frontier mods later.
 
 ## Current
 
-* [**Gunsmith**](https://github.com/FrontierMods/Gunsmith):
+* [**Gunsmith**](https://github.com/FrontierMods/Gunsmith) (postponed):
   - overhauls gunmodding by making it as close to real life as possible
   - introduces hundreds of real-life parts for ~~all~~ in-game firearms
   - ~~adds gunsmithing tools necessary for many of the gunmodding processes~~
   - ~~expands on the skills and proficiencies required to construct and mod guns~~
   - ~~adds decoration options for firearms~~
-* [**Armory**](https://github.com/FrontierMods/Armory):
+* [**Armory**](https://github.com/FrontierMods/Armory) (postponed):
   - adds a variety of real-life combat equipment
   - revamps existing combat equipment
-  - introduces modular equipment
   - adds decoration options for military ~~and civilian~~ clothing
-* [**Dapper**](https://github.com/FrontierMods/Dapper): 
-  - expands the clothing and accessory options available to the player
-  - adds a variety of civilian storage options
-  - revamps existing clothing
-* [**Comforts**](https://github.com/FrontierMods/Comforts):
-  - adds a variety of common personal items to enrich and flourish one's survival
+* [**Loadout**](https://github.com/FrontierMods/Loadout):
+  - adds a variety of real-life firearm attachments
+  - overhauls existing attachments to specific models, with their own limitations
+  - adds a handful of improvised attachments
+  - ~~enhances magazines and add magazine modding~~
 
 
 ### Extra
@@ -93,6 +91,12 @@ Extra mods may be absorbed into main Frontier mods later.
 
 ## Planned
 
+* [**Dapper**](https://github.com/FrontierMods/Dapper): 
+  - expands the clothing and accessory options available to the player
+  - adds a variety of civilian storage options
+  - revamps existing clothing
+* [**Comforts**](https://github.com/FrontierMods/Comforts):
+  - adds a variety of common personal items to enrich and flourish one's survival
 * [~~Computation~~](https://github.com/FrontierMods/Computation):
   - adds a variety of computational devices, i.e. smartphones and personal computers
   - expands available options for using such devices
