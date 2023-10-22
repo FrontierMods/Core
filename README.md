@@ -66,12 +66,6 @@ Extra mods may be absorbed into main Frontier mods later.
 
 ## Current
 
-* [**Gunsmith**](https://github.com/FrontierMods/Gunsmith) (postponed):
-  - overhauls gunmodding by making it as close to real life as possible
-  - introduces hundreds of real-life parts for ~~all~~ in-game firearms
-  - ~~adds gunsmithing tools necessary for many of the gunmodding processes~~
-  - ~~expands on the skills and proficiencies required to construct and mod guns~~
-  - ~~adds decoration options for firearms~~
 * [**Armory**](https://github.com/FrontierMods/Armory) (postponed):
   - adds a variety of real-life combat equipment
   - revamps existing combat equipment
@@ -91,6 +85,12 @@ Extra mods may be absorbed into main Frontier mods later.
 
 ## Planned
 
+* [**Gunsmith**](https://github.com/FrontierMods/Gunsmith) (postponed):
+  - overhauls gunmodding by making it as close to real life as possible
+  - introduces hundreds of real-life parts for ~~all~~ in-game firearms
+  - ~~adds gunsmithing tools necessary for many of the gunmodding processes~~
+  - ~~expands on the skills and proficiencies required to construct and mod guns~~
+  - ~~adds decoration options for firearms~~
 * [**Dapper**](https://github.com/FrontierMods/Dapper): 
   - expands the clothing and accessory options available to the player
   - adds a variety of civilian storage options
