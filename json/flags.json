@@ -70,6 +70,12 @@
     "info": "This item can be <good>attached</good> to <info>hook-and-loop panels</info>, for additional functionality or decoration",
     "restriction": "Item must be a hook-and-loop attachment"
   },
+  {
+    "id": "BELT_ATTACH",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
+    "restriction": "Item must be belt-capable gear"
+  },
 
   {
     "id": "TUCKED_IN",
