@@ -90,6 +90,17 @@
   },
 
   {
+    "id": "BOOT_HOLSTER",
+    "type": "json_flag",
+    "info": "This item can be <info>worn on the inside</info> of a <info>large boot</info>"
+  },
+  {
+    "id": "BOOT_SHEATH",
+    "type": "json_flag",
+    "info": "This item can be <info>worn on the inside</info> of a <info>tall boot</info>"
+  },
+
+  {
     "id": "IOTV_SHOULDER",
     "type": "json_flag",
     "info": "This item can be <good>attached</good> to an IOTV vest <info>at the shoulder</info>, for additional protection",
