@@ -1,0 +1,34 @@
+[
+  {
+    "id": "stanag30",
+    "copy-from": "stanag30",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      ["https://thril.com/gear/ar-mag/", "dimensions"],
+      ["https://en.wikipedia.org/wiki/M16_rifle", "weight"]
+    ],
+
+    "//notes": [
+      "while this isn't the Army-issue M16 magazine, we use this aftermarket magazine for want of actual spec"
+    ],
+
+    "name": {
+      "str": "STANAG 30-round magazine"
+    },
+
+    "weight": "117 g",
+    "//dimensions": {
+      "length": "7.56 in",
+      "width": "1.06 in",
+      "height": "2.53 in",
+      "raw": "332 ml",
+      "trim": -0.05,
+      "notes": [
+        "negative trim on the assumption that, if straightened out, the magazine would be that much longer"
+      ]
+    },
+    "volume": "349 ml",
+    "longest_side": "192 mm"
+  }
+]
