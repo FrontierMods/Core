@@ -1,0 +1,137 @@
+[
+  {
+    "id": "tourniquet_upper",
+    "copy-from": "tourniquet_upper",
+    "type": "ARMOR",
+
+    "//source": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
+    ],
+
+    "name": {
+      "str": "tourniquet (arm)",
+      "str_pl": "tourniquets (arm)"
+    },
+
+    "weight": "86 g",
+    "//dimensions": {
+      "length": "6.5 in",
+      "width": "2.4 in",
+      "height": "1.5 in",
+      "raw": "384 ml",
+      "trim": 0.525
+    },
+    "volume": "182 ml",
+    "longest_side": "165 mm",
+
+    "material": ["nylon", "plastic"]
+  },
+  {
+    "id": "tourniquet_upper_XL",
+    "copy-from": "tourniquet_upper_XL",
+    "type": "ARMOR",
+
+    "//source": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
+    ],
+
+    "name": {
+      "str": "tourniquet (arm XL)",
+      "str_pl": "tourniquets (arm XL)"
+    },
+
+    "weight": "86 g",
+    "//dimensions": {
+      "length": "6.5 in",
+      "width": "2.4 in",
+      "height": "1.5 in",
+      "raw": "384 ml",
+      "trim": 0.525
+    },
+    "volume": "182 ml",
+    "longest_side": "165 mm",
+
+    "material": ["nylon", "plastic"]
+  },
+  {
+    "id": "tourniquet_upper_XS",
+    "copy-from": "tourniquet_upper_XS",
+    "type": "ARMOR",
+
+    "//source": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
+    ],
+
+    "name": {
+      "str": "tourniquet (arm XS)",
+      "str_pl": "tourniquets (arm XS)"
+    },
+
+    "weight": "86 g",
+    "//dimensions": {
+      "length": "6.5 in",
+      "width": "2.4 in",
+      "height": "1.5 in",
+      "raw": "384 ml",
+      "trim": 0.525
+    },
+    "volume": "182 ml",
+    "longest_side": "165 mm",
+
+    "material": ["nylon", "plastic"]
+  },
+  {
+    "id": "tourniquet_lower",
+    "copy-from": "tourniquet_lower",
+    "type": "ARMOR",
+
+    "//source": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
+    ],
+
+    "name": {
+      "str": "tourniquet (leg)",
+      "str_pl": "tourniquets (leg)"
+    },
+
+    "weight": "86 g",
+    "//dimensions": {
+      "length": "6.5 in",
+      "width": "2.4 in",
+      "height": "1.5 in",
+      "raw": "384 ml",
+      "trim": 0.525
+    },
+    "volume": "182 ml",
+    "longest_side": "165 mm",
+
+    "material": ["nylon", "plastic"]
+  },
+  {
+    "id": "tourniquet_lower_XL",
+    "copy-from": "tourniquet_lower_XL",
+    "type": "ARMOR",
+
+    "//source": [
+      "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
+    ],
+
+    "name": {
+      "str": "tourniquet (leg XL)",
+      "str_pl": "tourniquets (leg XL)"
+    },
+
+    "weight": "86 g",
+    "//dimensions": {
+      "length": "6.5 in",
+      "width": "2.4 in",
+      "height": "1.5 in",
+      "raw": "384 ml",
+      "trim": 0.525
+    },
+    "volume": "182 ml",
+    "longest_side": "165 mm",
+
+    "material": ["nylon", "plastic"]
+  }
+]
