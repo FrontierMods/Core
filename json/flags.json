@@ -73,8 +73,14 @@
   {
     "id": "VELCRO_ATTACH",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>hook-and-loop panels</info>, for additional functionality or decoration",
+    "info": "This decorative item can be <good>attached</good> to <info>hook-and-loop panels</info>",
     "restriction": "Item must be a hook-and-loop attachment"
+  },
+  {
+    "id": "VELCRO_POUCH",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>",
+    "restriction": "Item must be a hook-and-loop pouch"
   },
   {
     "id": "BELT_GEAR",
