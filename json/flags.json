@@ -82,6 +82,12 @@
     "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
     "restriction": "Item must be belt-capable gear"
   },
+  {
+    "id": "BELT_GEAR_LARGE",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
+    "restriction": "Item must be large belt-capable gear"
+  },
 
   {
     "id": "TUCKED_IN",
