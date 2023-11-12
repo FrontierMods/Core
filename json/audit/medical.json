@@ -133,5 +133,213 @@
     "longest_side": "165 mm",
 
     "material": ["nylon", "plastic"]
+  },
+
+  {
+    "id": "bandages",
+    "copy-from": "bandages",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.amazon.com/Rescue-Essentials-WoundStop-Home-Care/dp/B07WD76J23"
+    ],
+
+    "//notes": [
+      "bandage in source comes with a plastic pressure bar attached to the sterile cotton",
+      "we presume that it's irrelevant to the dimensions of the bandage overall, weight included",
+      "there are multiple model of the bandage, under the same trade name, in various configurations",
+      "overall, the bandage is roughly 4 m long, which presumably justifies having multiple charges"
+    ],
+
+    "name": {
+      "str": "bandage"
+    },
+
+    "//weight": [
+      "Amazon source lists two weights: 1.23 oz ≈ 35 g and 1.6 oz ≈ 45 g",
+      "we presume that the larger weight is that of the package in total, and the smaller weight is that of the bandage itself"
+    ],
+    "weight": "35 g",
+    "//dimensions": {
+      "length": "2.5 in",
+      "width": "1 in",
+      "height": "0.8 in",
+      "raw": "33 ml",
+      "trim": 0.05,
+      "notes": [
+        "height is presumed visually from other dimensions",
+        "other dimensions acquired from visual reference"
+      ]
+    },
+    "volume": "31 ml",
+    "longest_side": "64 mm"
+  },
+  {
+    "id": "bandages_makeshift",
+    "copy-from": "bandages_makeshift",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//notes": ["see `bandages` for notes and sources"],
+
+    "name": {
+      "str": "makeshift bandage"
+    },
+
+    "weight": "35 g",
+    "volume": "31 ml",
+    "longest_side": "64 mm"
+  },
+  {
+    "id": "bandages_makeshift_boiled",
+    "copy-from": "bandages_makeshift_boiled",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//notes": ["see `bandages` for notes and sources"],
+
+    "name": {
+      "str": "boiled makeshift bandage"
+    },
+
+    "weight": "35 g",
+    "volume": "31 ml",
+    "longest_side": "64 mm"
+  },
+  {
+    "id": "bandages_makeshift_bleached",
+    "copy-from": "bandages_makeshift_bleached",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//notes": ["see `bandages` for notes and sources"],
+
+    "name": {
+      "str": "bleached makeshift bandage"
+    },
+
+    "weight": "35 g",
+    "volume": "31 ml",
+    "longest_side": "64 mm"
+  },
+  {
+    "id": "adhesive_bandages",
+    "copy-from": "adhesive_bandages",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.cardinalhealth.com/en/product-solutions/medical/skin-and-wound-management/traditional-wound-care/bandages/adhesive-bandages/curity-plastic-bandages.html"
+    ],
+
+    "name": {
+      "str": "adhesive bandage"
+    },
+
+    "//weight": [
+      "based on an estimation, given presumed material and dimensions",
+      "presumed material: polyethylene (PE)",
+      "average density of PE: 0.94 g/cm3",
+      "volume (18.05 μl) * 0.94 g/cm3 ≈ 17 mg"
+    ],
+    "weight": "17 mg",
+    "//dimensions": {
+      "length": "3 in",
+      "width": "1 in",
+      "height": "0.1 mm",
+      "raw": "19 μl",
+      "trim": 0.05,
+      "notes": [
+        "height is presumed",
+        "the result is rounded up to 1 ml, because 0.G stable does not support higher-resolution volume values"
+      ]
+    },
+    "volume": "1 ml",
+    "longest_side": "76 mm"
+  },
+
+  {
+    "id": "medical_tape",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "ammo_type": "components",
+
+    "//notes": [
+      "not sourced from a specific item, but rather estimated based on many types of medical tapes on the market",
+      "presumptions are as follows",
+      {
+        "tape": {
+          "thickness": "0.2 mm",
+          "width": "2 in",
+          "length": "10 yd",
+          "density": "0.94 g/cm3"
+        },
+        "tube": {
+          "diameter": "1 in",
+          "thickness": "0.1 mm",
+          "width": "2 in",
+          "density": "0.8 g/cm3"
+        }
+      }
+    ],
+
+    "name": {
+      "str_sp": "medical tape"
+    },
+
+    "weight": "44 g",
+    "volume": "47 ml",
+    "longest_side": "48 mm"
+  },
+  {
+    "id": "medical_gauze",
+    "copy-from": "medical_gauze",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+
+    "//sources": [
+      "https://www.buyemp.com/product/curaplex-gauze-pads/group001457"
+    ],
+
+    "//notes": [
+      "4-inch × 4-inch sterile swabs",
+      "while the description says this swab is sealed, we ignore this and presume that, like so many medical comestibles in the game, this one is transported without cover, without losing its sterility"
+    ],
+
+    "name": {
+      "str": "medical gauze"
+    },
+
+    "//weight": "basic weight (density; 13.2 g/m3) × area of swab (4 in ^ 2 = 16 in2) × ply (layers; 12)",
+    "weight": "1635 mg",
+    "//dimensions": {
+      "length": "4 in",
+      "width": "4 in",
+      "height": "0.206 mm",
+      "raw": "2 ml",
+      "trim": 0,
+      "notes": [
+        "height is calculated as follows",
+        {
+          "basic_weight": "13.2 g/m2",
+          "ply": 12,
+          "density_cotton": "1.54 g/cm3",
+          "density_factor": "0.5",
+
+          "weight_per_m2": "basic_weight * ply",
+          "weight_per_cm2": "weight_per_m2 / 10000",
+          "density_per_ply": "density_cotton * density_factor",
+
+          "thickness": "weight_per_cm2 / density_per_ply",
+
+          "notes": [
+            "weight_per_m2 is converted to weight_per_cm2 (g/cm2) in order to calculate over density (g/cm3)"
+          ]
+        }
+      ]
+    },
+    "volume": "2 ml",
+    "longest_side": "102 mm"
   }
 ]
