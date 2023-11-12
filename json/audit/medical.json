@@ -4,7 +4,7 @@
     "copy-from": "tourniquet_upper",
     "type": "ARMOR",
 
-    "//source": [
+    "//sources": [
       "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
     ],
 
@@ -31,7 +31,7 @@
     "copy-from": "tourniquet_upper_XL",
     "type": "ARMOR",
 
-    "//source": [
+    "//sources": [
       "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
     ],
 
@@ -58,7 +58,7 @@
     "copy-from": "tourniquet_upper_XS",
     "type": "ARMOR",
 
-    "//source": [
+    "//sources": [
       "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
     ],
 
@@ -85,7 +85,7 @@
     "copy-from": "tourniquet_lower",
     "type": "ARMOR",
 
-    "//source": [
+    "//sources": [
       "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
     ],
 
@@ -112,7 +112,7 @@
     "copy-from": "tourniquet_lower_XL",
     "type": "ARMOR",
 
-    "//source": [
+    "//sources": [
       "https://www.narescue.com/combat-application-tourniquet-c-a-t.html"
     ],
 
