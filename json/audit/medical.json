@@ -261,6 +261,7 @@
 
   {
     "id": "medical_tape",
+    "copy-from": "medical_tape",
     "type": "AMMO",
     "category": "spare_parts",
     "ammo_type": "components",
