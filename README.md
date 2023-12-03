@@ -126,7 +126,7 @@ _within three months since the last edit_
   - introduces new calibers
   - allows crafting custom rounds using existing bullets' components
 
-- ~~[<bionics rework>](https://github.com/FrontierMods/BionicsRework)~~ (name pending):
+- ~~[`<bionics rework>`](https://github.com/FrontierMods/BionicsRework)~~ (name pending):
 
   - revamps the existing bionics
   - adds a set of new and advanced bionics
