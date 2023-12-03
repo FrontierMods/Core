@@ -83,6 +83,12 @@
     "restriction": "Item must be a hook-and-loop pouch"
   },
   {
+    "id": "VELCRO_PANEL",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>",
+    "restriction": "Item must be a hook-and-loop panel"
+  },
+  {
     "id": "BELT_GEAR",
     "type": "json_flag",
     "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
