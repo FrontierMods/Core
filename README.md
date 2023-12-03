@@ -1,6 +1,6 @@
 # Frontier Mods
 
-*last updated: Dec 03, 2023*
+_last updated: Dec 03, 2023_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -40,7 +40,7 @@ Extra mods may be absorbed into main Frontier mods later.
 
 ## Current
 
-- [**Armory**](https://github.com/FrontierMods/Armory):
+- **[Armory](https://github.com/FrontierMods/Armory)**:
 
   - revamps existing military and military-adjacent equipment
   - expands on gear modularity
@@ -48,7 +48,7 @@ Extra mods may be absorbed into main Frontier mods later.
   - adds a variety of real-life combat equipment
   - adds decoration options for military and civilian clothing
 
-- [**Loadout**](https://github.com/FrontierMods/Loadout):
+- **[Loadout](https://github.com/FrontierMods/Loadout)**:
 
   - adds a variety of real-life firearm attachments
   - overhauls existing attachments to specific models, with their own limitations
@@ -57,68 +57,79 @@ Extra mods may be absorbed into main Frontier mods later.
 
 ## Extra
 
-- [**SIL**](https://github.com/FrontierModsExtra/SIL): adds a 5-arrow magazine attachment to the compound bow
-- [**MONK Suit**](https://github.com/FrontierModsExtra/MONKSuit): adds a dexterity- and mobility-enhancing lightweight suit of armor
-- [**Universal Belt Clip**](https://github.com/FrontierModsExtra/UniversalBeltClip): adds a universal belt clip, which could be used to wear more items on your belt
-- [**Cement? Das Conk Creet, Baybee!**](https://github.com/FrontierModsExtra/CementDasConkCreetBaybee): adds [that one meme](https://knowyourmeme.com/memes/cement-das-conk-creet-baybee)
+- **[SIL](https://github.com/FrontierModsExtra/SIL)**: adds a 5-arrow magazine attachment to the compound bow
+- **[MONK Suit](https://github.com/FrontierModsExtra/MONKSuit)**: adds a dexterity- and mobility-enhancing lightweight suit of armor
+- **[Universal Belt Clip](https://github.com/FrontierModsExtra/UniversalBeltClip)**: adds a universal belt clip, which could be used to wear more items on your belt
+- **[Cement? Das Conk Creet, Baybee!](https://github.com/FrontierModsExtra/CementDasConkCreetBaybee)**: adds [that one meme](https://knowyourmeme.com/memes/cement-das-conk-creet-baybee)
 
 ## Near Future
 
 _within three months since the last edit_
 
-- [~~Remedy~~](https://github.com/FrontierMods/Remedy):
+- ~~[Remedy](https://github.com/FrontierMods/Remedy)~~:
 
   - revamps the medical system
   - adds new health effects and treatment tools
 
-- [~~Recombinant~~](https://github.com/FrontierMods/Recombinant):
+- ~~[Recombinant](https://github.com/FrontierMods/Recombinant)~~:
 
   - revamps select mutations tree and paths to acquiring the mutations
 
 ## Far Future
 
-- [**Gunsmith**](https://github.com/FrontierMods/Gunsmith) (postponed):
+- **[Gunsmith](https://github.com/FrontierMods/Gunsmith)** (postponed):
 
   - overhauls gunmodding by making it as close to real life as possible
-  - introduces hundreds of real-life parts for ~~all~~ in-game firearms
-  - ~~adds gunsmithing tools necessary for many of the gunmodding processes~~
-  - ~~expands on the skills and proficiencies required to construct and mod guns~~
-  - ~~adds decoration options for firearms~~
+  - introduces hundreds of real-life parts for existing firearms
+  - adds gunsmithing tools necessary for many of the gunmodding processes
+  - expands on the skills and proficiencies required to construct and mod guns
+  - adds decoration options for firearms
 
-- [**Dapper**](https://github.com/FrontierMods/Dapper):
+- **[Dapper](https://github.com/FrontierMods/Dapper)**:
 
   - revamps existing clothing
   - expands the clothing and accessory options available to the player
   - adds a variety of civilian storage options (backpacks, fanny packs etc.)
 
-- [**Comforts**](https://github.com/FrontierMods/Comforts):
+- **[Comforts](https://github.com/FrontierMods/Comforts)**:
 
   - adds a variety of common personal items to enrich and flourish one's survival
 
-- [~~Computation~~](https://github.com/FrontierMods/Computation):
+- ~~[Computation](https://github.com/FrontierMods/Computation)~~:
 
   - adds a variety of computational devices, i.e. smartphones and personal computers
   - expands available options for using such devices
   - provides platform for computer-assisted design for use in personal crafting recipes
 
-- [~~Workshop~~](https://github.com/FrontierMods/Workshop):
+- ~~[Workshop](https://github.com/FrontierMods/Workshop)~~:
 
   - adds basic and advanced home workshop tools
   - ~~provides framework for 3D-printing items~~
 
-- [~~Toolkit~~](https://github.com/FrontierMods/Toolkit):
+- ~~[Toolkit](https://github.com/FrontierMods/Toolkit)~~:
 
   - adds basic and advanced portable tools, including EDC options
 
-- [~~Survival~~](https://github.com/FrontierMods/Survival):
+- ~~[Prepper](https://github.com/FrontierMods/Prepper)~~:
 
   - adds equipment for survival and nomad lifestyle
 
-- [~~Recharge~~](https://github.com/FrontierMods/Recharge):
+- ~~[Recharge](https://github.com/FrontierMods/Recharge)~~:
 
   - overhauls energy supply, storage, and demand values for tools, automotive components, personal devices, and more
   - expands battery types and sizes
   - replaces generic batteries with device-appropriate variants
+
+- ~~[Handload](https://github.com/FrontierMods/Handload)~~:
+
+  - revamps existing calibers and bullet types
+  - introduces new calibers
+  - allows crafting custom rounds using existing bullets' components
+
+- ~~[<bionics rework>](https://github.com/FrontierMods/BionicsRework)~~ (name pending):
+
+  - revamps the existing bionics
+  - adds a set of new and advanced bionics
 
 # Lore
 
