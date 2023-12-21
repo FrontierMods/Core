@@ -71,6 +71,12 @@
     "restriction": "Item must be a MOLLE pouch"
   },
   {
+    "id": "MOLLE_ATTACH_BACK",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>PALS webbing on the back</info>",
+    "restriction": "Item must be a MOLLE attachment for the back"
+  },
+  {
     "id": "VELCRO_ATTACH",
     "type": "json_flag",
     "info": "This decorative item can be <good>attached</good> to <info>hook-and-loop panels</info>",
