@@ -15,6 +15,7 @@ Thus, Frontier Mods uses realism score scale in order to inform the player about
 - 3 is for content where noticable liberties have been taken to render the desired objects, while maintaining as much groundedness in reality as possible; sci-fi or fantasy ideas bordering on realism
   - _to be expanded_
 - 4 is for items that are mostly grounded in reality, with freedoms taken to their in-game rendering due to conceptual limitations (e.g. inability to get accurate measurements of real items in the category, or limited public knowledge on how a thing operates)
+  - [Handload](https://github.com/FrontierMods/Handload/)
   - ~~[Dapper](https://github.com/FrontierMods/Dapper/)~~
   - ~~[Computation](https://github.com/FrontierMods/Computation/)~~
 - 5 is for stuff that gets modelled as realistically as possible, with respect to its functionality, physical dimensions, name, description, and other aspects, as far as the game engine would allow
