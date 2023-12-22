@@ -1,0 +1,60 @@
+[
+  {
+    "id": "m1911",
+    "copy-from": "m1911",
+    "type": "GUN",
+
+    "//sources": [
+      "https://en.wikipedia.org/wiki/M1911_pistol",
+      ["TM 9-1005-211-34", "weight of the magazine"],
+      [
+        "https://aliengearholsters.com/blog/guide-to-the-1911-pistol/",
+        "height",
+        "width"
+      ]
+    ],
+
+    "name": {
+      "str": "M1911 pistol"
+    },
+
+    "//weight": [
+      "weight of an empty M1911 with a magazine (39 oz = 1105.6 g)",
+      "minus the weight of the 7-round magazine (0.156 lbs = 2.496 oz = 70.76 g)"
+    ],
+    "weight": "1035 g",
+    "//dimensions": {
+      "length": "8.5 in",
+      "width": "1.2 in",
+      "height": "5.5 in",
+      "raw": "919.31 ml",
+      "trim": 0.6,
+      "notes": ["trim accounts for the grip being wider than the frame"]
+    },
+    "volume": "368 ml",
+    "longest_side": "216 mm"
+  },
+  {
+    "id": "glock_17",
+    "copy-from": "glock_17",
+    "type": "GUN",
+
+    "//sources": ["https://us.glock.com/en/pistols/g17"],
+
+    "name": {
+      "str": "Glock duty pistol"
+    },
+
+    "weight": "625 g",
+    "//dimensions": {
+      "length": "204 mm",
+      "width": "32 mm",
+      "height": "130 mm",
+      "raw": "848.64 ml",
+      "trim": 0.6,
+      "notes": ["height without magazine acquired from visual reference"]
+    },
+    "volume": "340 ml",
+    "longest_side": "204 mm"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "sw_619",
+    "copy-from": "sw_619",
+    "type": "GUN",
+
+    "//sources": [
+      "https://en.wikipedia.org/wiki/Smith_%26_Wesson_Model_619_%26_620",
+      ["https://www.smith-wesson.com/product/l-frame-164194", "width", "height"]
+    ],
+
+    "//notes": [
+      "we use a similar revolver (same make, same frame type) as reference for dimensions other than length"
+    ],
+
+    "name": {
+      "str_sp": "S&W 619"
+    },
+
+    "//weight": "37.9 oz",
+    "weight": "1070 g",
+    "//dimensions": {
+      "length": "9.5 in",
+      "width": "1.55 in",
+      "height": "6 in",
+      "raw": "1447.8 ml",
+      "trim": [0.15, 0.65],
+      "notes": [
+        "first trim is to account for the width of the frame being smaller than that of the cylinder",
+        "second trim is for the regular difference between the bounding box and the item"
+      ]
+    },
+    "volume": "431 ml",
+    "longest_side": "241 mm"
+  }
+]
