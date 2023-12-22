@@ -1,0 +1,61 @@
+[
+  {
+    "id": "QASM_ATTACH",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>QASM buckles</info>",
+    "restriction": "Item must be a QASM panel"
+  },
+  {
+    "id": "MOLLE_ATTACH",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>PALS webbing</info>",
+    "restriction": "Item must be a MOLLE pouch"
+  },
+  {
+    "id": "MOLLE_ATTACH_BACK",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>PALS webbing on the back</info>",
+    "restriction": "Item must be a MOLLE attachment for the back"
+  },
+  {
+    "id": "VELCRO_ATTACH",
+    "type": "json_flag",
+    "info": "This decorative item can be <good>attached</good> to <info>hook-and-loop panels</info>",
+    "restriction": "Item must be a hook-and-loop attachment"
+  },
+  {
+    "id": "VELCRO_POUCH",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>",
+    "restriction": "Item must be a hook-and-loop pouch"
+  },
+  {
+    "id": "VELCRO_PANEL",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>",
+    "restriction": "Item must be a hook-and-loop panel"
+  },
+  {
+    "id": "BELT_GEAR",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
+    "restriction": "Item must be belt-capable gear"
+  },
+  {
+    "id": "BELT_GEAR_LARGE",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
+    "restriction": "Item must be large belt-capable gear"
+  },
+
+  {
+    "id": "BOOT_HOLSTER",
+    "type": "json_flag",
+    "info": "This item can be <info>worn on the inside</info> of a <info>large boot</info>"
+  },
+  {
+    "id": "BOOT_SHEATH",
+    "type": "json_flag",
+    "info": "This item can be <info>worn on the inside</info> of a <info>tall boot</info>"
+  }
+]
