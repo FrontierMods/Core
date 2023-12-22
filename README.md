@@ -55,6 +55,17 @@ Extra mods may be absorbed into main Frontier mods later.
   - adds a handful of improvised attachments
   - ~~enhances magazines and add magazine modding~~
 
+- [Remedy](https://github.com/FrontierMods/Remedy):
+
+  - revamps the medical system
+  - adds new health effects and treatment tools
+
+- [Handload](https://github.com/FrontierMods/Handload):
+
+  - revamps existing calibers and bullet types
+  - introduces new calibers
+  - allows crafting custom rounds using existing bullets' components
+
 ## Extra
 
 - **[SIL](https://github.com/FrontierModsExtra/SIL)**: adds a 5-arrow magazine attachment to the compound bow
@@ -65,11 +76,6 @@ Extra mods may be absorbed into main Frontier mods later.
 ## Near Future
 
 _within three months since the last edit_
-
-- ~~[Remedy](https://github.com/FrontierMods/Remedy)~~:
-
-  - revamps the medical system
-  - adds new health effects and treatment tools
 
 - ~~[Recombinant](https://github.com/FrontierMods/Recombinant)~~:
 
@@ -120,13 +126,7 @@ _within three months since the last edit_
   - expands battery types and sizes
   - replaces generic batteries with device-appropriate variants
 
-- ~~[Handload](https://github.com/FrontierMods/Handload)~~:
-
-  - revamps existing calibers and bullet types
-  - introduces new calibers
-  - allows crafting custom rounds using existing bullets' components
-
-- ~~[`<bionics rework>`](https://github.com/FrontierMods/BionicsRework)~~ (name pending):
+- ~~[Synthesis](https://github.com/FrontierMods/Synthesis)~~ (name pending):
 
   - revamps the existing bionics
   - adds a set of new and advanced bionics
