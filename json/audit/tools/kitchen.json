@@ -1,0 +1,88 @@
+[
+  {
+    "id": "knife_chef",
+    "copy-from": "knife_chef",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.zwilling.com/us/zwilling-pro-7-inch-slim-chefs-knife-38431-182/38431-182-0.html"
+    ],
+
+    "name": {
+      "str": "chef knife",
+      "str_pl": "chef knives"
+    },
+
+    "material": ["hc_steel"],
+
+    "weight": "240 g",
+    "//dimensions": {
+      "length": "12.2 in",
+      "width": "0.71 in",
+      "height": "1.77 in",
+      "raw": "251.24 ml",
+      "trim": 0.3
+    },
+    "volume": "176 ml",
+    "longest_side": "31 cm",
+
+    "price": "150 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "knife_bread",
+    "copy-from": "knife_bread",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.zwilling.com/us/henckels-statement-8-inch-bread-knife-13546-203/13546-203-0.html"
+    ],
+
+    "name": {
+      "str": "bread knife",
+      "str_pl": "bread knives"
+    },
+
+    "weight": "195 g",
+    "//dimensions": {
+      "length": "12.82 in",
+      "width": "0.87 in",
+      "height": "1.22 in",
+      "raw": "222.98 ml",
+      "trim": 0.275
+    },
+    "volume": "162 ml",
+    "longest_side": "326 mm",
+
+    "price": "23 USD",
+    "price_postapoc": "50 cent"
+  },
+  {
+    "id": "knife_carving",
+    "copy-from": "knife_carving",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.zwilling.com/us/zwilling-pro-8-inch-slicing%2Fcarving-knife-38400-203/38400-203-0.html"
+    ],
+
+    "name": {
+      "str": "carving knife",
+      "str_pl": "carving knives"
+    },
+
+    "weight": "168 g",
+    "//dimensions": {
+      "length": "12.68 in",
+      "width": "0.67 in",
+      "height": "1.3 in",
+      "raw": "180.98 ml",
+      "trim": 0.25
+    },
+    "volume": "136 ml",
+    "longest_side": "322 mm",
+
+    "price": "130 USD",
+    "price_postapoc": "50 cent"
+  }
+]
