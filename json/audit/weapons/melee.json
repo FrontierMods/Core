@@ -1,0 +1,139 @@
+[
+  {
+    "id": "knife_combat",
+    "copy-from": "knife_combat",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://ontarioknife.com/collections/bayonet-sale-2023/products/m9-bayonet-green-handle",
+      [
+        "https://www.bladeforums.com/threads/m9-bayonet.1725393/post-19711268",
+        "precise guard width"
+      ],
+      [
+        "https://www.aliexpress.com/item/1005006006070136.html",
+        "height of guard",
+        "width of guard"
+      ]
+    ],
+
+    "name": {
+      "str": "combat knife",
+      "str_pl": "combat knives"
+    },
+
+    "weight": "558 g",
+    "//dimensions": [
+      {
+        "description": "Blade",
+
+        "length": "7 in",
+        "width": "0.24 in",
+        "height": "1.45 in",
+        "raw": "39.92 ml",
+        "trim": 0.225,
+        "result": "30.938 ml",
+        "notes": ["height acquired from visual reference"]
+      },
+      {
+        "description": "Guard",
+
+        "length": "0.185 in",
+        "width": "30 mm",
+        "height": "80 mm",
+        "raw": "11.28 ml",
+        "trim": 0.25,
+        "result": "8.46 ml"
+      },
+      {
+        "description": "Grip",
+
+        "length": "4.065 in",
+        "diameter": "1.25 in",
+        "raw": "81.75 ml",
+        "trim": 0.2,
+        "result": "65.4 ml"
+      }
+    ],
+    "volume": "105 ml",
+    "longest_side": "311 mm",
+
+    "price": "233 USD",
+    "price_postapoc": "1250 cent"
+  },
+  {
+    "id": "knife_rambo",
+    "copy-from": "knife_rambo",
+    "type": "TOOL",
+
+    "//sources": [
+      "http://www.bladecenter.com/rambo-first-blood-part-ii-knife-mcrb2-rb2.aspx",
+      [
+        "https://www.knifewarehouse.co.uk/product/15-inch-rambo-classic-survival-knife/",
+        "weight"
+      ]
+    ],
+
+    "//notes": [
+      "we model it after the knife from Rambo: First Blood Part II, rather than the one from First Blood, given the description"
+    ],
+
+    "name": {
+      "str": "survival knife",
+      "str_pl": "survival knives"
+    },
+
+    "weight": "556 g",
+    "//dimensions": [
+      {
+        "description": "Blade",
+
+        "length": "10 in",
+        "width": "0.25 in",
+        "height": "2 in",
+        "raw": "81.94 ml",
+        "trim": 0.125,
+        "result": "71.7 ml",
+        "notes": ["height acquired from visual reference"]
+      },
+      {
+        "description": "Guard",
+
+        "length": "0.25 in",
+        "width": "30 mm",
+        "height": "3.55 in",
+        "raw": "17.18 ml",
+        "trim": 0.2,
+        "result": "13.744 ml",
+        "notes": ["width presumed from the guard width of M9 bayonet"]
+      }
+    ],
+    "volume": "182 ml",
+    "longest_side": "394 mm",
+
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+
+        "description": "Handle compartment",
+
+        "rigid": true,
+        "watertight": true,
+
+        "max_contains_weight": "250 g",
+        "//max_contains_volume": {
+          "length": "5.39 in",
+          "diameter": "1.19 in",
+          "raw": "98.23 ml",
+          "trim": 0
+        },
+        "max_contains_volume": "98 ml",
+
+        "moves": 300
+      }
+    ],
+
+    "price": "140 USD",
+    "price_postapoc": "5 USD"
+  }
+]
