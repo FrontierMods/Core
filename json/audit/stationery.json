@@ -29,25 +29,21 @@
     "type": "TOOL",
 
     "//sources": [
-      "https://www.boundtree.com/tactical-medicine-mci-rescue/rescue-tools-knives/sharpie-permanent-marker-1-5in-diameter-x-5-5in-l-black/p/125328",
-      [
-        "https://www.amazon.com/Sharpie-Permanent-Markers-Fine-Pack/dp/B01N9ZIRZY",
-        "weight"
-      ]
+      "https://www.jetpens.com/Sharpie-Permanent-Marker-Fine-Point-Black/pd/14563"
     ],
 
     "name": {
       "str": "permanent marker"
     },
 
-    "weight": "8 g",
+    "weight": "9 g",
     "//dimensions": {
-      "length": "5.5 in",
-      "diameter": "1.5 in",
-      "raw": "159 ml",
-      "trim": 0.075
+      "length": "13.7 cm",
+      "diameter": "10.6 mm",
+      "raw": "12.09 ml",
+      "trim": 0.05
     },
-    "volume": "147 ml",
-    "longest_side": "140 mm"
+    "volume": "12 ml",
+    "longest_side": "137 mm"
   }
 ]
