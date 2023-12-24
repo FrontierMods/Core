@@ -1,0 +1,94 @@
+[
+  {
+    "id": "flashbang",
+    "copy-from": "flashbang",
+    "type": "TOOL",
+
+    "//sources": ["https://en.wikipedia.org/wiki/M84_stun_grenade"],
+
+    "name": {
+      "str": "flashbang"
+    },
+
+    "weight": "370 g",
+    "//dimensions": {
+      "length": "5.25 in",
+      "diameter": "1.85 in",
+      "raw": "231 ml",
+      "trim": 0.15,
+      "notes": [
+        "diameter (of the larger rings on the body) acquired from visual reference"
+      ]
+    },
+    "volume": "196 ml",
+    "longest_side": "133 mm"
+  },
+  {
+    "id": "flashbang_act",
+    "copy-from": "flashbang_act",
+    "type": "TOOL",
+
+    "//sources": ["https://en.wikipedia.org/wiki/M84_stun_grenade"],
+
+    "name": {
+      "str": "active flashbang"
+    },
+
+    "weight": "367 g",
+    "//dimensions": {
+      "length": "5.25 in",
+      "diameter": "1.85 in",
+      "raw": "231 ml",
+      "trim": 0.15,
+      "notes": [
+        "diameter (of the larger rings on the body) acquired from visual reference"
+      ]
+    },
+    "volume": "196 ml",
+    "longest_side": "133 mm"
+  },
+
+  {
+    "id": "grenade",
+    "copy-from": "grenade",
+    "type": "TOOL",
+
+    "//sources": ["https://en.wikipedia.org/wiki/M67_grenade"],
+
+    "name": {
+      "str": "grenade"
+    },
+
+    "weight": "400 g",
+    "//dimensions": {
+      "length": "3.53 in",
+      "diameter": "2.5 in",
+      "raw": "284 ml",
+      "trim": 0.25
+    },
+    "volume": "213 ml",
+    "longest_side": "90 mm"
+  },
+  {
+    "id": "grenade_act",
+    "copy-from": "grenade_act",
+    "type": "TOOL",
+
+    "//sources": ["https://en.wikipedia.org/wiki/M67_grenade"],
+
+    "name": {
+      "str": "active grenade"
+    },
+
+    "//weight": "slightly less weight due to the pulled safety pin",
+    "weight": "398 g",
+    "//dimensions": {
+      "length": "3.53 in",
+      "diameter": "2.5 in",
+      "raw": "284 ml",
+      "trim": 0.25
+    },
+    "volume": "213 ml",
+    "longest_side": "90 mm"
+  }
+]
