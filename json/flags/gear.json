@@ -5,12 +5,14 @@
     "info": "This item can be <good>attached</good> to <info>QASM buckles</info>",
     "restriction": "Item must be a QASM panel"
   },
+
   {
     "id": "MULTI_DOT_ATTACH",
     "type": "json_flag",
     "info": "This item can be <good>attached</good> to <info>Multi-Dot panels</info>",
     "restriction": "Item must be compatible with the Multi-Dot interface"
   },
+
   {
     "id": "MOLLE_ATTACH",
     "type": "json_flag",
@@ -23,6 +25,7 @@
     "info": "This item can be <good>attached</good> to <info>PALS webbing on the back</info>",
     "restriction": "Item must be a MOLLE attachment for the back"
   },
+
   {
     "id": "VELCRO_ATTACH",
     "type": "json_flag",
@@ -41,6 +44,7 @@
     "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>",
     "restriction": "Item must be a hook-and-loop panel"
   },
+
   {
     "id": "BELT_GEAR",
     "type": "json_flag",
