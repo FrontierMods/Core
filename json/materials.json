@@ -1,7 +1,5 @@
 [
   {
-    "//": "see `json/items/material_chunks.json` for what these materials disassemble to",
-
     "type": "material",
     "id": "titanium",
     "name": "Titanium",
