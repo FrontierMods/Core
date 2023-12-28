@@ -1,0 +1,102 @@
+[
+  {
+    "id": "p320mag_17rd_9x19mm",
+    "copy-from": "p320mag_17rd_9x19mm",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      ["https://www.sigsauer.com/p320-m17.html", "weight (in owner's manual)"],
+      [
+        "https://www.sigsauer.com/magazine-320-9-full-17-rd-m17-coyote.html",
+        "price"
+      ],
+      ["https://www.midwestgunworks.com/page/mgwi/prod/320f-9-m17", "material"],
+      [
+        "https://reddit.com/r/SigSauer/comments/mor7fe/question_what_are_the_dimensions_of_a_p320/",
+        "dimensions"
+      ]
+    ],
+
+    "name": {
+      "str": "service handgun 17-round magazine"
+    },
+
+    "//weight": [
+      "there is a mismatch between stated weight of magazine (2.97 oz = 84.198 g), and the difference between the weight of the gun with 17-round magazine inside and the weight of the empty gun (29.98 oz - 26.9 oz = 3.08 oz = 87.317 g)",
+      "moreover, different sources cite different weights for the gun with an empty standard-issue (17-round) magazine",
+      "Wikipedia: 29.4 oz = 833.48 g / https://en.wikipedia.org/wiki/SIG_Sauer_M17",
+      "SSSF: 29.5 oz = 836.31 g / https://sssfonline.org/wp-content/uploads/2020/01/2019-SASP-Approved-Stock-Service-Pistol-Weights.pdf",
+      "we stick to the Sig Sauer numbers and err on the side of caution by choosing the higher weight"
+    ],
+    "weight": "87 g",
+    "//dimensions": {
+      "length": "4.75 in",
+      "width": "0.875 in",
+      "height": "1.275 in",
+      "raw": "86.84 ml",
+      "trim": -0.02,
+      "notes": [
+        "dimensions are slightly-approximate due to the nature of the measuring device",
+        "trim accounts for the base plate, which is wider and longer than the magazine itself"
+      ]
+    },
+    "volume": "89 ml",
+    "longest_side": "121 mm",
+
+    "material": ["steel", "plastic"],
+
+    "price": "50 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "p320mag_21rd_9x19mm",
+    "copy-from": "p320mag_21rd_9x19mm",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      ["https://www.sigsauer.com/p320-m17.html", "weight (in owner's manual)"],
+      [
+        "https://www.sigsauer.com/magazine-320-9-full-21-rd-m17-coy.html",
+        "price"
+      ],
+      ["https://www.midwestgunworks.com/page/mgwi/prod/320f-9-m17", "material"],
+      [
+        "https://reddit.com/r/SigSauer/comments/mor7fe/question_what_are_the_dimensions_of_a_p320/",
+        "dimensions"
+      ],
+      [
+        "https://reddit.com/r/USPSA/comments/11vyay2/p320_21_round_factory_mags_size_under_141mm/",
+        "length"
+      ]
+    ],
+
+    "//notes": [
+      "P320 and M17 are (mostly) the same model, and their magazines look similar-enough that we presume the length reference to be appropriate to use here"
+    ],
+
+    "name": {
+      "str": "service handgun 21-round magazine"
+    },
+
+    "weight": "109 g",
+    "//dimensions": {
+      "length": "141 mm",
+      "width": "0.875 in",
+      "height": "1.275 in",
+      "raw": "101.49 ml",
+      "trim": -0.035,
+      "notes": [
+        "while it's apparent that many a magazine of this style are likely to be slightly over the 141 mm mark, we use a stable number since it's available, and because there are magazines that clearly fit the mark",
+        "other dimensions are slightly-approximate due to the nature of the measuring device",
+        "trim accounts for the base plate, which is wider and longer than the magazine itself"
+      ]
+    },
+    "volume": "105 ml",
+    "longest_side": "141 mm",
+
+    "material": ["steel", "plastic"],
+
+    "price": "50 USD",
+    "price_postapoc": "1 USD"
+  }
+]
