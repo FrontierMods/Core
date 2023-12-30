@@ -56,5 +56,82 @@
     },
     "volume": "340 ml",
     "longest_side": "204 mm"
+  },
+  {
+    "id": "m17",
+    "copy-from": "m17",
+    "type": "GUN",
+
+    "//sources": [
+      "https://www.sigsauer.com/p320-m17.html",
+      ["https://www.gunbroker.com/item/1025733711", "price"]
+    ],
+
+    "//notes": [
+      "M17's dimensions, including weight, show either aggressive rounding or inconsistent measurements between presentation data (on sell page) and owner's manual",
+      "we rely on the owner's manual data (as found on SIG Sauer's website) for more-precise measurements"
+    ],
+
+    "name": {
+      "str": "service handgun"
+    },
+
+    "weight": "763 g",
+    "//dimensions": {
+      "length": "8.05 in",
+      "width": "1.55 in",
+      "height": "5.5 in",
+      "raw": "1124.58 ml",
+      "trim": 0.6,
+      "notes": ["height without magazine approximated from visual reference"]
+    },
+    "volume": "450 ml",
+    "longest_side": "205 mm",
+
+    "//price": [
+      "SIG Sauer does not sell the M17 directly, instead linking a number of online and local dealer stores",
+      "649.99 USD seems to be a consistently-average price between the two listed online dealer stores, though the price varies wildly overall",
+      "specifically, that's the price for the model that takes double-stack 17- and 21-round magazines, which is (presumably) what the U.S. Army supplies their soldiers with"
+    ],
+    "price": "650 USD",
+    "price_postapoc": "2750 cent"
+  },
+  {
+    "id": "m18",
+    "copy-from": "m18",
+    "type": "GUN",
+
+    "//sources": [
+      "https://www.sigsauer.com/p320-m18.html",
+      ["https://www.gunbroker.com/item/1023771055", "price"]
+    ],
+
+    "//notes": [
+      "M17's dimensions, including weight, show either aggressive rounding or inconsistent measurements between presentation data (on sell page) and owner's manual",
+      "we rely on the owner's manual data (as found on SIG Sauer's website) for more-precise measurements"
+    ],
+
+    "name": {
+      "str": "compact service handgun"
+    },
+
+    "weight": "696 g",
+    "//dimensions": {
+      "length": "7.25 in",
+      "width": "1.55 in",
+      "height": "5.5 in",
+      "raw": "1012.82 ml",
+      "trim": 0.6,
+      "notes": ["height without magazine approximated from visual reference"]
+    },
+    "volume": "405 ml",
+    "longest_side": "184 mm",
+
+    "//price": [
+      "appears to be the same average price as for the full-sized M17",
+      "see M17 audit for more notes on pricing"
+    ],
+    "price": "650 USD",
+    "price_postapoc": "2750 cent"
   }
 ]
