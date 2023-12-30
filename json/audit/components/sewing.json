@@ -1,0 +1,48 @@
+[
+  {
+    "id": "thread",
+    "copy-from": "thread",
+    "type": "AMMO",
+
+    "//sources": [
+      [
+        "https://www.quora.com/What-is-the-thickness-diameter-of-a-typical-sewing-thread-in-mm",
+        "diameter"
+      ],
+      [
+        "https://www.superiorthreads.com/sew-complete-204-gray/p/143-01-204",
+        "price"
+      ]
+    ],
+
+    "//notes": ["Tex 50 thread"],
+
+    "name": {
+      "str_sp": "thread"
+    },
+
+    "//weight": "Tex 50 (50 g/km) × 25 cm = 12.5 mg ≈ 13 mg",
+    "weight": "13 mg",
+    "//dimensions": {
+      "length": "25 cm",
+      "diameter": "0.15 mm",
+      "raw": "4.42 mcl",
+      "trim": 0,
+      "notes": [
+        "base-game thread is 25 cm/unit",
+        "volume is per stack; see `count`"
+      ]
+    },
+    "volume": "1 ml",
+
+    "count": 227,
+    "stack_size": 200,
+
+    "//price": [
+      "2 USD / 300 yds = 0.67 cents / yd = 0.007 cents / cm × 25 cm = 0.175 cents / unit",
+      "rounded for posterity"
+    ],
+    "price": "1 cent",
+    "price_postapoc": "0 cent"
+  }
+]
