@@ -1,0 +1,43 @@
+[
+  {
+    "id": "needle_steel",
+    "copy-from": "needle_steel",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.jjneedles.com/buy-needles/general-hand-sewing/sharps-sewing-needles/regular-sharp-sewing-needles-sizes-2-8.html"
+    ],
+
+    "//notes": [
+      "Sharps needle, model JJ100",
+      "size 6 (length: 37 mm, diameter: 0.69 mm)",
+      "for light-to-medium fabrics",
+      "presumably stainless steel"
+    ],
+
+    "name": {
+      "str": "needle"
+    },
+
+    "//weight": "volume after trim (14.58 µl) × approximate density of steel (7850 kg/m3) = 114.45 mg ≈ 115 mg",
+    "weight": "115 mg",
+    "//dimensions": {
+      "length": "39 mm",
+      "diameter": "0.69 mm",
+      "raw": "14.58 mcl",
+      "trim": 0,
+      "notes": [
+        "zero trim assumes the overall volume of the needle evens out between the larger eye and the slimmer needle point",
+        "volume is per stack; see `count`"
+      ]
+    },
+    "volume": "1 ml",
+    "longest_side": "39 mm",
+
+    "count": 69,
+
+    "//price": "0.88 GBP = 1.12 USD (as of Dec 30, 2023) / 20 needles in a pack = 0.056 USD ≈ 6 cents",
+    "price": "6 cent",
+    "price_postapoc": "1 cent"
+  }
+]
