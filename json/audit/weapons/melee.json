@@ -99,13 +99,22 @@
       {
         "description": "Guard",
 
-        "length": "0.25 in",
+        "length": "0.2 in",
         "width": "30 mm",
-        "height": "3.55 in",
-        "raw": "17.18 ml",
+        "height": "3.4 in",
+        "raw": "13.16 ml",
         "trim": 0.2,
-        "result": "13.744 ml",
+        "result": "10.53 ml",
         "notes": ["width presumed from the guard width of M9 bayonet"]
+      },
+      {
+        "description": "Handle",
+
+        "length": "5.3 in",
+        "diameter": "1 in",
+        "raw": "68.21 ml",
+        "trim": -0.02,
+        "result": "69.57 ml"
       }
     ],
     "volume": "182 ml",
@@ -128,6 +137,8 @@
           "trim": 0
         },
         "max_contains_volume": "98 ml",
+        "//max_item_length": "5 in., the length of the grip",
+        "max_item_length": "127 mm",
 
         "moves": 300
       }
