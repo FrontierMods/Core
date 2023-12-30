@@ -64,7 +64,7 @@
   {
     "id": "knife_rambo",
     "copy-from": "knife_rambo",
-    "type": "TOOL",
+    "type": "GENERIC",
 
     "//sources": [
       "http://www.bladecenter.com/rambo-first-blood-part-ii-knife-mcrb2-rb2.aspx",
