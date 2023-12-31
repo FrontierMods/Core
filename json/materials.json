@@ -116,7 +116,6 @@
     "bash_dmg_verb": "cracked",
     "cut_dmg_verb": "cut"
   },
-
   {
     "type": "material",
     "id": "alumina_damaged",
@@ -157,7 +156,6 @@
     "bash_dmg_verb": "cracked",
     "cut_dmg_verb": "cut"
   },
-
   {
     "type": "material",
     "id": "silicon_carbide_damaged",
@@ -202,7 +200,6 @@
     "bash_dmg_verb": "cracked",
     "cut_dmg_verb": "cut"
   },
-
   {
     "type": "material",
     "id": "boron_carbide_damaged",
