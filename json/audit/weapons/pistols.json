@@ -18,6 +18,28 @@
       "str": "M1911 pistol"
     },
 
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m1911",
+
+        "name": {
+          "str": "M1911"
+        },
+        "description": "The M1911 was the US Military standard-issue sidearm for most of the 20th Century.  It remains one of the most popular .45 pistols today.",
+
+        "weight": 1
+      },
+      {
+        "id": "m1911_MEU",
+
+        "name": {
+          "str": "M45A1"
+        },
+        "description": "The M45A1 supplanted earlier M45 MEUSOC pistols in use by Force Recon elements of Marine Expeditionary Units.  Where the original M45 pistols were gutted M1911A1s hand-fitted by USMC armorers, the updated M45A1s are hardly different from any other commercial 1911 design, save for their dual recoil springs.  Most were replaced in 2016 with Glock 19s due to logistics issues."
+      }
+    ],
+
     "//weight": [
       "weight of an empty M1911 with a magazine (39 oz = 1105.6 g)",
       "minus the weight of the 7-round magazine (0.156 lbs = 2.496 oz = 70.76 g)"
@@ -44,6 +66,20 @@
     "name": {
       "str": "Glock duty pistol"
     },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_17",
+
+        "name": {
+          "str": "Glock 17"
+        },
+        "description": "Commonly seen tucked away in the holsters of police officers, certain military professionals, and civilian shooters, this is a larger, older, service-oriented version of the popular Glock 19.  Similarly firing the 9x19mm cartridge and using higher capacity magazines, it performs largely the same.",
+
+        "weight": 1
+      }
+    ],
 
     "weight": "625 g",
     "//dimensions": {
@@ -75,6 +111,20 @@
     "name": {
       "str": "service handgun"
     },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m17",
+
+        "name": {
+          "str": "M17"
+        },
+        "description": "The M17 is an army issued semi-automatic, short recoil operated pistol derived from the SIG Sauer P320.",
+
+        "weight": 1
+      }
+    ],
 
     "weight": "763 g",
     "//dimensions": {
@@ -114,6 +164,20 @@
     "name": {
       "str": "compact service handgun"
     },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m18",
+
+        "name": {
+          "str": "M18"
+        },
+        "description": "The M18 is a compact, semi-automatic, short recoil operated pistol derived from the SIG Sauer P320 Carry, used by US Armed Forces.  Practically the same as its big brother, the M17, in every respect, the M18 features a moderately shorter slide and barrel which terminates at the end of the frame rather than extending partway beyond it like the M17.",
+
+        "weight": 1
+      }
+    ],
 
     "weight": "696 g",
     "//dimensions": {
