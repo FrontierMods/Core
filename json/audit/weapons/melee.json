@@ -278,5 +278,63 @@
 
     "price": "140 USD",
     "price_postapoc": "5 USD"
+  },
+  {
+    "id": "knife_hunting",
+    "copy-from": "knife_hunting",
+    "type": "TOOL",
+    "category": "weapons",
+
+    "//sources": ["https://www.buckknives.com/product/119-special-knife/"],
+
+    "name": {
+      "str": "hunting knife",
+      "str_pl": "hunting knives"
+    },
+
+    "weight": "213 g",
+    "//dimensions": [
+      {
+        "description": "Blade",
+
+        "length": "6 in",
+        "width": "0.175 in",
+        "height": "1.15 in",
+        "raw": "19.79 ml",
+        "trim": 0.05,
+        "result": "18.8 ml",
+        "notes": ["height acquired from visual reference"]
+      },
+      {
+        "description": "Guard",
+
+        "length": "0.25 in",
+        "width": "0.9 in",
+        "height": "2.15 in",
+        "raw": "7.93 ml",
+        "trim": 0.15,
+        "result": "6.74 ml"
+      },
+      {
+        "description": "Handle",
+
+        "length": "4.5 in",
+        "diameter": "1 in",
+        "raw": "57.92 ml",
+        "trim": -0.2,
+        "result": "69.5 ml",
+        "notes": ["negative trim for the extra bumps on the handle"]
+      }
+    ],
+    "volume": "95 ml",
+    "//longest_side": "10.55 in., acquired from visual reference",
+    "longest_side": "268 mm",
+
+    "//material": "plastic is phenolic resin",
+    "material": ["hc_steel", "plastic"],
+    "repairs_with": ["hc_steel"],
+
+    "price": "75 USD",
+    "price_postapoc": "750 cent"
   }
 ]
