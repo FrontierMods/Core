@@ -21,6 +21,20 @@
       "str": "service handgun 17-round magazine"
     },
 
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "p320mag_17rd_9x19mm",
+
+        "name": {
+          "str": "M17 17-round magazine"
+        },
+        "description": "A 17-round double stack box magazine for the SIG Sauer P320.  Also compatible with its derivative pistols, the M17 and M18.",
+
+        "weight": 1
+      }
+    ],
+
     "//weight": [
       "there is a mismatch between stated weight of magazine (2.97 oz = 84.198 g), and the difference between the weight of the gun with 17-round magazine inside and the weight of the empty gun (29.98 oz - 26.9 oz = 3.08 oz = 87.317 g)",
       "moreover, different sources cite different weights for the gun with an empty standard-issue (17-round) magazine",
@@ -77,6 +91,20 @@
     "name": {
       "str": "service handgun 21-round magazine"
     },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "p320mag_21rd_9x19mm",
+
+        "name": {
+          "str": "M17 21-round magazine"
+        },
+        "description": "A 21-round double stack box magazine for the SIG Sauer P320.  Also compatible with its derivative pistols, the M17 and M18.",
+
+        "weight": 1
+      }
+    ],
 
     "weight": "109 g",
     "//dimensions": {
