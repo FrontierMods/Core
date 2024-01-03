@@ -1,5 +1,76 @@
 [
   {
+    "id": "p320mag_10rd_9x19mm",
+    "copy-from": "p320mag_10rd_9x19mm",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      ["https://www.sigsauer.com/p320-m17.html", "weight (in owner's manual)"],
+      [
+        "https://www.sigsauer.com/magazine-320-9-full-17-rd-m17-coyote.html",
+        "price"
+      ],
+      ["https://www.midwestgunworks.com/page/mgwi/prod/320f-9-m17", "material"],
+      [
+        "https://reddit.com/r/SigSauer/comments/mor7fe/question_what_are_the_dimensions_of_a_p320/",
+        "dimensions"
+      ]
+    ],
+
+    "//notes": [
+      "10-round magazines are for the civilian market in states where magazine capacity is restricted (i.e., a civilian cannot legally own a magazine that can hold more than X rounds)",
+      "these have the same dimensions as a 17-rounder for the full-sized M17/M18, and are restricted by their construction, not length",
+      "https://www.sigtalk.com/threads/p320-magazine-size-carry-10rd-compared-to-15-or-17rd-magazines.406582/post-5720696",
+      "there are compact 15-round magazines for P320 that have a 10-round counterpart, but those are for compact-frame pistols (i.e., smaller than full-sized P320 and related models)",
+      "we assume there's no difference in the weight of the empty magazine"
+    ],
+
+    "name": {
+      "str": "service handgun 10-round magazine"
+    },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "p320mag_10rd_9x19mm",
+
+        "name": {
+          "str": "M17 10-round magazine"
+        },
+        "description": "A 10-round box magazine for the SIG Sauer P320.  Also compatible with its derivative pistols, the M17 and M18.",
+
+        "weight": 1
+      }
+    ],
+
+    "//weight": [
+      "there is a mismatch between stated weight of magazine (2.97 oz = 84.198 g), and the difference between the weight of the gun with 17-round magazine inside and the weight of the empty gun (29.98 oz - 26.9 oz = 3.08 oz = 87.317 g)",
+      "moreover, different sources cite different weights for the gun with an empty standard-issue (17-round) magazine",
+      "Wikipedia: 29.4 oz = 833.48 g / https://en.wikipedia.org/wiki/SIG_Sauer_M17",
+      "SSSF: 29.5 oz = 836.31 g / https://sssfonline.org/wp-content/uploads/2020/01/2019-SASP-Approved-Stock-Service-Pistol-Weights.pdf",
+      "we stick to the Sig Sauer numbers and err on the side of caution by choosing the higher weight"
+    ],
+    "weight": "87 g",
+    "//dimensions": {
+      "length": "4.75 in",
+      "width": "0.875 in",
+      "height": "1.275 in",
+      "raw": "86.84 ml",
+      "trim": -0.02,
+      "notes": [
+        "dimensions are slightly-approximate due to the nature of the measuring device",
+        "trim accounts for the base plate, which is wider and longer than the magazine itself"
+      ]
+    },
+    "volume": "89 ml",
+    "longest_side": "121 mm",
+
+    "material": ["steel", "plastic"],
+
+    "price": "50 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
     "id": "p320mag_17rd_9x19mm",
     "copy-from": "p320mag_17rd_9x19mm",
     "type": "MAGAZINE",
