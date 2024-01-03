@@ -1,0 +1,87 @@
+[
+  {
+    "id": "baton",
+    "copy-from": "baton",
+    "type": "GENERIC",
+    "category": "weapons",
+
+    "//sources": [
+      "https://batonwarehouse.com/products/smith-wesson-heat-treated-collapsable-baton-24"
+    ],
+
+    "name": {
+      "str": "expandable baton"
+    },
+
+    "weight": "539 g",
+    "//dimensions": {
+      "length": "9.375 in",
+      "diameter": "1.05 in",
+      "raw": "133.03 ml",
+      "trim": 0.02,
+      "notes": ["diameter acquired from visual reference"]
+    },
+    "volume": "130 ml",
+    "longest_side": "238 mm",
+
+    "material": [
+      {
+        "//type": "4130 alloy steel",
+        "type": "steel",
+        "portion": 9
+      },
+      {
+        "type": "rubber",
+        "portion": 1
+      }
+    ],
+
+    "flags": ["DURABLE_MELEE"],
+
+    "price": "45 USD",
+    "price_postapoc": "2 USD"
+  },
+  {
+    "id": "baton-extended",
+    "copy-from": "baton-extended",
+    "type": "GENERIC",
+    "category": "weapons",
+
+    "//sources": [
+      "https://batonwarehouse.com/products/smith-wesson-heat-treated-collapsable-baton-24"
+    ],
+
+    "name": {
+      "str": "expandable baton (extended)",
+      "str_pl": "expandable batons (extended)"
+    },
+
+    "weight": "539 g",
+    "//dimensions": {
+      "length": "24 in",
+      "diameter": "1.05 in",
+      "raw": "340.55 ml",
+      "trim": 0.45,
+      "notes": ["diameter acquired from visual reference"]
+    },
+    "volume": "221 ml",
+    "longest_side": "610 mm",
+
+    "material": [
+      {
+        "//type": "4130 alloy steel",
+        "type": "steel",
+        "portion": 9
+      },
+      {
+        "type": "rubber",
+        "portion": 1
+      }
+    ],
+
+    "flags": ["DURABLE_MELEE"],
+
+    "price": "45 USD",
+    "price_postapoc": "2 USD"
+  }
+]
