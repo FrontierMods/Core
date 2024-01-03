@@ -28,5 +28,19 @@
     "type": "json_flag",
     "info": "This plate will fit in <info>tall side</info> armor pockets",
     "restriction": "Item must be a tall side ablative plate"
+  },
+
+  {
+    "id": "ABLATIVE_TRAUMA_5x8",
+    "type": "json_flag",
+    "info": "This soft ballistic pad will fit in armor pockets for <info>trauma pads</info>",
+    "restriction": "Item must be a trauma pad"
+  },
+
+  {
+    "id": "ABLATIVE_COMMERCIAL_8x10",
+    "type": "json_flag",
+    "info": "This plate will fit in <info>commercial medium</info> armor pockets",
+    "restriction": "Item must be a commercial medium ablative plate"
   }
 ]
