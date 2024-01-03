@@ -98,5 +98,40 @@
 
     "price": "50 USD",
     "price_postapoc": "1 USD"
+  },
+  {
+    "id": "mp5mag",
+    "copy-from": "mp5mag",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://www.talosdefense.com/ck-corp-hk-mp5-30-round-magazine-9x19mm",
+      ["https://www.midwestgunworks.com/page/mgwi/prod/206349S", "price"]
+    ],
+
+    "//notes": [
+      "not the ideal source for not being an original H&K magazine, but for lack of better sources, this will have to do"
+    ],
+
+    "name": {
+      "str": "MP5 30-round magazine"
+    },
+
+    "weight": "160 g",
+    "//dimensions": {
+      "length": "200 mm",
+      "width": "32 mm",
+      "height": "25 mm",
+      "raw": "160 ml",
+      "trim": 0.025,
+      "notes": [
+        "modelled as a straight magazine, which should not affect the overall volume in a significant way"
+      ]
+    },
+    "volume": "156 ml",
+    "longest_side": "200 mm",
+
+    "price": "75 USD",
+    "price_postapoc": "250 cent"
   }
 ]
