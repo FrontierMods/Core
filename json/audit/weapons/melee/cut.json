@@ -204,5 +204,35 @@
 
     "price": "75 USD",
     "price_postapoc": "750 cent"
+  },
+  {
+    "id": "diveknife",
+    "copy-from": "diveknife",
+    "type": "TOOL",
+    "category": "weapons",
+
+    "//sources": ["https://www.mkm.it/en/pr/alli_rescue/3343.html"],
+
+    "name": {
+      "str": "dive knife",
+      "str_pl": "dive knives"
+    },
+
+    "weight": "245 g",
+    "//dimensions": {
+      "length": "225 mm",
+      "diameter": "27 mm",
+      "raw": "128.83 ml",
+      "trim": 0,
+      "notes": [
+        "zero trim assumes the highly-uneven profile of the knife ultimately evens out"
+      ]
+    },
+    "volume": "129 ml",
+    "longest_side": "225 mm",
+
+    "//price": "73 EUR",
+    "price": "80 USD",
+    "price_postapoc": "5 USD"
   }
 ]
