@@ -234,5 +234,65 @@
     "//price": "73 EUR",
     "price": "80 USD",
     "price_postapoc": "5 USD"
+  },
+  {
+    "id": "kirpan",
+    "copy-from": "kirpan",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.sikhvirasat.ca/kirpan-kirpan-karpan-sikh-sikhism-sardar-sardari-kakar-wooden-steel-handle-iron-sarabloh-blade-multi-pattern-cover-punjab-punjabi-religeous-spirituality-size-6inch-7inch-9inch",
+      [
+        "https://www.sikhistore.com/buy/9-double-sided-sarbloh-sri-sahib/",
+        "price"
+      ]
+    ],
+
+    "name": { "str": "kirpan" },
+
+    "weight": "289 g",
+    "//dimensions": {
+      "length": "8.6 in",
+      "width": "2.8 cm",
+      "height": "40 mm",
+      "raw": "244.65 ml",
+      "trim": 0.25
+    },
+    "volume": "184 ml",
+    "longest_side": "218 mm",
+
+    "//price": "48 GBP",
+    "price": "6080 cent",
+    "price_postapoc": "250 cent"
+  },
+  {
+    "id": "kirpan_cheap",
+    "copy-from": "kirpan_cheap",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.sikhvirasat.ca/kirpan-kirpan-karpan-sikh-sikhism-sardar-sardari-kakar-wooden-steel-handle-iron-sarabloh-blade-multi-pattern-cover-punjab-punjabi-religeous-spirituality-size-6inch-7inch-9inch",
+      [
+        "https://dinshagnadaco.com/product/black-leather-pesh-kabz-kirpan-7-inch/",
+        "price"
+      ]
+    ],
+
+    "name": { "str": "kirpan" },
+
+    "weight": "289 g",
+    "//dimensions": {
+      "length": "8.6 in",
+      "width": "2.8 cm",
+      "height": "40 mm",
+      "raw": "244.65 ml",
+      "trim": 0.25
+    },
+    "volume": "184 ml",
+    "longest_side": "218 mm",
+
+    "//price": "1800 INR",
+    "price": "2160 cent",
+    "price_postapoc": "50 cent"
   }
 ]
