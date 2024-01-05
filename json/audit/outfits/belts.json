@@ -1,0 +1,39 @@
+[
+  {
+    "id": "leather_belt",
+    "copy-from": "leather_belt",
+    "type": "ARMOR",
+
+    "//sources": ["https://azbelt.com/products/classic-mocha"],
+
+    "name": { "str": "leather belt" },
+
+    "weight": "102 g",
+    "//dimensions": {
+      "length": "38 in",
+      "width": "1.5 in",
+      "height": "0.2 mm",
+      "raw": "186.81 ml",
+      "trim": -0.02,
+      "notes": [
+        "we assume 38 in. as the standard belt length, for the sake of consistency between different belts",
+        "trim is to account for the buckle"
+      ]
+    },
+    "volume": "191 ml",
+
+    "material": ["leather", "steel"],
+    "material_thickness": 5,
+
+    "armor": [
+      {
+        "coverage": 80,
+        "covers": ["torso"],
+        "specifically_covers": ["torso_waist"]
+      }
+    ],
+
+    "price": "69 USD",
+    "price_postapoc": "250 cent"
+  }
+]
