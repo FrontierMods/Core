@@ -221,5 +221,98 @@
 
     "price": "1409 USD",
     "price_postapoc": "2750 cent"
+  },
+  {
+    "id": "m9",
+    "copy-from": "m9",
+    "type": "GUN",
+
+    "//sources": ["https://www.beretta.com/en-us/product/m9-FA0057"],
+
+    "name": { "str": "M9 combat pistol" },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m9",
+        "name": {
+          "str_sp": "Beretta M9A1"
+        },
+        "description": "An iconic 9x19mm pistol, the M9 was the standard issue sidearm of the US armed forces from 1985 until only recently.  It was formerly popular amongst law enforcement before the advent of commercially available polymer-framed handguns and the FBI's adoption of .40 S&W.",
+        "weight": 1
+      },
+      {
+        "id": "90two",
+        "name": {
+          "str": "Beretta 90-two"
+        },
+        "description": "A more modern version of Beretta's popular 92 series of handguns, the 90-two performs largely the same.  The main difference is a sleeker, almost futuristic-looking design owed in large part to the polymer underbarrel rail cover."
+      }
+    ],
+
+    "weight": "944 g",
+    "//dimensions": {
+      "length": "8.5 in",
+      "width": "1.3 in",
+      "height": "5.4 in",
+      "raw": "977.82 ml",
+      "trim": 0.6,
+      "notes": [
+        "we use grip width, rather than overall width, because that appears to be the more-sensible version: few parts of the gun extend past the grip width for any significant distance"
+      ]
+    },
+    "volume": "391 ml",
+    "longest_side": "216 mm",
+
+    "price": "789 USD",
+    "price_postapoc": "25 USD"
+  },
+  {
+    "id": "usp_45",
+    "copy-from": "usp_45",
+    "type": "GUN",
+
+    "//sources": [
+      "https://hk-usa.com/hk-models/usp/",
+      [
+        "https://www.guns.com/firearms/handguns/semi-auto/heckler-&-koch-usp-45-45-acp-single-double-action-10-rounds-4-1-barrel-new",
+        "price"
+      ]
+    ],
+
+    "name": { "str": "USP pistol" },
+
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "usp_45",
+        "name": {
+          "str": "USP .45"
+        },
+        "description": "A popular pistol, widely used among law enforcement.  Extensively tested for durability, it has been found to stay accurate even after being subjected to extreme abuse.",
+        "weight": 1
+      },
+      {
+        "id": "mk23",
+        "name": {
+          "str": "MK 23 MOD 0"
+        },
+        "description": "Jokingly referred to as \"The World's Only Crew-Served Pistol\", this massive pistol was designed as a primary weapon for select \"special operators\".  Its cumbersome nature, the introduction of the derivative HK USP series, and the logistics of getting .45 ACP ammunition in theater doomed this behemoth to US SOCOM armories.  Like the USP, the MK 23 is a remarkably reliable gun; someone could probably take out a nuclear-equipped walking tank with this in their holster."
+      }
+    ],
+
+    "weight": "887 g",
+    "//dimensions": {
+      "length": "7.91 in",
+      "width": "1.26 in",
+      "height": "5.61 in",
+      "raw": "916.24 ml",
+      "trim": 0.55
+    },
+    "volume": "412 ml",
+    "longest_side": "201 mm",
+
+    "price": "1069 USD",
+    "price_postapoc": "25 USD"
   }
 ]
