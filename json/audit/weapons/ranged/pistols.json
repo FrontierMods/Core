@@ -197,5 +197,29 @@
     ],
     "price": "650 USD",
     "price_postapoc": "2750 cent"
+  },
+  {
+    "id": "fn57",
+    "copy-from": "fn57",
+    "type": "GUN",
+
+    "//sources": ["https://fnamerica.com/products/pistols/fn-five-seven/"],
+
+    "name": { "str": "FN Five-seveN" },
+
+    "weight": "595 g",
+    "//dimensions": {
+      "length": "8.2 in",
+      "width": "1.4 in",
+      "height": "5.7 in",
+      "raw": "1072.30 ml",
+      "trim": 0.6,
+      "notes": ["height without magazine approximated from visual reference"]
+    },
+    "volume": "429 ml",
+    "longest_side": "208 mm",
+
+    "price": "1409 USD",
+    "price_postapoc": "2750 cent"
   }
 ]
