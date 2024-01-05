@@ -232,5 +232,78 @@
 
     "price": "75 USD",
     "price_postapoc": "250 cent"
+  },
+  {
+    "id": "m9mag",
+    "copy-from": "m9mag",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      "https://www.modarmory.com/product/beretta-92-9mm-15-round-magazine/"
+    ],
+
+    "//notes": [
+      "these dimensions appear to be heavily-rounded, but it's still better than the abstract 0.25 L",
+      "this specific model of a magazine is not compatible with the S models (e.g. 92FS)"
+    ],
+
+    "name": {
+      "str": "M9 15-round magazine"
+    },
+
+    "weight": "113 g",
+    "//dimensions": {
+      "length": "5 in",
+      "width": "2.5 in",
+      "height": "0.75 in",
+      "raw": "153.63 ml",
+      "trim": 0.15,
+      "notes": [
+        "modelled as a straight magazine, which should not affect the overall volume in a significant way"
+      ]
+    },
+    "volume": "131 ml",
+    "longest_side": "127 mm",
+
+    "price": "18 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "usp45mag",
+    "copy-from": "usp45mag",
+    "type": "MAGAZINE",
+
+    "//sources": [
+      ["https://hk-usa.com/hk-models/usp/", "weight"],
+      [
+        "https://www.hkpro.com/threads/dimensions-usp-45-12-round-magazines.482608/post-3469300",
+        "dimensions"
+      ],
+      [
+        "https://gunmagwarehouse.com/hk-usp-45-acp-12-round-magazine-with-finger-rest.html",
+        "price"
+      ]
+    ],
+
+    "name": {
+      "str": "USP .45 pistol 12-round magazine"
+    },
+
+    "weight": "99 g",
+    "//dimensions": {
+      "length": "5.13 in",
+      "width": "1.38 in",
+      "height": "0.978 in",
+      "raw": "113.46 ml",
+      "trim": -0.025,
+      "notes": [
+        "modelled as a straight magazine, which should not affect the overall volume in a significant way"
+      ]
+    },
+    "volume": "116 ml",
+    "longest_side": "130 mm",
+
+    "price": "49 USD",
+    "price_postapoc": "1 USD"
   }
 ]
