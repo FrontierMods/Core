@@ -11,6 +11,10 @@
         "https://aliengearholsters.com/blog/guide-to-the-1911-pistol/",
         "height",
         "width"
+      ],
+      [
+        "https://www.guns.com/firearms/handguns/semi-auto/rock-island-armory-m1911-a1-fs-45-acp-single-shot-8-rounds-5-barrel-new?",
+        "price"
       ]
     ],
 
@@ -54,7 +58,9 @@
       "notes": ["trim accounts for the grip being wider than the frame"]
     },
     "volume": "368 ml",
-    "longest_side": "216 mm"
+    "longest_side": "216 mm",
+
+    "price": "509 USD"
   },
   {
     "id": "glock_17",
