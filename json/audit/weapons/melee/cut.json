@@ -294,5 +294,57 @@
     "//price": "1800 INR",
     "price": "2160 cent",
     "price_postapoc": "50 cent"
+  },
+  {
+    "id": "kukri",
+    "copy-from": "kukri",
+    "type": "TOOL",
+
+    "//sources": [
+      "https://www.thekhukurihouse.com/king-prithivi-kukri-unifier"
+    ],
+
+    "name": { "str": "kukri" },
+
+    "//weight": "we use 'actual weight', rather than 'overall weight' (1075 g), since 'actual weight' is listed as blade + grip, which is what we need",
+    "weight": "850 g",
+    "//dimensions": [
+      {
+        "description": "Blade",
+
+        "length": "375 mm",
+        "width": "1.15 mm",
+        "height": "55 mm",
+        "raw": "23.72 ml",
+        "trim": 0.01,
+        "result": "23.48 ml",
+        "notes": [
+          [
+            "we assume there's been a typo in the source, listing blade thickness as 11-12 mm, rather than 1.1-1.2 mm, since an 11-mm blade would be *very* thick indeed",
+            "we use an average of 1.15 mm as width (blade thickness)"
+          ],
+          "we use an average of 55 mm (70 + 40 mm = 110 mm / 2 = 55 mm) for blade height, in order to make the calculation more likely to be accurate"
+        ]
+      },
+      {
+        "description": "Grip",
+
+        "length": "110 mm",
+        "diameter": "40 mm",
+        "raw": "138.23 ml",
+        "trim": -0.15,
+        "result": "158.97 ml",
+        "notes": [
+          "we use blade height at the grip (40 mm) as the diameter of the handle, since they appear to be of matching sizes"
+        ]
+      }
+    ],
+    "volume": "183 ml",
+    "longest_side": "485 mm",
+
+    "material": ["steel", "wood"],
+
+    "price": "135 USD",
+    "price_postapoc": "1250 cent"
   }
 ]
