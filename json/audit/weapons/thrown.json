@@ -1,0 +1,35 @@
+[
+  {
+    "id": "throwing_knife",
+    "copy-from": "throwing_knife",
+    "type": "GENERIC",
+
+    "//sources": [
+      "https://store.smith-wesson.com/tactical/knives/smith-wesson-bullseye-8-throwing-knives-6-pack/SWTK8CP.html"
+    ],
+
+    "name": {
+      "str": "throwing knife",
+      "str_pl": "throwing knives"
+    },
+
+    "weight": "116 g",
+    "//dimensions": {
+      "length": "8 in",
+      "width": "1.25 in",
+      "height": "0.04 in",
+      "raw": "7 ml",
+      "trim": 0.2,
+      "notes": [
+        "width acquired from visual reference",
+        "height presumed from visuals"
+      ]
+    },
+    "volume": "6 ml",
+    "longest_side": "203 mm",
+
+    "//price": "60 USD / 6 knives",
+    "price": "10 USD",
+    "price_postapoc": "50 cent"
+  }
+]
