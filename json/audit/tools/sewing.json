@@ -28,13 +28,13 @@
       "trim": 0,
       "notes": [
         "zero trim assumes the overall volume of the needle evens out between the larger eye and the slimmer needle point",
-        "volume is per stack; see `count`"
+        "volume is per stack; see `count` for size"
       ]
     },
     "volume": "1 ml",
     "longest_side": "39 mm",
 
-    "count": 69,
+    "//count": 69,
 
     "//price": "0.88 GBP = 1.12 USD (as of Dec 30, 2023) / 20 needles in a pack = 0.056 USD ≈ 6 cents",
     "price": "6 cent",
