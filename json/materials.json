@@ -436,5 +436,55 @@
     },
 
     "//burn_data": ["same intended result"]
+  },
+  {
+    "id": "inconel",
+    "type": "material",
+
+    "//sources": [
+      "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-718.pdf",
+      [
+        "https://www.matweb.com/search/datasheet_print.aspx?matguid=94950a2d209040a09b89952d45086134",
+        "specific heat of a solid"
+      ],
+      [
+        "https://www.researchgate.net/publication/243392461_Thermophysical_properties_of_solid_and_liquid_Inconel_718",
+        "specific heat of a liquid"
+      ],
+      [
+        "https://www.3dktech.com/3dktech-materials-in718-high-temperature-alloy",
+        "latent heat"
+      ]
+    ],
+
+    "//notes": [
+      "specifically 718, since it's said to be commonly used in suppressor construction",
+      "https://www.silencertalk.com/forum/viewtopic.php?p=683777#p683777"
+    ],
+
+    "name": "Inconel",
+
+    "density": 8.193,
+    "specific_heat_liquid": 0.775,
+    "specific_heat_solid": 0.435,
+    "latent_heat": 219,
+
+    "//resist": "current the same as titanium",
+    "resist": {
+      "bash": 4,
+      "cut": 9,
+      "acid": 14,
+      "heat": 4,
+      "bullet": 7,
+      "electric": 8
+    },
+    "chip_resist": 20,
+
+    "//repaired_with": "scrap",
+
+    "dmg_adj": ["marked", "dented", "smashed", "shattered"],
+
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched"
   }
 ]
