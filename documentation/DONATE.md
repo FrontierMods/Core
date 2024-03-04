@@ -126,4 +126,4 @@ The list is non-exhaustive and may be amended at any moment. Your suggestion may
 Feel free to reach out with questions, suggestions, or ideas.
 
 - Discord: `thatfanficguy`
-- Email: [frontiermods@protonmail.com](email:frontiermods@protonmail.com)
+- Email: [frontiermods@protonmail.com](mailto:frontiermods@protonmail.com)
