@@ -52,7 +52,7 @@ All of this means there's a significant amount of effort associated with adding 
 
 #### Can I port these audits to the base game?
 
-Absolutely. The licensing of all Frontier Mods had been chosen in order to enable others the same degree of creativity as the mods themselves utilize. You don't need to seek permission in order to port any part of the mods to the base game; according to the current license (MIT), you can freely modify and share the mods. (Consult the license itself should you find yourself wondering what exactly is permitted or required.)
+Absolutely. The licensing of all Frontier Mods had been chosen in order to enable others the same degree of creativity as the mods themselves utilize. You don't need to seek permission in order to port any part of the mods to the base game; according to the current license (MIT), you can freely modify and share the mods. (Consult the license itself, should you find yourself wondering what exactly is permitted or required.)
 
 ### Firearm lengths
 
