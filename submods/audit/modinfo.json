@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "frontier_audits",
+
+    "name": "Core: Audits",
+    "description": "Weight and size audits for base-game items",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "content",
+
+    "dependencies": ["dda"],
+
+    "path": "json"
+  }
+]
