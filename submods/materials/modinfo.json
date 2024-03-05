@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "frontier_materials",
+
+    "name": "Core: Materials",
+    "description": "Materials library for use by other mods",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "content",
+
+    "dependencies": ["dda"],
+
+    "path": "json"
+  }
+]
