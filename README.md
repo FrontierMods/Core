@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Dec 03, 2023_
+_last updated: Mar 11, 2024_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
