@@ -144,3 +144,11 @@ Frontiers Mods are developed by a single dedicated person.
 While the mods themselves confer no overhead costs – such as, for example, hosting – each takes a considerable amount of time to research, develop, and polish, to say nothing of the post-release support.
 
 You can support the project by donating to it. The quickest way to do it is via the links in the sidebar. Alternatively, check out [DONATE.md](documentation\DONATE.md) for a way to contribute to the project. You can give a one-time donation or support the project continuously via subscriptions. Donating earns you an opportunity to leave your mark in any of Frontier Mods; see [DONATE.md](documentation\DONATE.md) for details.
+
+## Supporters
+
+Supporter suggestions are tracked in [this table](https://docs.google.com/spreadsheets/d/1hzIu-enqmCW8pQzS0lfJ8N449k1GNmESi7rPMj7Cyfg/).
+
+### 30 €
+
+- Crow
