@@ -38,15 +38,17 @@ Extra mods may be absorbed into main Frontier mods later.
 
 # List of Mods
 
+_crossed-out lines indicate features that are currently unavaiable_
+
 ## Current
 
 - **[Armory](https://github.com/FrontierMods/Armory)**:
 
   - revamps existing military and military-adjacent equipment
   - expands on gear modularity
-  - overhauls the PALS/MOLLE system
+  - ~~overhauls the PALS/MOLLE system~~
   - adds a variety of real-life combat equipment
-  - adds decoration options for military and civilian clothing
+  - ~~adds decoration options for military and civilian clothing~~
 
 - **[Loadout](https://github.com/FrontierMods/Loadout)**:
 
@@ -131,16 +133,6 @@ _within three months since the last edit_
   - revamps the existing bionics
   - adds a set of new and advanced bionics
 
-# Lore
-
-Most of the Frontier mods follow shared lore.
-
-Said lore is based off the base game's, in an attempt to expand and enliven its worldbuilding. Together, Frontier Mods create a separate timeline, where the flow of events resulted in a more paranoid, more prepper, and more technologically-advanced world, in an attempt to circumvent or combat the increasing threat in an unstable political environment.
-
-See ~~[`/documentation/LORE.md`](/documentation/LORE.md)~~ for a more detailed description of the changes.
-
-Large mods may offer their own lore in addition to the shared one.
-
 # Notes
 
 Many of the mods also include notes and reference documents. These were written during development and shared with other modders for the purposes of expanding the arsenal of ideas.
@@ -151,4 +143,4 @@ Frontiers Mods are developed by a single dedicated person.
 
 While the mods themselves confer no overhead costs – such as, for example, hosting – each takes a considerable amount of time to research, develop, and polish, to say nothing of the post-release support.
 
-You can support the project by donating to it. The sidebar contains links for doing so. You can give a one-time donation or support the project continuously.
+You can support the project by donating to it. The quickest way to do it is via the links in the sidebar. Alternatively, check out [DONATE.md](documentation\DONATE.md) for a way to contribute to the project. You can give a one-time donation or support the project continuously via subscriptions. Donating earns you an opportunity to leave your mark in any of Frontier Mods; see [DONATE.md](documentation\DONATE.md) for details.
