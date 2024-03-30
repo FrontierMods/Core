@@ -105,5 +105,26 @@
 
     "bash_dmg_verb": "dented",
     "cut_dmg_verb": "scratched"
+  },
+  {
+    "id": "cobalt",
+    "copy-from": "steel",
+    "type": "material",
+
+    "//sources": [
+      "https://www.matweb.com/search/datasheet.aspx?bassnum=AMECo00"
+    ],
+
+    "name": "Cobalt",
+
+    "density": 8.8,
+    "specific_heat_solid": 0.44,
+    "//latent_heat": 259.6,
+    "latent_heat": 260,
+
+    "dmg_adj": ["marked", "dented", "smashed", "shattered"],
+
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched"
   }
 ]
