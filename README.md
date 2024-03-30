@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Mar 11, 2024_
+_last updated: Mar 30, 2024_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -16,7 +16,7 @@ Frontier Mods also hosts [a blog](https://github.com/FrontierMods/Blog) and [a d
 
 The mods are designed to be compatible with the latest stable release only.
 
-Current version supported: **0.G**.
+Current version supported: **0.H**.
 
 # Frontier Core
 
@@ -32,7 +32,7 @@ Audits are included as necessary. They are not designed to include all mischarac
 
 [Frontier Mods Extra](https://github.com/FrontierModsExtra) are mods that don't fit into the Frontier ecosystem. Extra mods are developed by the same author.
 
-These are usually smaller mods, often experimental in nature, and don't follow the shared lore. Their goal is to speculate and explore.
+These are usually smaller mods, often experimental in nature. Their goal is to speculate and explore.
 
 Extra mods may be absorbed into main Frontier mods later.
 
@@ -46,8 +46,8 @@ _crossed-out lines indicate features that are currently unavaiable_
 
   - revamps existing military and military-adjacent equipment
   - expands on gear modularity
-  - ~~overhauls the PALS/MOLLE system~~
   - adds a variety of real-life combat equipment
+  - ~~overhauls the PALS/MOLLE system~~
   - ~~adds decoration options for military and civilian clothing~~
 
 - **[Loadout](https://github.com/FrontierMods/Loadout)**:
@@ -65,19 +65,20 @@ _crossed-out lines indicate features that are currently unavaiable_
 - [Handload](https://github.com/FrontierMods/Handload):
 
   - revamps existing calibers and bullet types
-  - introduces new calibers
-  - allows crafting custom rounds using existing bullets' components
+  - ~~introduces new calibers~~
+  - ~~allows crafting custom rounds using existing bullets' components~~
 
 ## Extra
 
-- **[SIL](https://github.com/FrontierModsExtra/SIL)**: adds a 5-arrow magazine attachment to the compound bow
-- **[MONK Suit](https://github.com/FrontierModsExtra/MONKSuit)**: adds a dexterity- and mobility-enhancing lightweight suit of armor
+- **[Weight](https://github.com/FrontierModsExtra/Weight)**: makes carried weight directly affect stamina expenditure and fatigue buildup
+- **[Playing Cards](https://github.com/FrontierModsExtra/PlayingCards)**: adds collectable enchanted playing cards to the world, each card with its own effect
+- **[Hellfire](https://github.com/FrontierModsExtra/Hellfire)**: adds the ability to call airstrikes on a designated target, provided you can find the rare military tablet with access to the drone
 - **[Universal Belt Clip](https://github.com/FrontierModsExtra/UniversalBeltClip)**: adds a universal belt clip, which could be used to wear more items on your belt
-- **[Cement? Das Conk Creet, Baybee!](https://github.com/FrontierModsExtra/CementDasConkCreetBaybee)**: adds [that one meme](https://knowyourmeme.com/memes/cement-das-conk-creet-baybee)
+- **[Bullseye](https://github.com/FrontierModsExtra/Bullseye)**: unbalanced mod that makes every ranged weapon hit perfectly on every shot
 
 ## Near Future
 
-_within three months since the last edit_
+_within six months since the last edit_
 
 - ~~[Recombinant](https://github.com/FrontierMods/Recombinant)~~:
 
