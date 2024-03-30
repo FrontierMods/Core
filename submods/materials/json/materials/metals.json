@@ -1,0 +1,109 @@
+[
+  {
+    "id": "titanium",
+    "type": "material",
+
+    "name": "Titanium",
+
+    "density": 4.506,
+    "specific_heat_liquid": 0.79,
+    "specific_heat_solid": 0.52,
+    "latent_heat": 391,
+
+    "resist": {
+      "bash": 4,
+      "cut": 9,
+      "acid": 14,
+      "heat": 4,
+      "bullet": 7,
+      "electric": 8
+    },
+    "chip_resist": 20,
+
+    "//repaired_with": "scrap",
+
+    "dmg_adj": ["marked", "dented", "smashed", "shattered"],
+
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched"
+  },
+  {
+    "id": "inconel",
+    "copy-from": "titanium",
+    "type": "material",
+
+    "//sources": [
+      "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-718.pdf",
+      [
+        "https://www.matweb.com/search/datasheet_print.aspx?matguid=94950a2d209040a09b89952d45086134",
+        "specific heat of a solid"
+      ],
+      [
+        "https://www.researchgate.net/publication/243392461_Thermophysical_properties_of_solid_and_liquid_Inconel_718",
+        "specific heat of a liquid"
+      ],
+      [
+        "https://www.3dktech.com/3dktech-materials-in718-high-temperature-alloy",
+        "latent heat"
+      ]
+    ],
+
+    "//notes": [
+      "specifically 718, since it's said to be commonly used in suppressor construction",
+      "https://www.silencertalk.com/forum/viewtopic.php?p=683777#p683777"
+    ],
+
+    "name": "Inconel",
+
+    "density": 8.193,
+    "specific_heat_solid": 0.435,
+    "specific_heat_liquid": 0.775,
+    "latent_heat": 219,
+
+    "//repaired_with": "scrap",
+
+    "dmg_adj": ["marked", "dented", "smashed", "shattered"],
+
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched"
+  },
+  {
+    "id": "stainless_steel",
+    "copy-from": "steel",
+    "type": "material",
+
+    "//sources": [
+      "https://matweb.com/search/DataSheet.aspx?MatGUID=abc4415b0f8b490387e3c922237098da",
+      ["https://www.osti.gov/servlets/purl/4152287", "specific heat formula"],
+      ["https://www.azom.com/properties.aspx?ArticleID=965", "latent heat"]
+    ],
+
+    "//notes": [
+      "SAE 304",
+      [
+        "typical composition (major-part elements only, maximum)",
+        { "Mn": 2.0, "Cr": 20.0, "Ni": 10.5 }
+      ]
+    ],
+
+    "name": "Stainless Steel",
+
+    "density": 7.9,
+    "specific_heat_solid": 0.5,
+    "//specific_heat_liquid": [
+      "calculated based on specific heat capacity of grade 304L",
+      "304L has a very-similar composition to 304, and we have to use it as a substitute for lack of a similar formula for 304",
+      "calculated for T = 1450°C = 1723.2°K"
+    ],
+    "specific_heat_liquid": 0.86,
+    "//latent_heat": "using maximum given value",
+    "latent_heat": 285,
+
+    "//repaired_with": "scrap",
+
+    "dmg_adj": ["marked", "dented", "smashed", "shattered"],
+
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched"
+  }
+]

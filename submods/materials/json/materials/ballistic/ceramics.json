@@ -1,0 +1,171 @@
+[
+  {
+    "id": "alumina",
+    "type": "material",
+    "copy-from": "ceramic",
+
+    "//notes": ["aka Aluminum(III) Oxide, aka Al2O3"],
+
+    "name": "Alumina",
+
+    "density": 3.89,
+    "specific_heat_solid": 880,
+
+    "//resist": {},
+    "resist": {
+      "bash": 0.05,
+
+      "//cut": [
+        "ceramics have high hardness value, thus resisting cutting quite well",
+        "this value is intended to be accurate for a ballistic plate that's likely to be around 29 mm thick",
+        "the existing value is improvised"
+      ],
+      "cut": 0.96,
+      "acid": 10,
+      "heat": 10,
+
+      "//bullet": [
+        "reasoned against existing enemy armor values against intended thickness of plates using this material",
+        "in particular, zombie soldier has 25 armor while (presumably modelled as) wearing an NIJ III+ ballistic vest",
+        "25 armor / 29 mm of thickness per plate ≈ 0.86"
+      ],
+      "bullet": 0.86
+    },
+    "chip_resist": 15,
+
+    "dmg_adj": ["chipped", "cracked", "split", "broken"],
+    "bash_dmg_verb": "cracked",
+    "cut_dmg_verb": "cut"
+  },
+  {
+    "id": "alumina_damaged",
+    "copy-from": "alumina",
+    "type": "material",
+
+    "name": "Compromised alumina",
+
+    "//resist": {
+      "bash": [
+        "pieces of a cracked ceramic plate would likely amplify any blunt damage received"
+      ],
+      "bullet": ["still provides a modicum of its former protection"]
+    },
+    "resist": {
+      "bash": -0.1,
+      "cut": 0.96,
+      "acid": 10,
+      "heat": 10,
+      "bullet": 0.01
+    }
+  },
+
+  {
+    "id": "silicon_carbide",
+    "copy-from": "alumina",
+    "type": "material",
+
+    "//sources": [
+      "https://www.umicore-ceramics.com/images/silicon-carbide-sic-198d-en.pdf"
+    ],
+
+    "//notes": ["aka SiC, aka carborundum"],
+
+    "name": "Silicon Carbide",
+
+    "density": 3.1,
+    "specific_heat_solid": 1000,
+
+    "//resist": {
+      "bullet": [
+        "notable improvement over alumina",
+        "see alumina comments for reasoning for this value"
+      ]
+    },
+    "resist": {
+      "bash": 0.05,
+      "cut": 0.96,
+      "acid": 10,
+      "heat": 10,
+      "bullet": 1.075
+    },
+    "chip_resist": 18,
+
+    "dmg_adj": ["chipped", "cracked", "split", "broken"],
+    "bash_dmg_verb": "cracked",
+    "cut_dmg_verb": "cut"
+  },
+  {
+    "id": "silicon_carbide_damaged",
+    "copy-from": "silicon_carbide",
+    "type": "material",
+
+    "name": "Compromised silicon carbide",
+
+    "//resist": {
+      "bash": "pieces of a cracked ceramic plate would likely amplify any blunt damage received",
+      "cut": ["even damaged, ceramics should provide cutting protection"],
+      "bullet": ["still provides a modicum of its former protection"]
+    },
+    "resist": {
+      "bash": -0.1,
+      "cut": 0.96,
+      "acid": 10,
+      "heat": 10,
+      "bullet": 0.014
+    }
+  },
+
+  {
+    "id": "boron_carbide",
+    "copy-from": "alumina",
+    "type": "material",
+
+    "//sources": [
+      "https://www.matweb.com/search/datasheet.aspx?MatGUID=45fd34d496fe48e3ab513bcbc4079430"
+    ],
+
+    "//notes": ["aka B4C"],
+
+    "name": "Boron Carbide",
+
+    "density": 2.5,
+    "specific_heat_solid": 1000,
+
+    "//resist": {
+      "bullet": [
+        "notable improvement over SiC",
+        "see alumina comments for reasoning for this value"
+      ]
+    },
+    "resist": {
+      "bash": -0.1,
+      "cut": 0.96,
+      "acid": 10,
+      "heat": 10,
+      "bullet": 1.29
+    },
+    "chip_resist": 20,
+
+    "dmg_adj": ["chipped", "cracked", "split", "broken"],
+    "bash_dmg_verb": "cracked",
+    "cut_dmg_verb": "cut"
+  },
+  {
+    "id": "boron_carbide_damaged",
+    "copy-from": "boron_carbide",
+    "type": "material",
+
+    "name": "Compromised boron carbide",
+
+    "//resist": {
+      "bullet": ["still provides a modicum of its former protection"]
+    },
+    "resist": {
+      "bash": -0.1,
+      "cut": 0.96,
+      "acid": 10,
+      "heat": 10,
+      "bullet": 0.017
+    }
+  }
+]
