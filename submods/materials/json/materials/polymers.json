@@ -1,0 +1,27 @@
+[
+  {
+    "id": "kydex",
+    "copy-from": "plastic",
+    "type": "material",
+
+    "//sources": [
+      "https://www.matweb.com/search/datasheet_print.aspx?matguid=4d91c315647d47af9bcd89c97787a040"
+    ],
+
+    "//notes": [
+      [
+        "specifically Kydex 100, which is cited by the manufacturer as being the most-common material for holsters",
+        "https://kydex.com/truth-be-told-holsters-kydex-sheet/"
+      ],
+      "as of the creation of this material (2024-03-30), the MatWeb page says the information about the material is unverified"
+    ],
+
+    "name": "Kydex",
+
+    "density": 1.35,
+    "specific_heat_solid": 1.21,
+
+    "//chip_resist": "Rockwell hardness is 94",
+    "chip_resist": 63
+  }
+]
