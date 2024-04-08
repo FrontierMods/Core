@@ -1,0 +1,15 @@
+[
+  {
+    "id": "DEBUG_MOD_REPORTING",
+    "type": "mutation",
+
+    "name": {
+      "str": "Debug Mod Reporting"
+    },
+    "description": "Your logs will be full of bugs! (And also relevant information from mods!)",
+
+    "points": 99,
+    "valid": false,
+    "debug": true
+  }
+]
