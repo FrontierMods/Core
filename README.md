@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Mar 30, 2024_
+_last updated: Apr 08, 2024_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -8,7 +8,7 @@ The goal of Frontier Mods is to create an ecosystem of independent, compatible, 
 
 _DDA_'s engine does not allow adding extensive functionality via mods; it does, however, permit creating a large amount of content.
 
-Implenenting author-driven expansion of content – independently of the goals of the base game – is the foundation of Frontier Mods.
+Implenenting author-driven expansion of content – independently of (though sometimes in line with) the goals of the base game – is the foundation of Frontier Mods.
 
 Frontier Mods also hosts [a blog](https://github.com/FrontierMods/Blog) and [a design document](https://github.com/FrontierMods/Design). Subscribe to those to stay in touch with the development of the mods.
 
@@ -16,29 +16,35 @@ Frontier Mods also hosts [a blog](https://github.com/FrontierMods/Blog) and [a d
 
 The mods are designed to be compatible with the latest stable release only.
 
-Current version supported: **0.H**.
+Current version supported: **0.H**. (Though 0.H hasn't yet been released, we treat it as though it's stable-enough to mod for. We do not anticipate large changes to the feature set of the base game after the full release of 0.H.)
 
 # Frontier Core
 
-**Frontier Core** is the base mod for the entirety of the Frontier Mods collection. It contains features, changes, and bugfixes used by most mods.
+**Frontier Core** is the base mod for the entirety of the Frontier Mods collection. It contains features, changes, and bug fixes used by most mods of the umbrella/brand.
 
 ## Auditing
 
-**Core** contains a number of audits for the base game's items. Most concern physical dimensions and adding appropriate flags for use with Frontier Mods' other equipment.
+**Core**'s **Audit** submod contains a number of audits for the base game's items. Most of these audits concern physical dimensions and adding appropriate flags for use with Frontier Mods' other equipment.
 
-Audits are included as necessary. They are not designed to include all mischaracterized items from the base game, since not all items need to be changed.
+Audits are included as necessary. They are not designed to include all mischaracterized items from the base game, since not all items need to be changed for any of the Frontier mods to work.
+
+Some mods feature independent audits of items, each mod featuring audits within its own domain. This is done in order to enable playing any of the Frontier mods without encountering errors for audits that other mods necessitate.
+
+## Materials
+
+**Core**'s **Materials** submod serves as a library of materials that any mod, not just Frontier Mods, can use. It features several common and specific-use materials. Though supplied with **Core**, **Materials** doesn't require it to be active.
 
 # Frontier Mods Extra
 
 [Frontier Mods Extra](https://github.com/FrontierModsExtra) are mods that don't fit into the Frontier ecosystem. Extra mods are developed by the same author.
 
-These are usually smaller mods, often experimental in nature. Their goal is to speculate and explore.
+These are usually smaller mods, often experimental in nature. Their goal is to speculate and explore, without affecting larger, more-cohesive mods.
 
 Extra mods may be absorbed into main Frontier mods later.
 
 # List of Mods
 
-_crossed-out lines indicate features that are currently unavaiable_
+_crossed-out features are currently unavailable but are planned / intended_
 
 ## Current
 
@@ -68,31 +74,30 @@ _crossed-out lines indicate features that are currently unavaiable_
   - ~~introduces new calibers~~
   - ~~allows crafting custom rounds using existing bullets' components~~
 
+- [Forma](https://github.com/FrontierMods/Forma):
+
+  - revamps select mutations tree and paths to acquiring the mutations
+  - models potential health effects while undergoing mutations changed by the mod
+
 ## Extra
 
 - **[Weight](https://github.com/FrontierModsExtra/Weight)**: makes carried weight directly affect stamina expenditure and fatigue buildup
 - **[Playing Cards](https://github.com/FrontierModsExtra/PlayingCards)**: adds collectable enchanted playing cards to the world, each card with its own effect
 - **[Hellfire](https://github.com/FrontierModsExtra/Hellfire)**: adds the ability to call airstrikes on a designated target, provided you can find the rare military tablet with access to the drone
-- **[Universal Belt Clip](https://github.com/FrontierModsExtra/UniversalBeltClip)**: adds a universal belt clip, which could be used to wear more items on your belt
 - **[Bullseye](https://github.com/FrontierModsExtra/Bullseye)**: unbalanced mod that makes every ranged weapon hit perfectly on every shot
+- **[Proficiencies](https://github.com/FrontierModsExtra/Proficiencies)** (WIP): adds _Escape from Tarkov_-style firearm proficiencies, separated by platform (like in _Tarkov_)
 
 ## Near Future
 
 _within six months since the last edit_
 
-- ~~[Recombinant](https://github.com/FrontierMods/Recombinant)~~:
+- ~~**[Gunstore](https://github.com/FrontierMods/Gunstore)**~~:
 
-  - revamps select mutations tree and paths to acquiring the mutations
+  - reimplements guns as distinct, separate objects, while following the latest base-game trends (like modular AR-15 rifles)
+  - adjusts each gun to have realistic gun slots, and adds some of the basic attachments to make outfitting a gun realistic
+  - models replaceable gun attachments (like AR-15-style stocks) as default gunmods, allowing their replacement by the player
 
 ## Far Future
-
-- **[Gunsmith](https://github.com/FrontierMods/Gunsmith)** (postponed):
-
-  - overhauls gunmodding by making it as close to real life as possible
-  - introduces hundreds of real-life parts for existing firearms
-  - adds gunsmithing tools necessary for many of the gunmodding processes
-  - expands on the skills and proficiencies required to construct and mod guns
-  - adds decoration options for firearms
 
 - **[Dapper](https://github.com/FrontierMods/Dapper)**:
 
@@ -117,7 +122,7 @@ _within six months since the last edit_
 
 - ~~[Toolkit](https://github.com/FrontierMods/Toolkit)~~:
 
-  - adds basic and advanced portable tools, including EDC options
+  - adds basic and advanced portable tools, including compact EDC options
 
 - ~~[Prepper](https://github.com/FrontierMods/Prepper)~~:
 
@@ -131,14 +136,28 @@ _within six months since the last edit_
 
 - ~~[Synthesis](https://github.com/FrontierMods/Synthesis)~~ (name pending):
 
-  - revamps the existing bionics
+  - revamps existing bionics
   - adds a set of new and advanced bionics
+
+## Archived
+
+- ~~**[Gunsmith](https://github.com/FrontierMods/Gunsmith)**~~:
+
+_not coming: desirable implementation requires too much effort for a single developer_
+
+_reworked into lighter Loadout and Gunstore (see above), which retain some of the modding features and add different options_
+
+- overhauls gunmodding by making it as close to real life as possible
+- introduces hundreds of real-life parts for existing firearms
+- adds gunsmithing tools necessary for many of the gunmodding processes
+- expands on the skills and proficiencies required to construct and mod guns
+- adds decoration options for firearms
 
 # Notes
 
 Many of the mods also include notes and reference documents. These were written during development and shared with other modders for the purposes of expanding the arsenal of ideas.
 
-# Sponsor
+# Donate
 
 Frontiers Mods are developed by a single dedicated person.
 
