@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Apr 08, 2024_
+_last updated: Apr 15, 2024_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -74,7 +74,7 @@ _crossed-out features are currently unavailable but are planned / intended_
   - ~~introduces new calibers~~
   - ~~allows crafting custom rounds using existing bullets' components~~
 
-- [Forma](https://github.com/FrontierMods/Forma):
+- ~~[Forma](https://github.com/FrontierMods/Forma)~~:
 
   - revamps select mutations tree and paths to acquiring the mutations
   - models potential health effects while undergoing mutations changed by the mod
