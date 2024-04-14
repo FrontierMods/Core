@@ -1,0 +1,20 @@
+[
+  {
+    "id": "milk",
+    "copy-from": "milk",
+    "type": "material",
+
+    "name": "Dairy",
+
+    "soft": true
+  },
+  {
+    "id": "isopropyl",
+    "copy-from": "isopropyl",
+    "type": "material",
+
+    "name": "Isopropyl Alcohol",
+
+    "soft": true
+  }
+]
