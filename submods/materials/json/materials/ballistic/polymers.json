@@ -23,31 +23,29 @@
 
     "breathability": "GOOD",
 
-    "resist": {
+    "//resist": {
       "//bash": [
         "high tensile strength of UHMWPE is said to translate into great energy absorption, which would in turn aid resisting bash damage"
       ],
-      "bash": 3,
-
       "//cut": [
         "A study in the Journal of The Textile Institute suggests that tensile load of pure UHMWPE is slightly better than that of Kevlar",
         "doi:10.1080/00405000.2021.1933327"
       ],
-      "cut": 4,
-
       "//acid": [
         "UHMWPE is said to perform slightly better against acids than Kevlar"
       ],
-      "acid": 6,
-
       "//heat": [
         "UHMWPE is supposed to lack resistance to fire(???), while Kevlar is supposed to be very good at it (as well as to self-extinguish)"
       ],
-      "heat": 1,
-
       "//bullet": [
         "UHMWPE is said to be slightly better at bullet resistance than Kevlar"
-      ],
+      ]
+    },
+    "resist": {
+      "bash": 3,
+      "cut": 4,
+      "acid": 6,
+      "heat": 1,
       "bullet": 0.82
     },
     "chip_resist": 35,
