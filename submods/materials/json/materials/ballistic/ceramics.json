@@ -11,24 +11,25 @@
     "density": 3.89,
     "specific_heat_solid": 880,
 
-    "//resist": {},
-    "resist": {
-      "bash": 0.05,
-
+    "//resist": {
       "//cut": [
         "ceramics have high hardness value, thus resisting cutting quite well",
         "this value is intended to be accurate for a ballistic plate that's likely to be around 29 mm thick",
         "the existing value is improvised"
       ],
-      "cut": 0.96,
-      "acid": 10,
-      "heat": 10,
-
       "//bullet": [
         "reasoned against existing enemy armor values against intended thickness of plates using this material",
         "in particular, zombie soldier has 25 armor while (presumably modelled as) wearing an NIJ III+ ballistic vest",
         "25 armor / 29 mm of thickness per plate ≈ 0.86"
-      ],
+      ]
+    },
+    "resist": {
+      "bash": 0.05,
+
+      "cut": 0.96,
+      "acid": 10,
+      "heat": 10,
+
       "bullet": 0.86
     },
     "chip_resist": 15,
