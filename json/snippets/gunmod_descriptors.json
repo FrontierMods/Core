@@ -1,0 +1,113 @@
+[
+  {
+    "type": "snippet",
+    "category": "<muzzle_brake_descriptor>",
+    "text": [
+      "Like any muzzle brake, it makes the sound signature much louder.  Remember to wear hearing protection."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<muzzle_brake_descriptor_generic>",
+    "text": [
+      "Like any muzzle brake, it makes noise from firing much louder.  Remember to wear hearing protection."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_descriptor>",
+    "text": [
+      "The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_loudness>",
+    "text": [
+      "it reduces loudness of firing by a considerable amount, though far from muffling the sound completely"
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_too_short>",
+    "text": [
+      "Being somewhat shorter than most suppressors, it cannot accept suppressor covers."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_direct_thread>",
+    "text": [
+      "It mounts directly onto muzzle threading, without requiring an adapter."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_direct_thread_via_brake>",
+    "text": [
+      "It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_no_direct_thread>",
+    "text": ["This one also cannot be mounted directly onto muzzle threading."]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_rating_556>",
+    "text": ["This model is rated for 5.56mm NATO."]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_rating_556_300blk>",
+    "text": ["This model is rated primarily for 5.56mm NATO and .300 Blackout."]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_rating_rifle_wide>",
+    "text": [
+      "This model is rated for a wide variety of rifle cartridges, from 5.56mm NATO to .308 Winchester Magnum."
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<laser_sight_warning>",
+    "text": ["Ineffective at longer ranges and in bright environments."]
+  },
+  {
+    "type": "snippet",
+    "category": "<laser_sight_warning_verbose>",
+    "text": [
+      "Like all laser sights, this model proves less-effective at longer ranges and while engaging in brightly-lit environments."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<laser_sight_red>",
+    "text": ["It emits red laser: the most common kind of lasers."]
+  },
+  {
+    "type": "snippet",
+    "category": "<laser_sight_green>",
+    "text": [
+      "It emits green laser, which is easier to aim with than the more-common red laser."
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<suppressor_cover_descriptor>",
+    "text": [
+      "Wraps around a suppressor and shields the user from the heat, reducing the heat mirage rising from it, as well as slightly dampening the sound of the shot."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<suppressor_cover_length>",
+    "text": [
+      "Like many suppressor covers, it requires a suppressor of at least 7 in. in length."
+    ]
+  }
+]
