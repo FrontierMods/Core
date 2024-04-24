@@ -55,19 +55,19 @@
   },
   {
     "type": "snippet",
-    "category": "<suppressor_rating_556>",
-    "text": ["This model is rated for 5.56mm NATO."]
+    "category": "<muzzle_device_rating_556>",
+    "text": ["This model is rated primarily for 5.56mm NATO."]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_rating_556_300blk>",
+    "category": "<muzzle_device_rating_556_300blk>",
     "text": ["This model is rated primarily for 5.56mm NATO and .300 Blackout."]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_rating_rifle_wide>",
+    "category": "<muzzle_device_rating_wide>",
     "text": [
-      "This model is rated for a wide variety of rifle cartridges, from 5.56mm NATO to .308 Winchester Magnum."
+      "This model is rated for a wide variety of common rifle cartridges."
     ]
   },
 
