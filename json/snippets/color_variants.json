@@ -72,6 +72,11 @@
     "category": "<variant_silver_matte>",
     "text": ["This one is in matte silver."]
   },
+  {
+    "type": "snippet",
+    "category": "<variant_steel>",
+    "text": ["This one is the color of steel."]
+  },
 
   {
     "type": "snippet",
