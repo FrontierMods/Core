@@ -69,6 +69,11 @@
   },
   {
     "type": "snippet",
+    "category": "<variant_red>",
+    "text": ["This one is colored bright red."]
+  },
+  {
+    "type": "snippet",
     "category": "<variant_silver_matte>",
     "text": ["This one is in matte silver."]
   },
