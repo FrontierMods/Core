@@ -8,13 +8,6 @@
   },
   {
     "type": "snippet",
-    "category": "<muzzle_brake_descriptor_generic>",
-    "text": [
-      "Like any muzzle brake, it makes noise from firing much louder.  Remember to wear hearing protection."
-    ]
-  },
-  {
-    "type": "snippet",
     "category": "<suppressor_descriptor>",
     "text": [
       "The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing."
