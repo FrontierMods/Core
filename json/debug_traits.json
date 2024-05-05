@@ -11,5 +11,18 @@
     "points": 99,
     "valid": false,
     "debug": true
+  },
+  {
+    "id": "DEBUG_MOD_REPORTING_SPAMMY",
+    "type": "mutation",
+
+    "name": {
+      "str": "Debug Mod Reporting, Spammy"
+    },
+    "description": "You wanted more bugs? Here's more bugs!",
+
+    "points": 99,
+    "valid": false,
+    "debug": true
   }
 ]
