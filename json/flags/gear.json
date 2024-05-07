@@ -61,5 +61,11 @@
     "id": "BOOT_SHEATH",
     "type": "json_flag",
     "info": "This item can be <info>worn on the inside</info> of a <info>tall boot</info>"
+  },
+  {
+    "id": "GUN_SLING",
+    "type": "json_flag",
+
+    "restriction": "Item must be either a gun sling or a gun with a sling attached"
   }
 ]
