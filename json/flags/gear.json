@@ -12,7 +12,7 @@
     "info": "This item can be <good>attached</good> to <info>Multi-Dot panels</info>",
     "restriction": "Item must be compatible with the Multi-Dot interface"
   },
-  
+
   {
     "id": "MOLLE_ATTACH_BACK",
     "type": "json_flag",
