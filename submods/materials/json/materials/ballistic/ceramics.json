@@ -43,7 +43,7 @@
     "copy-from": "alumina",
     "type": "material",
 
-    "name": "Compromised alumina",
+    "name": "Alumina (Compromised)",
 
     "//resist": {
       "bash": [
@@ -100,7 +100,7 @@
     "copy-from": "silicon_carbide",
     "type": "material",
 
-    "name": "Compromised silicon carbide",
+    "name": "Silicon Carbide (Compromised)",
 
     "//resist": {
       "bash": "pieces of a cracked ceramic plate would likely amplify any blunt damage received",
@@ -156,7 +156,7 @@
     "copy-from": "boron_carbide",
     "type": "material",
 
-    "name": "Compromised boron carbide",
+    "name": "Boron Carbide (Compromised)",
 
     "//resist": {
       "bullet": ["still provides a modicum of its former protection"]
