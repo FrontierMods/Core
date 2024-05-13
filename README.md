@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Apr 15, 2024_
+_last updated: May 13, 2024_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -63,16 +63,17 @@ _crossed-out features are currently unavailable but are planned / intended_
   - adds a handful of improvised attachments
   - ~~enhances magazines and add magazine modding~~
 
-- [Remedy](https://github.com/FrontierMods/Remedy):
+- **[Remedy](https://github.com/FrontierMods/Remedy)**:
 
   - revamps the medical system
   - adds new health effects and treatment tools
 
-- [Handload](https://github.com/FrontierMods/Handload):
+- **[Handload](https://github.com/FrontierMods/Handload)**:
 
-  - revamps existing calibers and bullet types
+  - remodels existing calibers based on real-life data
+  - revamps cartridge components into distinct items
+  - allows crafting custom rounds using the new components
   - ~~introduces new calibers~~
-  - ~~allows crafting custom rounds using existing bullets' components~~
 
 - ~~[Forma](https://github.com/FrontierMods/Forma)~~:
 
@@ -85,7 +86,7 @@ _crossed-out features are currently unavailable but are planned / intended_
 - **[Playing Cards](https://github.com/FrontierModsExtra/PlayingCards)**: adds collectable enchanted playing cards to the world, each card with its own effect
 - **[Hellfire](https://github.com/FrontierModsExtra/Hellfire)**: adds the ability to call airstrikes on a designated target, provided you can find the rare military tablet with access to the drone
 - **[Bullseye](https://github.com/FrontierModsExtra/Bullseye)**: unbalanced mod that makes every ranged weapon hit perfectly on every shot
-- **[Proficiencies](https://github.com/FrontierModsExtra/Proficiencies)** (WIP): adds _Escape from Tarkov_-style firearm proficiencies, separated by platform (like in _Tarkov_)
+- **[Proficiencies](https://github.com/FrontierModsExtra/Proficiencies)** `[WIP]`: adds _Escape from Tarkov_-style firearm proficiencies, separated by platform (like in _Tarkov_)
 
 ## Near Future
 
