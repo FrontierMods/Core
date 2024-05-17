@@ -102,5 +102,25 @@
     "text": [
       "Like many suppressor covers, it requires a suppressor of at least 7 in. in length."
     ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<offset_sights_foldable>",
+    "text": ["A pair of offset iron sights that could be flipped down."]
+  },
+  {
+    "type": "snippet",
+    "category": "<offset_sights_foldable_or_inline>",
+    "text": [
+      "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<offset_sights_descriptor>",
+    "text": [
+      "Offset iron sights can be used alongside other sights and scopes."
+    ]
   }
 ]
