@@ -46,6 +46,7 @@
     "category": "<suppressor_no_direct_thread>",
     "text": ["This one also cannot be mounted directly onto muzzle threading."]
   },
+
   {
     "type": "snippet",
     "category": "<muzzle_device_rating_556>",
