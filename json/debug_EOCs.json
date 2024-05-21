@@ -2,6 +2,7 @@
   {
     "id": "debug_EOC_GET_ITEM_DIMENSIONS",
     "type": "effect_on_condition",
+
     "effect": [
       {
         "u_run_inv_eocs": "manual",
