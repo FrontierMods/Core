@@ -21,5 +21,30 @@
         ]
       }
     ]
+  },
+  {
+    "id": "debug_EOC_SHOW_DEBUG_MESSAGE",
+    "type": "effect_on_condition",
+
+    "condition": {
+      "and": [
+        { "expects_vars": ["message", "tag"] },
+        { "u_has_trait": "DEBUG_MOD_REPORTING" }
+      ]
+    },
+    "effect": [
+      {
+        "if": { "compare_string": ["", { "context_val": "tag" }] },
+        "then": { "u_message": { "context_val": "message" } },
+        "else": [
+          {
+            "set_string_var": "[<context_val:tag>] <context_val:message>",
+            "target_var": { "context_val": "tagged_message" },
+            "parse_tags": true
+          },
+          { "u_message": { "context_val": "tagged_message" } }
+        ]
+      }
+    ]
   }
 ]
