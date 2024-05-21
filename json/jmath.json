@@ -1,0 +1,13 @@
+[
+  {
+    "id": "sign",
+    "type": "jmath_function",
+    "num_args": 1,
+
+    "//args": {
+      "0": "any numerical value"
+    },
+
+    "return": "_0 == 0 ? 1 : ( _0 > 0 ? 1 : -1 )"
+  }
+]
