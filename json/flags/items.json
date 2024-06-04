@@ -3,19 +3,19 @@
     "id": "PAPER_FILE_SIZED",
     "type": "json_flag",
 
-    "info": "This item has the right dimensions to be stored in <info>file compartments</info>",
+    "info": "This item has the right dimensions to be stored in <info>file compartments</info>.",
     "restriction": "Item must be about the size of a paper file"
   },
   {
     "id": "CARD_STANDARD",
     "type": "json_flag",
 
-    "info": "This item has the right dimensions to be stored in <info>credit and ID card compartments</info>",
+    "info": "This item has the right dimensions to be stored in <info>credit and ID card compartments</info>.",
     "restriction": "Item must be the size of a credit card"
   },
   {
     "id": "TUCKED_IN",
     "type": "json_flag",
-    "info": "This item can be <good>tucked in</good> under <info>a strap or a belt</info>"
+    "info": "This item can be <good>tucked in</good> under <info>a strap or a belt</info>."
   }
 ]
