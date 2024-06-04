@@ -2,38 +2,38 @@
   {
     "id": "ABLATIVE_XS",
     "type": "json_flag",
-    "info": "This plate will fit in <info>extra-small</info> armor pockets",
+    "info": "This plate will fit in <info>extra-small</info> armor pockets.",
     "restriction": "Item must be an extra-small ablative plate"
   },
   {
     "id": "ABLATIVE_SMALL",
     "type": "json_flag",
-    "info": "This plate will fit in <info>small</info> armor pockets",
+    "info": "This plate will fit in <info>small</info> armor pockets.",
     "restriction": "Item must be a small ablative plate"
   },
   {
     "id": "ABLATIVE_XL",
     "type": "json_flag",
-    "info": "This plate will fit in <info>extra-large</info> armor pockets",
+    "info": "This plate will fit in <info>extra-large</info> armor pockets.",
     "restriction": "Item must be an extra-large ablative plate"
   },
   {
     "id": "ABLATIVE_SIDE",
     "type": "json_flag",
-    "info": "This plate will fit in <info>side</info> armor pockets",
+    "info": "This plate will fit in <info>side</info> armor pockets.",
     "restriction": "Item must be a side ablative plate"
   },
   {
     "id": "ABLATIVE_SIDE_TALL",
     "type": "json_flag",
-    "info": "This plate will fit in <info>tall side</info> armor pockets",
+    "info": "This plate will fit in <info>tall side</info> armor pockets.",
     "restriction": "Item must be a tall side ablative plate"
   },
 
   {
     "id": "ABLATIVE_TRAUMA_5x8",
     "type": "json_flag",
-    "info": "This soft ballistic pad will fit in armor pockets for <info>trauma pads</info>",
+    "info": "This soft ballistic pad will fit in armor pockets for <info>trauma pads</info>.",
     "restriction": "Item must be a trauma pad"
   },
 

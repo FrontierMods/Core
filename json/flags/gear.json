@@ -35,32 +35,32 @@
   {
     "id": "VELCRO_PANEL",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>",
+    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>.",
     "restriction": "Item must be a hook-and-loop panel"
   },
 
   {
     "id": "BELT_GEAR",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
+    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>.",
     "restriction": "Item must be belt-capable gear"
   },
   {
     "id": "BELT_GEAR_LARGE",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>",
+    "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>.",
     "restriction": "Item must be large belt-capable gear"
   },
 
   {
     "id": "BOOT_HOLSTER",
     "type": "json_flag",
-    "info": "This item can be <info>worn on the inside</info> of a <info>large boot</info>"
+    "info": "This item can be <info>worn on the inside</info> of a <info>large boot</info>."
   },
   {
     "id": "BOOT_SHEATH",
     "type": "json_flag",
-    "info": "This item can be <info>worn on the inside</info> of a <info>tall boot</info>"
+    "info": "This item can be <info>worn on the inside</info> of a <info>tall boot</info>."
   },
   {
     "id": "GUN_SLING",
