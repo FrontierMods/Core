@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: May 13, 2024_
+_last updated: Jun 13, 2024_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -51,8 +51,8 @@ _crossed-out features are currently unavailable but are planned / intended_
 - **[Armory](https://github.com/FrontierMods/Armory)**:
 
   - revamps existing military and military-adjacent equipment
-  - expands on gear modularity
-  - adds a variety of real-life combat equipment
+  - expands on gear modularity by adding attachment points and equipment that uses them
+  - adds a variety of real-life combat gear
   - ~~overhauls the PALS/MOLLE system~~
   - ~~adds decoration options for military and civilian clothing~~
 
