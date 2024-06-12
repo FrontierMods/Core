@@ -2,34 +2,34 @@
   {
     "id": "QASM_ATTACH",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>QASM buckles</info>",
-    "restriction": "Item must be a QASM panel"
+    "info": "This item can be <good>attached</good> to tactical gear via <info>QASM interface</info>.",
+    "restriction": "Item must be QASM-capable"
   },
 
   {
     "id": "MULTI_DOT_ATTACH",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>Multi-Dot panels</info>",
+    "info": "This item can be <good>attached</good> to <info>Multi-Dot panels</info>.",
     "restriction": "Item must be compatible with the Multi-Dot interface"
   },
 
   {
     "id": "MOLLE_ATTACH_BACK",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>PALS webbing on the back</info>",
+    "info": "This item can be <good>attached</good> to <info>PALS webbing on the back</info>.",
     "restriction": "Item must be a MOLLE attachment for the back"
   },
 
   {
     "id": "VELCRO_ATTACH",
     "type": "json_flag",
-    "info": "This decorative item can be <good>attached</good> to <info>hook-and-loop panels</info>",
+    "info": "This decorative item can be <good>attached</good> to <info>hook-and-loop panels</info>.",
     "restriction": "Item must be a hook-and-loop attachment"
   },
   {
     "id": "VELCRO_POUCH",
     "type": "json_flag",
-    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>",
+    "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>.",
     "restriction": "Item must be a hook-and-loop pouch"
   },
   {
