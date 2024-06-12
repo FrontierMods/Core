@@ -40,7 +40,7 @@
   {
     "id": "ABLATIVE_COMMERCIAL_8x10",
     "type": "json_flag",
-    "info": "This plate will fit in <info>commercial medium</info> armor pockets",
+    "info": "This plate will fit in <info>commercial medium</info> armor pockets.",
     "restriction": "Item must be a commercial medium ablative plate"
   }
 ]
