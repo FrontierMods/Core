@@ -1,5 +1,13 @@
 [
   {
+    "id": "Core_EOC_ASSIGN_USEFUL_GLOBALS",
+    "type": "effect_on_condition",
+    "eoc_type": "EVENT",
+    "required_event": "game_begin",
+
+    "effect": [{ "math": ["false", "=", "0"] }, { "math": ["true", "=", "1"] }]
+  },
+  {
     "id": "debug_EOC_GET_ITEM_DIMENSIONS",
     "type": "effect_on_condition",
 
