@@ -1,0 +1,141 @@
+[
+  {
+    "id": "linen",
+    "copy-from": "cotton",
+    "type": "material",
+
+    "//sources": [
+      [
+        "https://www.hilarispublisher.com/open-access/physical-and-mechanical-properties-of-flax-fiber-and-its-composites.pdf",
+        "density"
+      ],
+      [
+        "https://www.maddafella.com/blogs/general-interest/linen-or-cotton-better-fabric-on-hot-days",
+        "breathability"
+      ],
+      [
+        "https://3937524.app.netsuite.com/core/media/media.nl?id=5274&c=3937524&h=4615bbe5ed2ef1a78d34&_xt=.pdf",
+        "composite physical properties"
+      ]
+    ],
+
+    "name": "Linen",
+
+    "density": 1.5,
+
+    "soft": true,
+    "breathability": "GOOD",
+
+    "resist": {
+      "bash": 1,
+      "cut": 1,
+      "acid": 3,
+      "heat": 0,
+      "bullet": 1,
+      "stab": 2
+    },
+
+    "//repaired_with": "cotton_patchwork",
+    "//salvaged_into": "cotton_patchwork"
+  },
+  {
+    "id": "silk",
+    "copy-from": "cotton",
+    "type": "material",
+
+    "//sources": [
+      ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10003856/", "density"],
+      [
+        "https://yorkshirefabricshop.com/post/is-silk-cooler-than-cotton",
+        "breathability"
+      ]
+    ],
+
+    "name": "Silk",
+
+    "density": 1.3,
+
+    "soft": true,
+
+    "resist": {
+      "bash": 1,
+      "cut": 1,
+      "acid": 3,
+      "heat": 0,
+      "bullet": 1,
+      "stab": 1
+    },
+
+    "//repaired_with": "cotton_patchwork",
+    "//salvaged_into": "cotton_patchwork"
+  },
+  {
+    "id": "polyester",
+    "copy-from": "cotton",
+    "type": "material",
+
+    "//sources": [
+      "https://www.matweb.com/search/DataSheet.aspx?MatGUID=1d92ed366503454ba49b8a44099f90de",
+      [
+        "https://yorkshirefabricshop.com/post/is-silk-cooler-than-cotton",
+        "breathability"
+      ]
+    ],
+
+    "//notes": [
+      "while a rigid variety may not be appropriate for a fabric, sources specifically pertaining to polyester fabrics seem scarce online"
+    ],
+
+    "name": "Polyester",
+
+    "density": 1.76,
+
+    "soft": true,
+    "//breathability": "with a large variety of polyesters each having its own breathability grade, we leave it at cotton value",
+
+    "resist": {
+      "bash": 1,
+      "cut": 1,
+      "acid": 3,
+      "heat": 0,
+      "bullet": 1,
+      "stab": 1
+    },
+
+    "//repaired_with": "cotton_patchwork",
+    "//salvaged_into": "cotton_patchwork"
+  },
+  {
+    "id": "rayon",
+    "copy-from": "cotton",
+    "type": "material",
+
+    "//sources": [
+      "https://www.matweb.com/search/DataSheet.aspx?MatGUID=dbea532621d74be68bca298f03929ba7"
+    ],
+
+    "name": "Viscose",
+
+    "density": 1.52,
+
+    "soft": true,
+    "//breathability": [
+      "sources on rayon/viscose breathability vary wildly",
+      "some claim it to be ″very breathable″",
+      "others say it's worse in breathability than cotton",
+      "we leave it at cotton default until a conclusive explanation emerges"
+    ],
+
+    "resist": {
+      "bash": 1,
+      "cut": 1,
+      "acid": 3,
+      "heat": 0,
+      "bullet": 1,
+      "stab": 1
+    },
+
+    "//repaired_with": "cotton_patchwork",
+    "//salvaged_into": "cotton_patchwork"
+  }
+]
