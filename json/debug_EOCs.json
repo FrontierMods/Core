@@ -46,5 +46,25 @@
         ]
       }
     ]
+  },
+  {
+    "id": "debug_EOC_SHOW_DEBUG_MESSAGE_SPAMMY",
+    "type": "effect_on_condition",
+
+    "condition": {
+      "and": [
+        { "expects_vars": ["message", "tag"] },
+        { "u_has_trait": "DEBUG_MOD_REPORTING_SPAMMY" }
+      ]
+    },
+    "effect": [
+      {
+        "run_eoc_with": "debug_EOC_SHOW_DEBUG_MESSAGE",
+        "variables": {
+          "message": { "context_val": "message" },
+          "tag": { "context_val": "tag" }
+        }
+      }
+    ]
   }
 ]
