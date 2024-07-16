@@ -74,5 +74,21 @@
         }
       }
     ]
+  },
+  {
+    "id": "Core_debug_EOC_SPAWN_ITEM_GROUP",
+    "type": "effect_on_condition",
+
+    "effect": [
+      {
+        "set_string_var": "<u_name>",
+        "target_var": { "context_val": "avatar_name" },
+        "parse_tags": true
+      },
+      {
+        "map_spawn_item": { "context_val": "avatar_name" },
+        "use_item_group": true
+      }
+    ]
   }
 ]
