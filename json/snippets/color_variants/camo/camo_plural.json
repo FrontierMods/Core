@@ -1,0 +1,14 @@
+[
+  {
+    "type": "snippet",
+    "category": "<variant_multicam_plural>",
+    "text": [
+      "These ones are fashioned in multicam, a commercial camouflage similar to the OCP used by the U.S. Armed Forces."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_woodland_plural>",
+    "text": ["These ones are covered in the woodland camouflage pattern."]
+  }
+]
