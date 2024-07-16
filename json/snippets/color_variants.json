@@ -200,14 +200,14 @@
     "type": "snippet",
     "category": "<variant_ocp>",
     "text": [
-      "This one is decorated with the OCP pattern, the camouflage previously employed by the U.S. Army."
+      "This one is decorated with the OCP pattern, the camouflage employed by multiple branches of the U.S. Armed Force."
     ]
   },
   {
     "type": "snippet",
-    "category": "<variant_acu>",
+    "category": "<variant_ucp>",
     "text": [
-      "This one is decorated with the ACU pattern, the camouflage previously used by the U.S. Army."
+      "This one is decorated with the pixelated UCP pattern, the camouflage previously used by multiple branches of the U.S. Armed Force."
     ]
   },
   {
