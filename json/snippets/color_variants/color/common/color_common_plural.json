@@ -1,0 +1,52 @@
+[
+  {
+    "type": "snippet",
+    "category": "<variant_black_plural>",
+    "text": ["These ones are all black."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_coyote_plural>",
+    "text": ["These ones are colored coyote brown."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_fde_plural>",
+    "text": ["These ones are colored earth brown."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_ranger_plural>",
+    "text": ["These ones are colored ranger green."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_olive_plural>",
+    "text": ["These ones are colored olive drab."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_grey_plural>",
+    "text": ["These ones are colored grey."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_khaki_plural>",
+    "text": ["These ones come in the color of sand."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_navy_plural>",
+    "text": ["These ones are colored navy blue."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_red_plural>",
+    "text": ["These ones are colored bright red."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_steel_plural>",
+    "text": ["These ones are the color of steel."]
+  }
+]

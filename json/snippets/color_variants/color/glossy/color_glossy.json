@@ -1,0 +1,12 @@
+[
+  {
+    "type": "snippet",
+    "category": "<variant_black_glossy>",
+    "text": ["This one is in glossy, metallic black."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_fde_glossy>",
+    "text": ["This one is in glossy, metallic earth brown."]
+  }
+]
