@@ -13,14 +13,14 @@
   },
   {
     "type": "snippet",
-    "category": "<variant_ocp>",
+    "category": "<variant_ocp_plural>",
     "text": [
       "These ones are decorated with the OCP pattern, the camouflage employed by multiple branches of the U.S. Armed Force."
     ]
   },
   {
     "type": "snippet",
-    "category": "<variant_ucp>",
+    "category": "<variant_ucp_plural>",
     "text": [
       "These ones are decorated with the pixelated UCP pattern, the camouflage previously used by multiple branches of the U.S. Armed Force."
     ]
