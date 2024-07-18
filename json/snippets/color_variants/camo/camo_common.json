@@ -59,5 +59,12 @@
     "text": [
       "This one is decorated with the A-TACS FG camouflage, a woods pattern consisting of shades of green and black."
     ]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant_wildwood>",
+    "text": [
+      "This one is decorated with the PenCott WildWood camouflage, a pixelated and dithered woods pattern with shades of green and brown."
+    ]
   }
 ]
