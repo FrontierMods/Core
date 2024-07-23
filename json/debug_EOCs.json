@@ -31,6 +31,23 @@
     ]
   },
   {
+    "id": "Core_debug_EOC_DESTROY_ITEMS",
+    "type": "effect_on_condition",
+
+    "effect": [
+      {
+        "u_run_inv_eocs": "manual_mult",
+        "title": "Which items to destroy?",
+        "true_eocs": [
+          {
+            "id": "inline_EOC_DESTROY_ITEMS",
+            "effect": ["npc_die"]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "Core_debug_EOC_SHOW_DEBUG_MESSAGE",
     "type": "effect_on_condition",
 
