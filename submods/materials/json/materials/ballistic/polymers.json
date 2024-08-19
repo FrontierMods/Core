@@ -48,7 +48,7 @@
       "heat": 1,
       "bullet": 0.82
     },
-    "chip_resist": 35,
+    "chip_resist": 1,
 
     "//burn_data": "UHMWPE is rated HB for flammability, and the thermoplastic resin burn data seems to reflect something very similar",
     "burn_data": [

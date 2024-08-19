@@ -145,7 +145,7 @@
       "heat": 10,
       "bullet": 1.29
     },
-    "chip_resist": 20,
+    "chip_resist": 1,
 
     "dmg_adj": ["chipped", "cracked", "split", "broken"],
     "bash_dmg_verb": "cracked",
