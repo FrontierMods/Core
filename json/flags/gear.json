@@ -67,5 +67,61 @@
     "type": "json_flag",
 
     "restriction": "Item must be either a gun sling or a gun with a sling attached"
+  },
+
+  {
+    "id": "CUMMERBUND",
+    "type": "json_flag",
+    "//": "used for negating an invisible encumbrance malus while wearing plate carriers without cummerbunds"
+  },
+  {
+    "id": "PLATE_CARRIER",
+    "type": "json_flag",
+    "//": "used for calculating plate carrier proficiency progress"
+  },
+
+  {
+    "id": "CUMMERBUND_VELCRO",
+    "type": "json_flag",
+    "info": "This type of cummerbund can be <good>attached</good> to <info>plate carriers</info> with <info>hook-and-loop surfaces</info>.",
+    "restriction": "Cummerbund must have hook-and-loop attachment points"
+  },
+  {
+    "id": "CUMMERBUND_NMQRS",
+    "type": "json_flag",
+    "info": "This type of cummerbund can be <good>attached</good> to <info>plate carriers</info> with the <info>National Molding Quad Release interface</info>, which is commonly used with the U.S. Armed Forces plate carriers.",
+    "restriction": "Cummerbund must have buckles for the Quad Release system"
+  },
+
+  {
+    "id": "SHOULDER_PADS",
+    "type": "json_flag",
+    "info": "These shoulder straps can be <good>attached</good> to <info>plate carriers</info> or <info>chest rigs</info>, in order to slightly improve their encumbrance.",
+    "restriction": "Item must be a pair of shoulder straps"
+  },
+
+  {
+    "id": "SIDE_POUCH_VELCRO",
+    "type": "json_flag",
+    "info": "This type of side pouches can be <good>attached</good> to <info>plate carriers</info> or <info>chest rigs</info> with <info>hook-and-loop surfaces</info>.",
+    "restriction": "Side pouch must have hook-and-loop attachment points"
+  },
+  {
+    "id": "HANGING_POUCH_VELCRO",
+    "type": "json_flag",
+    "info": "This type of hanging pouches can be <good>attached</good> to <info>plate carriers</info> or <info>chest rigs</info> with <info>hook-and-loop surfaces</info>.",
+    "restriction": "Hanging pouch must have hook-and-loop attachment points"
+  },
+  {
+    "id": "EXTRA_POUCH_VELCRO",
+    "type": "json_flag",
+    "info": "This type of pouches can be <good>attached</good> to <info>plate carriers</info> or <info>chest rigs</info> with <info>hook-and-loop surfaces</info>, sitting under or aside from other pouches while retaining functionality.",
+    "restriction": "Pouch must have hook-and-loop attachment points"
+  },
+  {
+    "id": "EUD_BRIDGE",
+    "type": "json_flag",
+    "info": "This item can be <good>attached</good> to plate carriers, chest rigs, and backpacks as <info>an EUD bridge</info>.",
+    "restriction": "Item must be compatible with the EUD interface"
   }
 ]
