@@ -84,7 +84,7 @@
     },
     "effect": [
       {
-        "run_eoc_with": "debug_EOC_SHOW_DEBUG_MESSAGE",
+        "run_eoc_with": "Core_debug_EOC_SHOW_DEBUG_MESSAGE",
         "variables": {
           "message": { "context_val": "message" },
           "tag": { "context_val": "tag" }
