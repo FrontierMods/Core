@@ -135,7 +135,7 @@
     "//resist": {
       "bullet": [
         "notable improvement over SiC",
-        "see alumina comments for reasoning for this value"
+        "see `alumina` comments for reasoning for this value"
       ]
     },
     "resist": {
