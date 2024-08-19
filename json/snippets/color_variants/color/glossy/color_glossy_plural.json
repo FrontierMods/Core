@@ -1,12 +1,12 @@
 [
   {
     "type": "snippet",
-    "category": "<variant_black_glossy_plural>",
+    "category": "<variant:black:glossy:plural>",
     "text": ["These ones are in glossy, metallic black."]
   },
   {
     "type": "snippet",
-    "category": "<variant_fde_glossy_plural>",
+    "category": "<variant:fde:glossy:plural>",
     "text": ["These ones are in glossy, metallic earth brown."]
   }
 ]

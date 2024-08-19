@@ -1,12 +1,12 @@
 [
   {
     "type": "snippet",
-    "category": "<variant_silver_matte_plural>",
+    "category": "<variant:silver:matte:plural>",
     "text": ["These ones are in matte silver."]
   },
   {
     "type": "snippet",
-    "category": "<variant_black_matte_plural>",
+    "category": "<variant:black:matte:plural>",
     "text": ["These ones are in matte black."]
   }
 ]
