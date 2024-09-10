@@ -1,65 +1,73 @@
 [
   {
     "type": "snippet",
-    "category": "<muzzle_brake_descriptor>",
+    "category": "<muzzle_device/brake/descriptor>",
     "text": [
       "Like any muzzle brake, it makes the sound signature much louder.  Remember to wear hearing protection."
     ]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_descriptor>",
+    "category": "<muzzle_device/suppressor/descriptor>",
     "text": [
       "The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing."
     ]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_loudness>",
+    "category": "<muzzle_device/suppressor/loudness>",
     "text": [
       "it reduces loudness of firing by a considerable amount, though far from muffling the sound completely"
     ]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_too_short>",
+    "category": "<muzzle_device/suppressor:short>",
     "text": [
-      "Being somewhat shorter than most suppressors, it cannot accept suppressor covers."
+      "Being shorter than most suppressors, it cannot accept suppressor covers."
     ]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_direct_thread>",
+    "category": "<muzzle_device/suppressor/direct_thread>",
     "text": [
       "It mounts directly onto muzzle threading, without requiring an adapter."
     ]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_direct_thread_via_brake>",
+    "category": "<muzzle_device/suppressor/direct_thread:brake>",
     "text": [
       "It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading."
     ]
   },
   {
     "type": "snippet",
-    "category": "<suppressor_no_direct_thread>",
+    "category": "<muzzle_device/suppressor/direct_thread:none>",
     "text": ["This one also cannot be mounted directly onto muzzle threading."]
   },
 
   {
     "type": "snippet",
-    "category": "<muzzle_device_rating_556>",
+    "category": "<muzzle_device/suppressor_cover/descriptor>",
+    "text": [
+      "Wraps around a suppressor and shields the user from the heat, reducing the heat mirage rising from it, as well as slightly dampening the sound of the shot."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<muzzle_device/suppressor_cover/length>",
+    "text": ["It requires a suppressor of at least 7 in. in length."]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<muzzle_device/rating:556>",
     "text": ["This model is rated primarily for 5.56mm NATO."]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device_rating_556_300blk>",
-    "text": ["This model is rated primarily for 5.56mm NATO and .300 Blackout."]
-  },
-  {
-    "type": "snippet",
-    "category": "<muzzle_device_rating_wide>",
+    "category": "<muzzle_device/rating:wide>",
     "text": [
       "This model is rated for a wide variety of common rifle cartridges."
     ]
@@ -67,24 +75,12 @@
 
   {
     "type": "snippet",
-    "category": "<laser_sight_warning>",
-    "text": ["Ineffective at longer ranges and in bright environments."]
-  },
-  {
-    "type": "snippet",
-    "category": "<laser_sight_warning_verbose>",
-    "text": [
-      "Like all laser sights, this model proves less-effective at longer ranges and while engaging in brightly-lit environments."
-    ]
-  },
-  {
-    "type": "snippet",
-    "category": "<laser_sight_red>",
+    "category": "<sight/laser/color:red>",
     "text": ["It emits red laser: the most common kind of lasers."]
   },
   {
     "type": "snippet",
-    "category": "<laser_sight_green>",
+    "category": "<sight/laser/color:green>",
     "text": [
       "It emits green laser, which is easier to aim with than the more-common red laser."
     ]
@@ -92,36 +88,29 @@
 
   {
     "type": "snippet",
-    "category": "<suppressor_cover_descriptor>",
-    "text": [
-      "Wraps around a suppressor and shields the user from the heat, reducing the heat mirage rising from it, as well as slightly dampening the sound of the shot."
-    ]
-  },
-  {
-    "type": "snippet",
-    "category": "<suppressor_cover_length>",
-    "text": [
-      "Like many suppressor covers, it requires a suppressor of at least 7 in. in length."
-    ]
-  },
-
-  {
-    "type": "snippet",
-    "category": "<offset_sights_foldable>",
+    "category": "<sight/offset/foldable>",
     "text": ["A pair of offset iron sights that could be flipped down."]
   },
   {
     "type": "snippet",
-    "category": "<offset_sights_foldable_or_inline>",
+    "category": "<sight/offset/foldable:inline>",
     "text": [
       "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights."
     ]
   },
   {
     "type": "snippet",
-    "category": "<offset_sights_descriptor>",
+    "category": "<sight/offset/descriptor>",
     "text": [
       "Offset iron sights can be used alongside other sights and scopes."
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<sight/holographic/descriptor>",
+    "text": [
+      "A sight which projects a holographic reticle onto a clear lens, allowing for rapid aim without requiring perfect eye positioning."
     ]
   }
 ]
