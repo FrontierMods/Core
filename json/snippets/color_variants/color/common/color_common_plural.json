@@ -1,52 +1,52 @@
 [
   {
     "type": "snippet",
-    "category": "<variant:black:plural>",
+    "category": "<variant:black/plural>",
     "text": ["These ones are all black."]
   },
   {
     "type": "snippet",
-    "category": "<variant:coyote:plural>",
+    "category": "<variant:coyote/plural>",
     "text": ["These ones are colored coyote brown."]
   },
   {
     "type": "snippet",
-    "category": "<variant:fde:plural>",
+    "category": "<variant:fde/plural>",
     "text": ["These ones are colored earth brown."]
   },
   {
     "type": "snippet",
-    "category": "<variant:ranger:plural>",
+    "category": "<variant:ranger/plural>",
     "text": ["These ones are colored ranger green."]
   },
   {
     "type": "snippet",
-    "category": "<variant:olive:plural>",
+    "category": "<variant:olive/plural>",
     "text": ["These ones are colored olive drab."]
   },
   {
     "type": "snippet",
-    "category": "<variant:grey:plural>",
+    "category": "<variant:grey/plural>",
     "text": ["These ones are colored grey."]
   },
   {
     "type": "snippet",
-    "category": "<variant:khaki:plural>",
+    "category": "<variant:khaki/plural>",
     "text": ["These ones come in the color of sand."]
   },
   {
     "type": "snippet",
-    "category": "<variant:navy:plural>",
+    "category": "<variant:navy/plural>",
     "text": ["These ones are colored navy blue."]
   },
   {
     "type": "snippet",
-    "category": "<variant:red:plural>",
+    "category": "<variant:red/plural>",
     "text": ["These ones are colored bright red."]
   },
   {
     "type": "snippet",
-    "category": "<variant:steel:plural>",
+    "category": "<variant:steel/plural>",
     "text": ["These ones are the color of steel."]
   }
 ]
