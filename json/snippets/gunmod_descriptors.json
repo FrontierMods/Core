@@ -1,73 +1,73 @@
 [
   {
     "type": "snippet",
-    "category": "<muzzle_device/brake/descriptor>",
+    "category": "<muzzle/brake>",
     "text": [
       "Like any muzzle brake, it makes the sound signature much louder.  Remember to wear hearing protection."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor/descriptor>",
+    "category": "<muzzle/suppressor>",
     "text": [
       "The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor/loudness>",
+    "category": "<muzzle/suppressor/loudness>",
     "text": [
       "it reduces loudness of firing by a considerable amount, though far from muffling the sound completely"
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor:short>",
+    "category": "<muzzle/suppressor:short>",
     "text": [
       "Being shorter than most suppressors, it cannot accept suppressor covers."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor/direct_thread>",
+    "category": "<muzzle/suppressor/direct_thread>",
     "text": [
       "It mounts directly onto muzzle threading, without requiring an adapter."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor/direct_thread:brake>",
+    "category": "<muzzle/suppressor/direct_thread:brake>",
     "text": [
       "It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor/direct_thread:none>",
+    "category": "<muzzle/suppressor/direct_thread:none>",
     "text": ["This one also cannot be mounted directly onto muzzle threading."]
   },
 
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor_cover/descriptor>",
+    "category": "<muzzle/suppressor_cover>",
     "text": [
       "Wraps around a suppressor and shields the user from the heat, reducing the heat mirage rising from it, as well as slightly dampening the sound of the shot."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/suppressor_cover/length>",
+    "category": "<muzzle/suppressor_cover/length>",
     "text": ["It requires a suppressor of at least 7 in. in length."]
   },
 
   {
     "type": "snippet",
-    "category": "<muzzle_device/rating:556>",
+    "category": "<muzzle/rating:556>",
     "text": ["This model is rated primarily for 5.56mm NATO."]
   },
   {
     "type": "snippet",
-    "category": "<muzzle_device/rating:wide>",
+    "category": "<muzzle/rating:wide>",
     "text": [
       "This model is rated for a wide variety of common rifle cartridges."
     ]
@@ -75,12 +75,12 @@
 
   {
     "type": "snippet",
-    "category": "<sight/laser/color:red>",
+    "category": "<sight/laser:red>",
     "text": ["It emits red laser: the most common kind of lasers."]
   },
   {
     "type": "snippet",
-    "category": "<sight/laser/color:green>",
+    "category": "<sight/laser:green>",
     "text": [
       "It emits green laser, which is easier to aim with than the more-common red laser."
     ]
@@ -100,7 +100,7 @@
   },
   {
     "type": "snippet",
-    "category": "<sight/offset/descriptor>",
+    "category": "<sight/offset>",
     "text": [
       "Offset iron sights can be used alongside other sights and scopes."
     ]
@@ -108,7 +108,7 @@
 
   {
     "type": "snippet",
-    "category": "<sight/holographic/descriptor>",
+    "category": "<sight/holographic>",
     "text": [
       "A sight which projects a holographic reticle onto a clear lens, allowing for rapid aim without requiring perfect eye positioning."
     ]
