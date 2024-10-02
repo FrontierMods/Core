@@ -49,5 +49,10 @@
     "type": "snippet",
     "category": "<sight/installation:picatinny/embedded_mount>",
     "text": ["Installs directly onto Picatinny rail with an embedded mount."]
+  },
+  {
+    "type": "snippet",
+    "category": "<sight/installation:30mm_single>",
+    "text": ["Installs onto a single-ring 30mm mount."]
   }
 ]
