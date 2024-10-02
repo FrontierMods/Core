@@ -1,0 +1,14 @@
+[
+  {
+    "type": "snippet",
+    "category": "<sight/laser:red>",
+    "text": ["It emits red laser: the most common kind of lasers."]
+  },
+  {
+    "type": "snippet",
+    "category": "<sight/laser:green>",
+    "text": [
+      "It emits green laser, which is easier to aim with than the more-common red laser."
+    ]
+  }
+]
