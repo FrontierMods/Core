@@ -1,7 +1,7 @@
 [
   {
     "type": "snippet",
-    "category": "<variant:multicam:plural>",
+    "category": "<variant:multicam/plural>",
     "text": [
       "These ones are fashioned in multicam, a commercial camouflage similar to the OCP used by the U.S. Armed Forces."
     ]
@@ -9,28 +9,28 @@
 
   {
     "type": "snippet",
-    "category": "<variant:multicam_black:plural>",
+    "category": "<variant:multicam_black/plural>",
     "text": [
       "These ones are decorated with the black multicam pattern, for that stealth feeling."
     ]
   },
   {
     "type": "snippet",
-    "category": "<variant:multicam_arid:plural>",
+    "category": "<variant:multicam_arid/plural>",
     "text": [
       "These ones are decorated with the desert multicam pattern, for when you suddenly find yourself in Nevada."
     ]
   },
   {
     "type": "snippet",
-    "category": "<variant:multicam_tropic:plural>",
+    "category": "<variant:multicam_tropic/plural>",
     "text": [
       "These ones are decorated with the tropic multicam pattern, perfect for that steamy, sweaty jungle warfare."
     ]
   },
   {
     "type": "snippet",
-    "category": "<variant:multicam_alpine:plural>",
+    "category": "<variant:multicam_alpine/plural>",
     "text": [
       "These ones are decorated with the white multicam pattern, for when your target is the at top of Everest."
     ]
@@ -38,26 +38,26 @@
 
   {
     "type": "snippet",
-    "category": "<variant:woodland:plural>",
+    "category": "<variant:woodland/plural>",
     "text": ["These ones are covered in the woodland camouflage pattern."]
   },
   {
     "type": "snippet",
-    "category": "<variant:ocp:plural>",
+    "category": "<variant:ocp/plural>",
     "text": [
       "These ones are decorated with the OCP pattern, the camouflage employed by multiple branches of the U.S. Armed Force."
     ]
   },
   {
     "type": "snippet",
-    "category": "<variant:ucp:plural>",
+    "category": "<variant:ucp/plural>",
     "text": [
       "These ones are decorated with the pixelated UCP pattern, the camouflage previously used by multiple branches of the U.S. Armed Force."
     ]
   },
   {
     "type": "snippet",
-    "category": "<variant:wildwood:plural>",
+    "category": "<variant:wildwood/plural>",
     "text": [
       "These ones are decorated with the PenCott WildWood camouflage, a pixelated and dithered woods pattern with shades of green and brown."
     ]
