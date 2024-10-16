@@ -76,5 +76,20 @@
     "type": "snippet",
     "category": "<sight/installation:30mm_single>",
     "text": ["Installs onto a single-ring 30mm mount."]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<sight_mount/secondary_mount>",
+    "text": [
+      "Mounting a short-range sight with a medium-range sight allows for quicker aiming at both ranges without sacrificing performance of either sight."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<sight_mount/secondary_mount:alt>",
+    "text": [
+      "This enables usage of different sights for different distances, potentially making aiming quicker and more precise overall."
+    ]
   }
 ]
