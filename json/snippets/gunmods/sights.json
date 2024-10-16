@@ -29,6 +29,28 @@
 
   {
     "type": "snippet",
+    "category": "<sight/magnifier>",
+    "text": [
+      "Mounts behind a reflex or holographic sight, allowing the sight to be used at longer ranges."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<sight/magnifier/verbose:3x>",
+    "text": [
+      "This compact sight attaches in front of a present reflex or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at farther targets reliably, without changing sights."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<sight/magnifier/verbose:5x>",
+    "text": [
+      "This compact sight attaches in front of a present reflex or holographic sight, magnifying the sight picture by a factor of 5.  This allows you to aim at farther targets reliably, without changing sights."
+    ]
+  },
+
+  {
+    "type": "snippet",
     "category": "<sight/optical/magnification:low>",
     "text": ["Activate to set it to maximum magnification."]
   },
