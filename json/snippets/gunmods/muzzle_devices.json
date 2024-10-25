@@ -9,22 +9,16 @@
   {
     "type": "snippet",
     "category": "<muzzle/suppressor>",
+    "//": "for use only with generic suppressor descriptions",
     "text": [
       "The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle/suppressor/loudness>",
-    "text": [
-      "it reduces loudness of firing by a considerable amount, though far from muffling the sound completely"
-    ]
-  },
-  {
-    "type": "snippet",
     "category": "<muzzle/suppressor:short>",
     "text": [
-      "Being shorter than most suppressors, it cannot accept suppressor covers."
+      "Being shorter than most suppressors, it cannot accept standard-size suppressor covers."
     ]
   },
   {
