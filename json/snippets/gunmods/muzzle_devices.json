@@ -23,21 +23,21 @@
   },
   {
     "type": "snippet",
-    "category": "<muzzle/suppressor/direct_thread>",
+    "category": "<muzzle/suppressor/mount:thread>",
     "text": [
       "It mounts directly onto muzzle threading, without requiring an adapter."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle/suppressor/direct_thread:brake>",
+    "category": "<muzzle/suppressor/mount:brake>",
     "text": [
       "It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading."
     ]
   },
   {
     "type": "snippet",
-    "category": "<muzzle/suppressor/direct_thread:none>",
+    "category": "<muzzle/suppressor/mount:none>",
     "text": ["This one also cannot be mounted directly onto muzzle threading."]
   },
 
