@@ -76,6 +76,11 @@
   },
   {
     "type": "snippet",
+    "category": "<muzzle/rating:9mm>",
+    "text": ["This model is rated primarily for 9×19mm."]
+  },
+  {
+    "type": "snippet",
     "category": "<muzzle/rating:wide>",
     "text": [
       "This model is rated for a wide variety of common rifle cartridges."
