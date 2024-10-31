@@ -37,6 +37,13 @@
   },
   {
     "type": "snippet",
+    "category": "<muzzle/suppressor/mount:choke>",
+    "text": [
+      "It comes with an embedded choke that allows it to be installed directly onto muzzle threading."
+    ]
+  },
+  {
+    "type": "snippet",
     "category": "<muzzle/suppressor/mount:none>",
     "text": ["This one also cannot be mounted directly onto muzzle threading."]
   },
@@ -52,6 +59,14 @@
     "type": "snippet",
     "category": "<muzzle/suppressor_cover/length>",
     "text": ["It requires a suppressor of at least 7 in. in length."]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<muzzle/choke>",
+    "text": [
+      "Noticably reduces spread of shot, shaping it towards longer range and higher accuracy at the muzzle."
+    ]
   },
 
   {
