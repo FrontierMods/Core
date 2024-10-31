@@ -1,0 +1,32 @@
+[
+  {
+    "type": "snippet",
+    "category": "<underbarrel/bipod>",
+    "text": [
+      "It can be used to improve your aim while prone or standing against an obstacle of sufficient height, such as <mountables>."
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "category": "<underbarrel/bipod:stowed>",
+    "text": ["\n\nThe bipod is currently stowed.  Activate to deploy it."]
+  },
+  {
+    "type": "snippet",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "category": "<underbarrel/bipod:deployed>",
+    "text": [
+      "\n\nThe bipod is currently deployed and ready to use.  Activate to stow it."
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<underbarrel/bipod/bulk>",
+    "text": [
+      "Due to their added bulk and mass, some prefer to carry bipods separately, then attaching them to the gun in the field."
+    ]
+  }
+]
