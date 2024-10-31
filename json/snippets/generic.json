@@ -1,0 +1,29 @@
+[
+  {
+    "type": "snippet",
+    "category": "<mountables>",
+    "text": [
+      { "text": "window sills", "weight": 100 },
+      { "text": "chairs and benches", "weight": 100 },
+      { "text": "short walls", "weight": 100 },
+      { "text": "fences and railing", "weight": 100 },
+      { "text": "counters", "weight": 100 },
+      { "text": "beds and dressers", "weight": 100 },
+      { "text": "tables", "weight": 100 },
+
+      { "text": "safes and display stands", "weight": 10 },
+      { "text": "crates", "weight": 10 },
+      { "text": "sinks", "weight": 10 },
+      { "text": "large rocks", "weight": 10 },
+      { "text": "vehicle frames", "weight": 10 },
+
+      { "text": "large stacks of construction materials", "weight": 1 },
+      { "text": "trash cans", "weight": 1 },
+      { "text": "oversized egg sacs", "weight": 1 },
+      { "text": "treasure chests", "weight": 1 },
+      { "text": "laying coffins", "weight": 1 },
+      { "text": "headstones", "weight": 1 },
+      { "text": "rain gutters", "weight": 1 }
+    ]
+  }
+]
