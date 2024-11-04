@@ -107,5 +107,21 @@
         "use_item_group": true
       }
     ]
+  },
+  {
+    "id": "Core_debug_EOC_TEST_RANDOM",
+    "type": "effect_on_condition",
+
+    "effect": [
+      {
+        "math": [
+          "_random_result",
+          "=",
+          "random(num_input('Input minimum', 1), num_input('Input maximum', 100))"
+        ]
+      },
+      { "message": "The random value between the two numbers is:" },
+      { "message": { "context_val": "random_result" } }
+    ]
   }
 ]

@@ -11,5 +11,22 @@
     "//notes": ["returns -1 when input value is 0"],
 
     "return": "_0 > 0 ? 1 : -1"
+  },
+  {
+    "id": "random",
+    "type": "jmath_function",
+    "num_args": 2,
+
+    "//args": {
+      "0": "minimum (integer)",
+      "1": "maximum (integer)"
+    },
+
+    "//notes": [
+      "integer only",
+      ["maximum is inclusive", "i.e. random(1, 100) can return 100"]
+    ],
+
+    "return": "floor( rng( 0, 1 ) * ( floor( _1 ) - ceil( _0 ) + 1 ) + ceil( _0 ) )"
   }
 ]
