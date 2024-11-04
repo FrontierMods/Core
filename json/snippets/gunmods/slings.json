@@ -1,0 +1,31 @@
+[
+  {
+    "type": "snippet",
+    "category": "<sling/position:back>",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "text": [
+      "\n\nRight now, the sling is strapped onto your back.  Activate to move it to the front."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<sling/position:front>",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "text": [
+      "\n\nThe sling is currently hanging in front of you.  Activate to move it to the back."
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<sling/single:swiftness>",
+    "text": [
+      "Single-point slings are generally quicker to operate, even if wearing a gun on one isn't as comfortable."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<sling/double:comfort>",
+    "text": ["Two-point slings are more comfortable than single-point ones."]
+  }
+]
