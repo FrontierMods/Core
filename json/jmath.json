@@ -8,6 +8,8 @@
       "0": "any numerical value"
     },
 
-    "return": "_0 == 0 ? -1 : ( _0 > 0 ? 1 : -1 )"
+    "//notes": ["returns -1 when input value is 0"],
+
+    "return": "_0 > 0 ? 1 : -1"
   }
 ]
