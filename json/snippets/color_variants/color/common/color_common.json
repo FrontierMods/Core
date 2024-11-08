@@ -48,5 +48,10 @@
     "type": "snippet",
     "category": "<variant:steel>",
     "text": ["This one is steely grey."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:brown>",
+    "text": ["This one is dark brown."]
   }
 ]

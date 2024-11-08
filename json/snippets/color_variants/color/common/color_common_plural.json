@@ -48,5 +48,10 @@
     "type": "snippet",
     "category": "<variant:steel/plural>",
     "text": ["These ones are the color of steel."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:brown/plural>",
+    "text": ["These ones are dark brown."]
   }
 ]
