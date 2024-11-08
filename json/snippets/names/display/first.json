@@ -1,0 +1,79 @@
+[
+  {
+    "type": "snippet",
+    "category": "<name/display/first:female>",
+    "text": [
+      {
+        "text": "<female_given_name>",
+        "weight": 100
+      },
+
+      {
+        "text": "<female_given_name> <name/initial:raw>",
+        "weight": 50
+      },
+
+      {
+        "text": "<name/initial:raw> <name/initial:raw>",
+        "weight": 10
+      },
+      {
+        "text": "<name/initial:raw><name/initial:raw>",
+        "weight": 10
+      },
+      {
+        "text": "<name/initial:raw> <female_given_name>",
+        "weight": 10
+      },
+
+      {
+        "text": "<female_given_name><name/separator><female_given_name>",
+        "weight": 5
+      },
+
+      {
+        "text": "<female_given_name> <name/initial:raw> <name/initial:raw>",
+        "weight": 1
+      }
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<name/display/first:male>",
+    "text": [
+      {
+        "text": "<male_given_name>",
+        "weight": 100
+      },
+
+      {
+        "text": "<male_given_name> <name/initial:raw>",
+        "weight": 50
+      },
+
+      {
+        "text": "<name/initial:raw> <name/initial:raw>",
+        "weight": 10
+      },
+      {
+        "text": "<name/initial:raw><name/initial:raw>",
+        "weight": 10
+      },
+      {
+        "text": "<name/initial:raw> <male_given_name>",
+        "weight": 10
+      },
+
+      {
+        "text": "<male_given_name><name/separator><male_given_name>",
+        "weight": 5
+      },
+
+      {
+        "text": "<male_given_name> <name/initial:raw> <name/initial:raw>",
+        "weight": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "type": "snippet",
+    "category": "<name/military/full>",
+    "text": [{ "text": "<name/military/full/army>" }]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<name/military/full/army>",
+    "text": [
+      { "text": "<name/military/full/army:female>" },
+      { "text": "<name/military/full/army:male>" }
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<name/military/full/army:female>",
+    "text": [
+      {
+        "text": "<rank/military:army> <name/military/first:female> <name/military/last>",
+        "weight": 100
+      },
+
+      {
+        "text": "<rank/military:army> <name/initial> <name/military/last>",
+        "weight": 50
+      },
+      {
+        "text": "<rank/military:army> <name/initial:raw> <name/military/last>",
+        "weight": 50
+      },
+
+      {
+        "text": "<rank/military:army> <nick_name> <name/military/last>",
+        "weight": 25
+      },
+
+      {
+        "text": "<rank/military:army> <name/military/first:female> \"<nick_name>\" <name/military/last>",
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/military/full/army:male>",
+    "text": [
+      {
+        "text": "<rank/military:army> <name/military/first:male> <name/military/last>",
+        "weight": 100
+      },
+
+      {
+        "text": "<rank/military:army> <name/initial> <name/military/last>",
+        "weight": 50
+      },
+      {
+        "text": "<rank/military:army> <name/initial:raw> <name/military/last>",
+        "weight": 50
+      },
+
+      {
+        "text": "<rank/military:army> <nick_name> <name/military/last>",
+        "weight": 25
+      },
+
+      {
+        "text": "<rank/military:army> <name/military/first:male> \"<nick_name>\" <name/military/last>",
+        "weight": 5
+      }
+    ]
+  }
+]

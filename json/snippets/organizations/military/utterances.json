@@ -1,0 +1,13 @@
+[
+  {
+    "type": "snippet",
+    "category": "<utterance/military>",
+    "text": [{ "text": "<utterance/military:marines>" }]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<utterance/military:marines>",
+    "text": [{ "text": "Semper Fi" }]
+  }
+]

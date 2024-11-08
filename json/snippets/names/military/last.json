@@ -1,0 +1,21 @@
+[
+  {
+    "type": "snippet",
+    "category": "<name/military/last>",
+    "text": [
+      {
+        "text": "<family_name>",
+        "weight": 100
+      },
+
+      {
+        "text": "<name/initial>",
+        "weight": 50
+      },
+      {
+        "text": "<name/initial:raw>",
+        "weight": 50
+      }
+    ]
+  }
+]

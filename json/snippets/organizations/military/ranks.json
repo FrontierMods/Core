@@ -1,0 +1,43 @@
+[
+  {
+    "type": "snippet",
+    "category": "<rank/military>",
+    "text": [{ "text": "<rank/military:army>" }]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<rank/military:army>",
+    "//": "we're ignoring special ranks between Commander Sergeant Major and warrant officers because of how rare they're likely to be at the end of the world",
+    "text": [
+      "GEN",
+      "LTG",
+      "MG",
+      "BG",
+      "COL",
+      "LTC",
+      "MAJ",
+      "CPT",
+      "1LT",
+      "2LT",
+
+      "CW5",
+      "CW4",
+      "CW3",
+      "CW2",
+      "WO1",
+
+      "CSM",
+      "SGM",
+      "1SG",
+      "MSG",
+      "SFC",
+      "SSG",
+      "SGT",
+      "CPL",
+      "SPC",
+      "PFC",
+      "PVT"
+    ]
+  }
+]
