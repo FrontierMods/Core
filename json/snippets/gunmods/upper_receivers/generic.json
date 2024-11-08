@@ -1,0 +1,28 @@
+[
+  {
+    "type": "snippet",
+    "category": "<upper_receiver>",
+    "text": [
+      "Consists of a barrel, a bolt carrier group, and a handguard, all of which enable the use of the rifle as one would expect to."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/caliber:556>",
+    "text": ["This upper receiver is chambered in 5.56mm NATO/.223 Remington."]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/barrel:16>",
+    "text": [
+      "The barrel is 16 inches long, and is often used for long-range shooting, though it can just as easily be used against closer targets."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/barrel:20>",
+    "text": [
+      "The barrel is 20 inches long, and is often used for long-range shooting, though it can also be used against closer targets."
+    ]
+  }
+]
