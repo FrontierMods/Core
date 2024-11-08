@@ -123,5 +123,11 @@
       { "message": "The random value between the two numbers is:" },
       { "message": { "context_val": "random_result" } }
     ]
+  },
+  {
+    "id": "Core_debug_EOC_TEST_NAMES",
+    "type": "effect_on_condition",
+
+    "effect": [{ "message": "<name:maybe>", "snippet": true }]
   }
 ]

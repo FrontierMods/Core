@@ -1,0 +1,21 @@
+[
+  {
+    "type": "snippet",
+    "category": "<name/legal/full>",
+    "text": [
+      { "text": "<name/legal/full:female>" },
+      { "text": "<name/legal/full:male>" }
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<name/legal/full:female>",
+    "text": [{ "text": "<name/legal/first:female> <name/legal/last>" }]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/legal/full:male>",
+    "text": [{ "text": "<name/legal/first:male> <name/legal/last>" }]
+  }
+]

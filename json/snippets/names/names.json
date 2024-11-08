@@ -1,0 +1,74 @@
+[
+  {
+    "type": "snippet",
+    "category": "<name/unofficial>",
+    "//": "for random items found anywhere, excluding names undersigning official documents and similar epistolary",
+    "text": [
+      {
+        "text": "<name/display/full>",
+        "weight": 10
+      },
+      {
+        "text": "<name/military/full>",
+        "weight": 10
+      },
+      {
+        "text": "<name/legal/full>",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/unofficial:maybe>",
+    "//": "for random items found anywhere, excluding names undersigning official documents and similar epistolary",
+    "text": [
+      {
+        "text": "<name/display:maybe>",
+        "weight": 10
+      },
+      {
+        "text": "<name/military:maybe>",
+        "weight": 10
+      },
+      {
+        "text": "<name/legal:maybe>",
+        "weight": 1
+      }
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<name/legal:maybe>",
+    "text": [
+      { "text": "", "weight": 3 },
+      {
+        "text": "<name/legal/full>",
+        "weight": 7
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/display:maybe>",
+    "text": [
+      { "text": "", "weight": 3 },
+      {
+        "text": "<name/display/full>",
+        "weight": 7
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/military:maybe>",
+    "text": [
+      { "text": "", "weight": 3 },
+      {
+        "text": "<name/military/full>",
+        "weight": 7
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "type": "snippet",
+    "category": "<name/display/full>",
+    "text": [
+      { "text": "<name/display/full:female>" },
+      { "text": "<name/display/full:male>" }
+    ]
+  },
+
+  {
+    "type": "snippet",
+    "category": "<name/display/full:female>",
+    "text": [
+      { "text": "<name/display/first:female> <name/display/last>" },
+      { "text": "<name/display/first:female>" },
+
+      { "text": "<nick_name>" },
+      { "text": "<nick_name> <name/initial>" },
+      { "text": "<nick_name> <name/initial:raw>" },
+      { "text": "<nick_name> <name/display/last>" }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/display/full:male>",
+    "text": [
+      { "text": "<name/display/first:male> <name/display/last>" },
+      { "text": "<name/display/first:male>" },
+
+      { "text": "<nick_name>" },
+      { "text": "<nick_name> <name/initial>" },
+      { "text": "<nick_name> <name/initial:raw>" },
+      { "text": "<nick_name> <name/display/last>" }
+    ]
+  }
+]
