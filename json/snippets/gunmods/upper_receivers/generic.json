@@ -11,6 +11,21 @@
     "category": "<upper_receiver/caliber:556>",
     "text": ["This upper receiver is chambered in 5.56mm NATO/.223 Remington."]
   },
+
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/barrel:10.3>",
+    "text": [
+      "The barrel is 10.3 inches long, and is mainly used for firefights in an enclosed environment, where barrel length starts to matter a lot.  It is unlikely to be very accurate over long distances."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/barrel:14.5>",
+    "text": [
+      "The barrel is 14.5 inches long, and is usually used for short- and medium-range shooting, though it could be used against long-range targets in a pinch."
+    ]
+  },
   {
     "type": "snippet",
     "category": "<upper_receiver/barrel:16>",
