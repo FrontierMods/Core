@@ -1,0 +1,14 @@
+[
+  {
+    "type": "snippet",
+    "category": "<stock/position:folded>",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "text": ["\n\nRight now, the stock is folded.  Activate to extend it."]
+  },
+  {
+    "type": "snippet",
+    "category": "<stock/position:unfolded>",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "text": ["\n\nThe stock is currently extended.  Activate to fold it."]
+  }
+]
