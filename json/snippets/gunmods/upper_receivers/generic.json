@@ -6,10 +6,33 @@
       "Consists of a barrel, a bolt carrier group, and a handguard, all of which enable the use of the rifle as one would expect to."
     ]
   },
+
   {
     "type": "snippet",
     "category": "<upper_receiver/caliber:556>",
     "text": ["This upper receiver is chambered in 5.56mm NATO/.223 Remington."]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/caliber:300blk>",
+    "text": ["This upper receiver is chambered in .300 Blackout."]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/caliber:762x39>",
+    "text": [
+      "This upper receiver is chambered in the rare 7.62×39mm caliber of Soviet origin."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/caliber:450>",
+    "text": ["This upper receiver is chambered in .450 Bushmaster."]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/caliber:50beowulf>",
+    "text": ["This upper receiver is chambered in .50 Beowulf."]
   },
 
   {
@@ -17,6 +40,13 @@
     "category": "<upper_receiver/barrel:10.3>",
     "text": [
       "The barrel is 10.3 inches long, and is mainly used for firefights in an enclosed environment, where barrel length starts to matter a lot.  It is unlikely to be very accurate over long distances."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/barrel:10.5>",
+    "text": [
+      "The barrel is 10.5 inches long, and is mainly used for firefights in an enclosed environment, where barrel length starts to matter a lot.  It is unlikely to be very accurate over long distances."
     ]
   },
   {
@@ -31,6 +61,13 @@
     "category": "<upper_receiver/barrel:16>",
     "text": [
       "The barrel is 16 inches long, and is often used for long-range shooting, though it can just as easily be used against closer targets."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<upper_receiver/barrel:18>",
+    "text": [
+      "The barrel is 18 inches long, and is often used for long-range shooting, though it can just as easily be used against closer targets."
     ]
   },
   {
