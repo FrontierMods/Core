@@ -13,6 +13,10 @@
         "weight": 10
       },
       {
+        "text": "<name/military/full:raw>",
+        "weight": 10
+      },
+      {
         "text": "<name/legal/full>",
         "weight": 1
       }
@@ -67,6 +71,10 @@
       { "text": "", "weight": 3 },
       {
         "text": "<name/military/full>",
+        "weight": 7
+      },
+      {
+        "text": "<name/military/full:raw>",
         "weight": 7
       }
     ]

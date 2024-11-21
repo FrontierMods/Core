@@ -4,6 +4,11 @@
     "category": "<name/military/full>",
     "text": [{ "text": "<name/military/full/army>" }]
   },
+  {
+    "type": "snippet",
+    "category": "<name/military/full:raw>",
+    "text": [{ "text": "<name/military/full/army:raw>" }]
+  },
 
   {
     "type": "snippet",
@@ -11,6 +16,14 @@
     "text": [
       { "text": "<name/military/full/army:female>" },
       { "text": "<name/military/full/army:male>" }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/military/full/army:raw>",
+    "text": [
+      { "text": "<name/military/full/army:female/raw>" },
+      { "text": "<name/military/full/army:male/raw>" }
     ]
   },
 
@@ -39,10 +52,40 @@
 
       {
         "text": "<rank/military:army> <name/military/first:female> \"<nick_name>\" <name/military/last>",
-        "weight": 5
+        "weight": 1
       }
     ]
   },
+  {
+    "type": "snippet",
+    "category": "<name/military/full/army:female/raw>",
+    "text": [
+      {
+        "text": "<rank/military:army/raw> <name/military/first:female> <name/military/last>",
+        "weight": 20
+      },
+
+      {
+        "text": "<rank/military:army/raw> <name/initial> <name/military/last>",
+        "weight": 10
+      },
+      {
+        "text": "<rank/military:army/raw> <name/initial:raw> <name/military/last>",
+        "weight": 10
+      },
+
+      {
+        "text": "<rank/military:army/raw> <nick_name> <name/military/last>",
+        "weight": 5
+      },
+
+      {
+        "text": "<rank/military:army/raw> <name/military/first:female> \"<nick_name>\" <name/military/last>",
+        "weight": 1
+      }
+    ]
+  },
+
   {
     "type": "snippet",
     "category": "<name/military/full/army:male>",
@@ -68,7 +111,36 @@
 
       {
         "text": "<rank/military:army> <name/military/first:male> \"<nick_name>\" <name/military/last>",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "<name/military/full/army:male/raw>",
+    "text": [
+      {
+        "text": "<rank/military:army/raw> <name/military/first:male> <name/military/last>",
+        "weight": 20
+      },
+
+      {
+        "text": "<rank/military:army/raw> <name/initial> <name/military/last>",
+        "weight": 10
+      },
+      {
+        "text": "<rank/military:army/raw> <name/initial:raw> <name/military/last>",
+        "weight": 10
+      },
+
+      {
+        "text": "<rank/military:army/raw> <nick_name> <name/military/last>",
         "weight": 5
+      },
+
+      {
+        "text": "<rank/military:army/raw> <name/military/first:male> \"<nick_name>\" <name/military/last>",
+        "weight": 1
       }
     ]
   }
