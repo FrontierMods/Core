@@ -5,16 +5,16 @@
     "text": [
       {
         "text": "<family_name>",
-        "weight": 100
+        "weight": 5
       },
 
       {
         "text": "<name/initial>",
-        "weight": 50
+        "weight": 1
       },
       {
         "text": "<name/initial:raw>",
-        "weight": 50
+        "weight": 1
       }
     ]
   }
