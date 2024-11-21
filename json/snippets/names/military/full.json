@@ -20,21 +20,21 @@
     "text": [
       {
         "text": "<rank/military:army> <name/military/first:female> <name/military/last>",
-        "weight": 100
+        "weight": 20
       },
 
       {
         "text": "<rank/military:army> <name/initial> <name/military/last>",
-        "weight": 50
+        "weight": 10
       },
       {
         "text": "<rank/military:army> <name/initial:raw> <name/military/last>",
-        "weight": 50
+        "weight": 10
       },
 
       {
         "text": "<rank/military:army> <nick_name> <name/military/last>",
-        "weight": 25
+        "weight": 5
       },
 
       {
@@ -49,21 +49,21 @@
     "text": [
       {
         "text": "<rank/military:army> <name/military/first:male> <name/military/last>",
-        "weight": 100
+        "weight": 20
       },
 
       {
         "text": "<rank/military:army> <name/initial> <name/military/last>",
-        "weight": 50
+        "weight": 10
       },
       {
         "text": "<rank/military:army> <name/initial:raw> <name/military/last>",
-        "weight": 50
+        "weight": 10
       },
 
       {
         "text": "<rank/military:army> <nick_name> <name/military/last>",
-        "weight": 25
+        "weight": 5
       },
 
       {
