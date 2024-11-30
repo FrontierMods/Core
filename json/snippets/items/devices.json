@@ -1,0 +1,18 @@
+[
+  {
+    "type": "snippet",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "category": "<devices/power_banks:off>",
+    "text": [
+      "\n\nIt is currently off.  Activate to turn it on and use its charging mechanism."
+    ]
+  },
+  {
+    "type": "snippet",
+    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
+    "category": "<devices/power_banks:on>",
+    "text": [
+      "\n\nIt is currently on, charging devices with the UPS interface.  Activate to turn it off, preventing it from outputting stored energy."
+    ]
+  }
+]
