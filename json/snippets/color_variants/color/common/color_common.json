@@ -6,6 +6,16 @@
   },
   {
     "type": "snippet",
+    "category": "<variant:white>",
+    "text": ["This one is all white."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:offwhite>",
+    "text": ["This one is a shade darker than white."]
+  },
+  {
+    "type": "snippet",
     "category": "<variant:coyote>",
     "text": ["This one is colored coyote brown."]
   },
@@ -43,6 +53,31 @@
     "type": "snippet",
     "category": "<variant:red>",
     "text": ["This one is colored bright red."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:pink>",
+    "text": ["This one is all pink."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:blue>",
+    "text": ["This one is in blue."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:blue/light>",
+    "text": ["This one is light blue."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:green>",
+    "text": ["This one is in green."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:green/light>",
+    "text": ["This one is light green."]
   },
   {
     "type": "snippet",
