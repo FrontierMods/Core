@@ -6,6 +6,16 @@
   },
   {
     "type": "snippet",
+    "category": "<variant:white/plural>",
+    "text": ["These ones are all white."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:offwhite/plural>",
+    "text": ["These ones are a shade darker than white."]
+  },
+  {
+    "type": "snippet",
     "category": "<variant:coyote/plural>",
     "text": ["These ones are colored coyote brown."]
   },
@@ -43,6 +53,31 @@
     "type": "snippet",
     "category": "<variant:red/plural>",
     "text": ["These ones are colored bright red."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:pink/plural>",
+    "text": ["These ones are all pink."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:blue/plural>",
+    "text": ["These ones are in blue."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:blue/light/plural>",
+    "text": ["These ones are light blue."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:green/plural>",
+    "text": ["These ones are in green."]
+  },
+  {
+    "type": "snippet",
+    "category": "<variant:green/light/plural>",
+    "text": ["These ones are light green."]
   },
   {
     "type": "snippet",
