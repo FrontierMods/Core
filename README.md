@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Jun 13, 2024_
+_last updated: Dec 03, 2024_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -16,7 +16,7 @@ Frontier Mods also hosts [a blog](https://github.com/FrontierMods/Blog) and [a d
 
 The mods are designed to be compatible with the latest stable release only.
 
-Current version supported: **0.H**. (Though 0.H hasn't yet been released, we treat it as though it's stable-enough to mod for. We do not anticipate large changes to the feature set of the base game after the full release of 0.H.)
+Current version supported: **0.H**.
 
 # Frontier Core
 
@@ -44,16 +44,18 @@ Extra mods may be absorbed into main Frontier mods later.
 
 # List of Mods
 
-_crossed-out features are currently unavailable but are planned / intended_
+_crossed-out features are currently unavailable but are planned_
 
-## Current
+_mods may move in and out of focus at random intervals_
+
+## In Focus
+
+_these mods are receiving the most attention at this moment_
 
 - **[Armory](https://github.com/FrontierMods/Armory)**:
 
-  - revamps existing military and military-adjacent equipment
-  - expands on gear modularity by adding attachment points and equipment that uses them
-  - adds a variety of real-life combat gear
-  - ~~overhauls the PALS/MOLLE system~~
+  - adds a variety of real-life military gear
+  - significantly expands tactical gear modularity
   - ~~adds decoration options for military and civilian clothing~~
 
 - **[Loadout](https://github.com/FrontierMods/Loadout)**:
@@ -62,6 +64,27 @@ _crossed-out features are currently unavailable but are planned / intended_
   - overhauls existing attachments to specific models, with their own limitations
   - adds a handful of improvised attachments
   - ~~enhances magazines and add magazine modding~~
+
+- **[Recharge](https://github.com/FrontierMods/Recharge)**:
+
+  - adds extra options for portable energy storage
+  - ~~overhauls energy supply, storage, and demand values for tools, automotive components, personal devices, and more~~
+  - ~~expands battery types and sizes~~
+  - ~~replaces generic batteries with device-appropriate variants~~
+
+## Out of Focus
+
+_no changes to these mods are expected at this time, but they are not abandoned and may be focused again in the future_
+
+- **[Dapper](https://github.com/FrontierMods/Dapper)**:
+
+  - revamps existing clothing
+  - expands the clothing and accessory options available to the player
+  - adds a variety of civilian storage options (backpacks, fanny packs etc.)
+
+- **[Comforts](https://github.com/FrontierMods/Comforts)**:
+
+  - adds a variety of common personal items to enrich and flourish one's survival
 
 - **[Remedy](https://github.com/FrontierMods/Remedy)**:
 
@@ -75,40 +98,11 @@ _crossed-out features are currently unavailable but are planned / intended_
   - allows crafting custom rounds using the new components
   - ~~introduces new calibers~~
 
-- ~~[Forma](https://github.com/FrontierMods/Forma)~~:
-
-  - revamps select mutations tree and paths to acquiring the mutations
-  - models potential health effects while undergoing mutations changed by the mod
-
-## Extra
-
-- **[Weight](https://github.com/FrontierModsExtra/Weight)**: makes carried weight directly affect stamina expenditure and fatigue buildup
-- **[Playing Cards](https://github.com/FrontierModsExtra/PlayingCards)**: adds collectable enchanted playing cards to the world, each card with its own effect
-- **[Hellfire](https://github.com/FrontierModsExtra/Hellfire)**: adds the ability to call airstrikes on a designated target, provided you can find the rare military tablet with access to the drone
-- **[Bullseye](https://github.com/FrontierModsExtra/Bullseye)**: unbalanced mod that makes every ranged weapon hit perfectly on every shot
-- **[Proficiencies](https://github.com/FrontierModsExtra/Proficiencies)** `[WIP]`: adds _Escape from Tarkov_-style firearm proficiencies, separated by platform (like in _Tarkov_)
-
-## Near Future
-
-_within six months since the last edit_
-
-- ~~**[Gunstore](https://github.com/FrontierMods/Gunstore)**~~:
+- ~~[Gunstore](https://github.com/FrontierMods/Gunstore)~~:
 
   - reimplements guns as distinct, separate objects, while following the latest base-game trends (like modular AR-15 rifles)
   - adjusts each gun to have realistic gun slots, and adds some of the basic attachments to make outfitting a gun realistic
   - models replaceable gun attachments (like AR-15-style stocks) as default gunmods, allowing their replacement by the player
-
-## Far Future
-
-- **[Dapper](https://github.com/FrontierMods/Dapper)**:
-
-  - revamps existing clothing
-  - expands the clothing and accessory options available to the player
-  - adds a variety of civilian storage options (backpacks, fanny packs etc.)
-
-- **[Comforts](https://github.com/FrontierMods/Comforts)**:
-
-  - adds a variety of common personal items to enrich and flourish one's survival
 
 - ~~[Computation](https://github.com/FrontierMods/Computation)~~:
 
@@ -129,16 +123,23 @@ _within six months since the last edit_
 
   - adds equipment for survival and nomad lifestyle
 
-- ~~[Recharge](https://github.com/FrontierMods/Recharge)~~:
-
-  - overhauls energy supply, storage, and demand values for tools, automotive components, personal devices, and more
-  - expands battery types and sizes
-  - replaces generic batteries with device-appropriate variants
-
 - ~~[Synthesis](https://github.com/FrontierMods/Synthesis)~~ (name pending):
 
   - revamps existing bionics
   - adds a set of new and advanced bionics
+
+- ~~[Forma](https://github.com/FrontierMods/Forma)~~:
+
+  - revamps select mutations tree and paths to acquiring the mutations
+  - models potential health effects while undergoing mutations changed by the mod
+
+## Extra
+
+- **[Weight](https://github.com/FrontierModsExtra/Weight)**: makes carried weight directly affect stamina expenditure and fatigue buildup
+- **[Playing Cards](https://github.com/FrontierModsExtra/PlayingCards)**: adds collectable enchanted playing cards to the world, each card with its own effect
+- **[Hellfire](https://github.com/FrontierModsExtra/Hellfire)**: adds the ability to call airstrikes on a designated target, provided you can find the rare military tablet with access to the drone
+- **[Bullseye](https://github.com/FrontierModsExtra/Bullseye)**: unbalanced mod that makes every ranged weapon hit (almost) perfectly on every shot
+- **[Proficiencies](https://github.com/FrontierModsExtra/Proficiencies)** `[WIP]`: adds _Escape from Tarkov_-style firearm proficiencies, separated by platform
 
 ## Archived
 
@@ -173,3 +174,4 @@ Supporter suggestions are tracked in [this table](https://docs.google.com/spread
 ### 30 €
 
 - Crow
+- G4R5vb5r3H ×2
