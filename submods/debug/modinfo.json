@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "frontier/core:debug",
+
+    "name": "Core: Debug",
+    "description": "Automatically enables debug mode on the character, giving them a set of debug traits",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "balance",
+
+    "dependencies": ["dda"],
+
+    "path": "json"
+  }
+]
