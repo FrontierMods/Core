@@ -129,5 +129,18 @@
     "type": "effect_on_condition",
 
     "effect": [{ "message": "<name:maybe>", "snippet": true }]
+  },
+  {
+    "id": "Core_debug_EOC_GIVE_DEBUG_TRAITS",
+    "type": "effect_on_condition",
+
+    "effect": [
+      { "u_add_trait": "DEBUG_LS" },
+      { "u_add_trait": "DEBUG_NOTEMP" },
+      { "u_add_trait": "DEBUG_CLOAK" },
+      { "u_add_trait": "DEBUG_NODMG" },
+      { "u_add_trait": "DEBUG_SILENT" },
+      { "u_add_trait": "DEBUG_NOSCENT" }
+    ]
   }
 ]

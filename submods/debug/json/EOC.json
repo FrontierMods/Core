@@ -1,0 +1,10 @@
+[
+  {
+    "id": "EOC/Core/INITIATE_DEBUG_MODE",
+    "type": "effect_on_condition",
+    "eoc_type": "EVENT",
+    "required_event": "game_begin",
+
+    "effect": [{ "run_eocs": ["Core_debug_EOC_GIVE_DEBUG_TRAITS"] }]
+  }
+]
