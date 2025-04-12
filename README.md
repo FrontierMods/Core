@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Dec 03, 2024_
+_last updated: Apr 12, 2025_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -65,13 +65,6 @@ _these mods are receiving the most attention at this moment_
   - adds a handful of improvised attachments
   - ~~enhances magazines and add magazine modding~~
 
-- **[Recharge](https://github.com/FrontierMods/Recharge)**:
-
-  - adds extra options for portable energy storage
-  - ~~overhauls energy supply, storage, and demand values for tools, automotive components, personal devices, and more~~
-  - ~~expands battery types and sizes~~
-  - ~~replaces generic batteries with device-appropriate variants~~
-
 ## Out of Focus
 
 _no changes to these mods are expected at this time, but they are not abandoned and may be focused again in the future_
@@ -97,6 +90,13 @@ _no changes to these mods are expected at this time, but they are not abandoned 
   - revamps cartridge components into distinct items
   - allows crafting custom rounds using the new components
   - ~~introduces new calibers~~
+
+- **[Recharge](https://github.com/FrontierMods/Recharge)**:
+
+  - adds extra options for portable energy storage
+  - ~~overhauls energy supply, storage, and demand values for tools, automotive components, personal devices, and more~~
+  - ~~expands battery types and sizes~~
+  - ~~replaces generic batteries with device-appropriate variants~~
 
 - ~~[Gunstore](https://github.com/FrontierMods/Gunstore)~~:
 
