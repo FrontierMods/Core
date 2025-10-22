@@ -2,7 +2,8 @@
   {
     "id": "screwdriver",
     "copy-from": "screwdriver",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": ["TOOL"],
 
     "name": {
       "str": "screwdriver"
