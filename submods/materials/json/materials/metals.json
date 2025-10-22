@@ -126,5 +126,22 @@
 
     "bash_dmg_verb": "dented",
     "cut_dmg_verb": "scratched"
+  },
+  {
+    "id": "palladium",
+    "copy-from": "copper",
+    "type": "material",
+
+    "//sources": [
+      "https://periodictable.com/Elements/046/data.html",
+      "https://www.matweb.com/search/DataSheet.aspx?MatGUID=5cab8ad368a44544affae0b71f967b3d"
+    ],
+
+    "name": "Palladium",
+
+    "density": 12.023,
+    "specific_heat_liquid": 0.24,
+    "specific_heat_solid": 0.24,
+    "latent_heat": 17.6
   }
 ]
