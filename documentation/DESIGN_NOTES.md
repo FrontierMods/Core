@@ -56,7 +56,7 @@ Absolutely. The licensing of all Frontier Mods had been chosen in order to enabl
 
 ### Firearm lengths
 
-By default, _DDA_ uses ferret length (length between two farthest points of an object) for its `longest_side` dimension of firearms. While it's undoubtably a valuable number to have, it doesn't work well when the goal is to model holsters – and their capacity – realistically, such as with Armory.
+By default, _DDA_ uses Ferret length (length between two farthest points of an object) for its `longest_side` dimension of firearms. While it's undoubtably a valuable number to have, it doesn't work well when the goal is to model holsters – and their capacity – realistically, such as with Armory.
 
 Many of the modern holsters are designed for specific models of pistols. Those that aren't, often have restrictions on what length of pistol they accept. This is usually due to the design of the holster, with retention mechanisms that rely on latching over the back of the pistol's slide. A more-accepting holster's being loose enough to accomodate a variety of pistols also means there's space for the pistol to wiggle about; without a retention strap keeping it in place, it could move to an uncomfortable position (making the draw clumsy) or, worse, find a way out of the holster during a stressful situation.
 
