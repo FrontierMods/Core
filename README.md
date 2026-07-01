@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Apr 12, 2025_
+_last updated: Jul 1, 2026_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -10,13 +10,11 @@ _DDA_'s engine does not allow adding extensive functionality via mods; it does, 
 
 Implenenting author-driven expansion of content – independently of (though sometimes in line with) the goals of the base game – is the foundation of Frontier Mods.
 
-Frontier Mods also hosts [a blog](https://github.com/FrontierMods/Blog) and [a design document](https://github.com/FrontierMods/Design). Subscribe to those to stay in touch with the development of the mods.
-
 ## Game Version Support
 
 The mods are designed to be compatible with the latest stable release only.
 
-Current version supported: **0.H**.
+Current version supported: **0.I**.
 
 # Frontier Core
 
@@ -63,7 +61,12 @@ _these mods are receiving the most attention at this moment_
   - adds a variety of real-life firearm attachments
   - overhauls existing attachments to specific models, with their own limitations
   - adds a handful of improvised attachments
-  - ~~enhances magazines and add magazine modding~~
+  - enhances magazines and add magazine modding
+
+- **[Remedy](https://github.com/FrontierMods/Remedy)**:
+
+  - revamps the medical system
+  - adds new health effects and treatment tools
 
 ## Out of Focus
 
@@ -78,11 +81,6 @@ _no changes to these mods are expected at this time, but they are not abandoned 
 - **[Comforts](https://github.com/FrontierMods/Comforts)**:
 
   - adds a variety of common personal items to enrich and flourish one's survival
-
-- **[Remedy](https://github.com/FrontierMods/Remedy)**:
-
-  - revamps the medical system
-  - adds new health effects and treatment tools
 
 - **[Handload](https://github.com/FrontierMods/Handload)**:
 
@@ -175,3 +173,7 @@ Supporter suggestions are tracked in [this table](https://docs.google.com/spread
 
 - Crow
 - G4R5vb5r3H ×2
+
+## License
+
+MIT
