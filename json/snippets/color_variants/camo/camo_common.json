@@ -34,11 +34,12 @@
       "This one is decorated with the white multicam pattern, for when your target is the at top of Everest."
     ]
   },
-
   {
     "type": "snippet",
     "category": "<variant:woodland>",
-    "text": ["This one is covered with the woodland pattern."]
+    "text": [
+      "This one is covered with the woodland pattern."
+    ]
   },
   {
     "type": "snippet",

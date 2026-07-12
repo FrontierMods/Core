@@ -6,7 +6,6 @@
       "These ones are fashioned in multicam, a commercial camouflage similar to the OCP used by the U.S. Armed Forces."
     ]
   },
-
   {
     "type": "snippet",
     "category": "<variant:multicam_black/plural>",
@@ -35,11 +34,12 @@
       "These ones are decorated with the white multicam pattern, for when your target is the at top of Everest."
     ]
   },
-
   {
     "type": "snippet",
     "category": "<variant:woodland/plural>",
-    "text": ["These ones are covered in the woodland camouflage pattern."]
+    "text": [
+      "These ones are covered in the woodland camouflage pattern."
+    ]
   },
   {
     "type": "snippet",

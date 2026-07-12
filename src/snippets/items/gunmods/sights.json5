@@ -1,0 +1,93 @@
+[
+  {
+    type: "snippet",
+    category: "<sight/offset/foldable>",
+    text: ["A pair of offset iron sights that could be flipped down."],
+  },
+  {
+    type: "snippet",
+    category: "<sight/offset/foldable:inline>",
+    text: [
+      "A pair of offset iron sights that could be flipped down or inline, to make them behave more like regular iron sights.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<sight/offset>",
+    text: ["Offset iron sights can be used alongside other sights and scopes."],
+  },
+
+  {
+    type: "snippet",
+    category: "<sight/holographic>",
+    text: [
+      "A sight which uses a holographic reticle illuminated by an internal laser, allowing for rapid aim without requiring perfect eye positioning.",
+    ],
+  },
+
+  {
+    type: "snippet",
+    category: "<sight/magnifier>",
+    text: [
+      "Mounts behind a reflex or holographic sight, allowing the sight to be used at longer ranges.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<sight/magnifier/verbose:3x>",
+    text: [
+      "This compact sight attaches in front of a present reflex or holographic sight, magnifying the sight picture by a factor of 3.  This allows you to aim at farther targets reliably, without changing sights.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<sight/magnifier/verbose:5x>",
+    text: [
+      "This compact sight attaches in front of a present reflex or holographic sight, magnifying the sight picture by a factor of 5.  This allows you to aim at farther targets reliably, without changing sights.",
+    ],
+  },
+
+  {
+    type: "snippet",
+    category: "<sight/optical/magnification:low>",
+    text: ["Activate to set it to maximum magnification."],
+  },
+  {
+    type: "snippet",
+    category: "<sight/optical/magnification:high>",
+    text: [
+      "It is currently set to maximum magnification.  Activate to set it back to base magnification.",
+    ],
+  },
+
+  {
+    type: "snippet",
+    category: "<sight/installation:picatinny>",
+    text: ["Installs directly onto the sight rail."],
+  },
+  {
+    type: "snippet",
+    category: "<sight/installation:picatinny/embedded_mount>",
+    text: ["Installs directly onto Picatinny rail with an embedded mount."],
+  },
+  {
+    type: "snippet",
+    category: "<sight/installation:30mm_single>",
+    text: ["Installs onto a single-ring 30mm mount."],
+  },
+
+  {
+    type: "snippet",
+    category: "<sight_mount/secondary_mount>",
+    text: [
+      "Mounting a short-range sight with a medium-range sight allows for quicker aiming at both ranges without sacrificing performance of either sight.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<sight_mount/secondary_mount:alt>",
+    text: [
+      "This enables usage of different sights for different distances, potentially making aiming quicker and more precise overall.",
+    ],
+  },
+]

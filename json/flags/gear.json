@@ -5,21 +5,18 @@
     "info": "This item can be <good>attached</good> to tactical gear via <info>QASM interface</info>.",
     "restriction": "Item must be QASM-capable"
   },
-
   {
     "id": "MULTI_DOT_ATTACH",
     "type": "json_flag",
     "info": "This item can be <good>attached</good> to <info>Multi-Dot panels</info>.",
     "restriction": "Item must be compatible with the Multi-Dot interface"
   },
-
   {
     "id": "MOLLE_ATTACH_BACK",
     "type": "json_flag",
     "info": "This item can be <good>attached</good> to <info>PALS webbing on the back</info>.",
     "restriction": "Item must be a MOLLE attachment for the back"
   },
-
   {
     "id": "VELCRO_ATTACH",
     "type": "json_flag",
@@ -38,7 +35,6 @@
     "info": "This item can be <good>attached</good> to <info>hook-and-loop surfaces</info>.",
     "restriction": "Item must be a hook-and-loop panel"
   },
-
   {
     "id": "BELT_GEAR",
     "type": "json_flag",
@@ -51,7 +47,6 @@
     "info": "This item can be <good>attached</good> to <info>a worn waist belt</info>.",
     "restriction": "Item must be large belt-capable gear"
   },
-
   {
     "id": "BOOT_HOLSTER",
     "type": "json_flag",
@@ -65,10 +60,8 @@
   {
     "id": "GUN_SLING",
     "type": "json_flag",
-
     "restriction": "Item must be either a gun sling or a gun with a sling attached"
   },
-
   {
     "id": "CUMMERBUND",
     "type": "json_flag",
@@ -79,7 +72,6 @@
     "type": "json_flag",
     "//": "used for calculating plate carrier proficiency progress"
   },
-
   {
     "id": "CUMMERBUND_VELCRO",
     "type": "json_flag",
@@ -92,14 +84,12 @@
     "info": "This type of cummerbund can be <good>attached</good> to <info>plate carriers</info> with the <info>National Molding Quad Release interface</info>, which is commonly used with the U.S. Armed Forces plate carriers.",
     "restriction": "Cummerbund must have buckles for the Quad Release system"
   },
-
   {
     "id": "SHOULDER_PADS",
     "type": "json_flag",
     "info": "These shoulder straps can be <good>attached</good> to <info>plate carriers</info> or <info>chest rigs</info>, in order to slightly improve their encumbrance.",
     "restriction": "Item must be a pair of shoulder straps"
   },
-
   {
     "id": "SIDE_POUCH_VELCRO",
     "type": "json_flag",

@@ -7,12 +7,10 @@
         "text": "<female_given_name>",
         "weight": 100
       },
-
       {
         "text": "<female_given_name> <female_given_name>",
         "weight": 50
       },
-
       {
         "text": "<female_given_name> <name/initial>",
         "weight": 10
@@ -39,12 +37,10 @@
         "text": "<female_given_name>",
         "weight": 100
       },
-
       {
         "text": "<female_given_name> <female_given_name>",
         "weight": 50
       },
-
       {
         "text": "<female_given_name> <name/initial:raw>",
         "weight": 10
@@ -63,7 +59,6 @@
       }
     ]
   },
-
   {
     "type": "snippet",
     "category": "<name/legal/first:male>",
@@ -72,12 +67,10 @@
         "text": "<male_given_name>",
         "weight": 100
       },
-
       {
         "text": "<male_given_name> <male_given_name>",
         "weight": 50
       },
-
       {
         "text": "<male_given_name> <name/initial>",
         "weight": 10
@@ -104,12 +97,10 @@
         "text": "<male_given_name>",
         "weight": 100
       },
-
       {
         "text": "<male_given_name> <male_given_name>",
         "weight": 50
       },
-
       {
         "text": "<male_given_name> <name/initial:raw>",
         "weight": 10

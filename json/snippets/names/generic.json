@@ -2,14 +2,17 @@
   {
     "type": "snippet",
     "category": "<name/initial:raw>",
-    "text": ["<initial:capitalized>"]
+    "text": [
+      "<initial:capitalized>"
+    ]
   },
   {
     "type": "snippet",
     "category": "<name/initial>",
-    "text": ["<initial:capitalized>."]
+    "text": [
+      "<initial:capitalized>."
+    ]
   },
-
   {
     "type": "snippet",
     "category": "<initial:capitalized>",
@@ -39,12 +42,14 @@
       "Z"
     ]
   },
-
   {
     "type": "snippet",
     "category": "<name/separator>",
     "text": [
-      { "text": " ", "weight": 5 },
+      {
+        "text": " ",
+        "weight": 5
+      },
       {
         "text": "-",
         "weight": 5

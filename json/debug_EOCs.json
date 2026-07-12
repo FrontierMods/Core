@@ -2,7 +2,6 @@
   {
     "id": "Core_debug_EOC_GET_ITEM_DIMENSIONS",
     "type": "effect_on_condition",
-
     "effect": [
       {
         "u_run_inv_eocs": "manual",
@@ -11,11 +10,26 @@
           {
             "id": "inline_EOC_GET_ITEM_DIMENSIONS",
             "effect": [
-              { "math": ["_weight", "=", "n_val('weight')"] },
-              { "math": ["_volume", "=", "n_val('volume')"] },
-
-              { "u_message": "Weight: <context_val:weight> mg" },
-              { "u_message": "Volume: <context_val:volume> ml" }
+              {
+                "math": [
+                  "_weight",
+                  "=",
+                  "n_val('weight')"
+                ]
+              },
+              {
+                "math": [
+                  "_volume",
+                  "=",
+                  "n_val('volume')"
+                ]
+              },
+              {
+                "u_message": "Weight: <context_val:weight> mg"
+              },
+              {
+                "u_message": "Volume: <context_val:volume> ml"
+              }
             ]
           }
         ]
@@ -25,7 +39,6 @@
   {
     "id": "Core_debug_EOC_DESTROY_ITEMS",
     "type": "effect_on_condition",
-
     "effect": [
       {
         "u_run_inv_eocs": "manual_mult",
@@ -33,7 +46,9 @@
         "true_eocs": [
           {
             "id": "inline_EOC_DESTROY_ITEMS",
-            "effect": ["npc_die"]
+            "effect": [
+              "npc_die"
+            ]
           }
         ]
       }
@@ -42,24 +57,47 @@
   {
     "id": "Core_debug_EOC_SHOW_DEBUG_MESSAGE",
     "type": "effect_on_condition",
-
     "condition": {
       "and": [
-        { "expects_vars": ["message", "tag"] },
-        { "u_has_trait": "DEBUG_MOD_REPORTING" }
+        {
+          "expects_vars": [
+            "message",
+            "tag"
+          ]
+        },
+        {
+          "u_has_trait": "DEBUG_MOD_REPORTING"
+        }
       ]
     },
     "effect": [
       {
-        "if": { "compare_string": ["", { "context_val": "tag" }] },
-        "then": { "u_message": { "context_val": "message" } },
+        "if": {
+          "compare_string": [
+            "",
+            {
+              "context_val": "tag"
+            }
+          ]
+        },
+        "then": {
+          "u_message": {
+            "context_val": "message"
+          }
+        },
         "else": [
           {
             "set_string_var": "[<context_val:tag>] <context_val:message>",
-            "target_var": { "context_val": "tagged_message" },
+            "target_var": {
+              "context_val": "tagged_message"
+            },
             "parse_tags": true
           },
-          { "u_message": { "context_val": "tagged_message" } }
+          {
+            "u_message": {
+              "context_val": "tagged_message"
+            }
+          }
         ]
       }
     ]
@@ -67,19 +105,29 @@
   {
     "id": "Core_debug_EOC_SHOW_DEBUG_MESSAGE_SPAMMY",
     "type": "effect_on_condition",
-
     "condition": {
       "and": [
-        { "expects_vars": ["message", "tag"] },
-        { "u_has_trait": "DEBUG_MOD_REPORTING_SPAMMY" }
+        {
+          "expects_vars": [
+            "message",
+            "tag"
+          ]
+        },
+        {
+          "u_has_trait": "DEBUG_MOD_REPORTING_SPAMMY"
+        }
       ]
     },
     "effect": [
       {
         "run_eocs": "Core_debug_EOC_SHOW_DEBUG_MESSAGE",
         "variables": {
-          "message": { "context_val": "message" },
-          "tag": { "context_val": "tag" }
+          "message": {
+            "context_val": "message"
+          },
+          "tag": {
+            "context_val": "tag"
+          }
         }
       }
     ]
@@ -87,15 +135,18 @@
   {
     "id": "Core_debug_EOC_SPAWN_ITEM_GROUP",
     "type": "effect_on_condition",
-
     "effect": [
       {
         "set_string_var": "<u_name>",
-        "target_var": { "context_val": "avatar_name" },
+        "target_var": {
+          "context_val": "avatar_name"
+        },
         "parse_tags": true
       },
       {
-        "map_spawn_item": { "context_val": "avatar_name" },
+        "map_spawn_item": {
+          "context_val": "avatar_name"
+        },
         "use_item_group": true
       }
     ]
@@ -103,7 +154,6 @@
   {
     "id": "Core_debug_EOC_TEST_RANDOM",
     "type": "effect_on_condition",
-
     "effect": [
       {
         "math": [
@@ -112,27 +162,48 @@
           "random(num_input('Input minimum', 1), num_input('Input maximum', 100))"
         ]
       },
-      { "message": "The random value between the two numbers is:" },
-      { "message": { "context_val": "random_result" } }
+      {
+        "message": "The random value between the two numbers is:"
+      },
+      {
+        "message": {
+          "context_val": "random_result"
+        }
+      }
     ]
   },
   {
     "id": "Core_debug_EOC_TEST_NAMES",
     "type": "effect_on_condition",
-
-    "effect": [{ "message": "<name:maybe>", "snippet": true }]
+    "effect": [
+      {
+        "message": "<name:maybe>",
+        "snippet": true
+      }
+    ]
   },
   {
     "id": "Core_debug_EOC_GIVE_DEBUG_TRAITS",
     "type": "effect_on_condition",
-
     "effect": [
-      { "u_add_trait": "DEBUG_LS" },
-      { "u_add_trait": "DEBUG_NOTEMP" },
-      { "u_add_trait": "DEBUG_CLOAK" },
-      { "u_add_trait": "DEBUG_NODMG" },
-      { "u_add_trait": "DEBUG_SILENT" },
-      { "u_add_trait": "DEBUG_NOSCENT" }
+      {
+        "u_add_trait": "DEBUG_LS"
+      },
+      {
+        "u_add_trait": "DEBUG_NOTEMP"
+      },
+      {
+        "u_add_trait": "DEBUG_CLOAK"
+      },
+      {
+        "u_add_trait": "DEBUG_NODMG"
+      },
+      {
+        "u_add_trait": "DEBUG_SILENT"
+      },
+      {
+        "u_add_trait": "DEBUG_NOSCENT"
+      }
     ]
   }
 ]

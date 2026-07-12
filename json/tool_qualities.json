@@ -2,7 +2,6 @@
   {
     "id": "FINE_POINT",
     "type": "tool_quality",
-
     "//scaling": {
       "1": [
         "relatively-large points that are, nevertheless, fine in nature because they focus pressure on a very small area",
@@ -21,22 +20,29 @@
         "e.g. SIM card tray ejector"
       ]
     },
-
-    "name": { "str": "fine point pressure" }
+    "name": {
+      "str": "fine point pressure"
+    }
   },
   {
     "id": "LATHE",
     "type": "tool_quality",
-
     "//scaling": {
-      "1": ["small hobby-grade lathes, usually benchtops"],
-      "2": ["larger hobby-grade lathes, stationary or with a stand"],
-      "3": ["industrial-grade lathes on a smaller scale"],
+      "1": [
+        "small hobby-grade lathes, usually benchtops"
+      ],
+      "2": [
+        "larger hobby-grade lathes, stationary or with a stand"
+      ],
+      "3": [
+        "industrial-grade lathes on a smaller scale"
+      ],
       "4": [
         "some of the largest industrial-grade lathes used, fit for survivor-grade crafting"
       ]
     },
-
-    "name": { "str": "lathing" }
+    "name": {
+      "str": "lathing"
+    }
   }
 ]

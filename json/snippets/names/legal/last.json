@@ -7,12 +7,10 @@
         "text": "<family_name>",
         "weight": 100
       },
-
       {
         "text": "<family_name><name/separator><family_name>",
         "weight": 10
       },
-
       {
         "//": [
           "triple-barreled name cannot be adequately implemented with `<name/separator>` due to each separator generating a different, possibly distinct symbol",
@@ -21,7 +19,6 @@
         "text": "<family_name> <family_name> <family_name>",
         "weight": 1
       },
-
       {
         "text": "<family_name>-<family_name>-<family_name>",
         "weight": 1

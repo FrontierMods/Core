@@ -41,12 +41,14 @@
       }
     ]
   },
-
   {
     "type": "snippet",
     "category": "<name/legal:maybe>",
     "text": [
-      { "text": "", "weight": 3 },
+      {
+        "text": "",
+        "weight": 3
+      },
       {
         "text": "<name/legal/full>",
         "weight": 7
@@ -57,7 +59,10 @@
     "type": "snippet",
     "category": "<name/display:maybe>",
     "text": [
-      { "text": "", "weight": 3 },
+      {
+        "text": "",
+        "weight": 3
+      },
       {
         "text": "<name/display/full>",
         "weight": 7
@@ -68,7 +73,10 @@
     "type": "snippet",
     "category": "<name/military:maybe>",
     "text": [
-      { "text": "", "weight": 3 },
+      {
+        "text": "",
+        "weight": 3
+      },
       {
         "text": "<name/military/full>",
         "weight": 7

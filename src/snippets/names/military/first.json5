@@ -1,0 +1,131 @@
+[
+  {
+    type: "snippet",
+    category: "<name/military/first:female>",
+    text: [
+      {
+        text: "<female_given_name>",
+        weight: 20,
+      },
+
+      {
+        text: "<female_given_name> <name/initial>",
+        weight: 2,
+      },
+      {
+        text: "<female_given_name> <name/initial> <name/initial>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial> <name/initial>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial> <female_given_name>",
+        weight: 2,
+      },
+
+      {
+        text: "<female_given_name> <female_given_name>",
+        weight: 1,
+      },
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<name/military/first:female/raw>",
+    text: [
+      {
+        text: "<female_given_name>",
+        weight: 20,
+      },
+
+      {
+        text: "<female_given_name> <name/initial:raw>",
+        weight: 2,
+      },
+      {
+        text: "<female_given_name> <name/initial:raw> <name/initial:raw>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial:raw> <name/initial:raw>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial:raw> <female_given_name>",
+        weight: 2,
+      },
+
+      {
+        text: "<female_given_name> <female_given_name>",
+        weight: 1,
+      },
+    ],
+  },
+
+  {
+    type: "snippet",
+    category: "<name/military/first:male>",
+    text: [
+      {
+        text: "<male_given_name>",
+        weight: 20,
+      },
+
+      {
+        text: "<male_given_name> <name/initial>",
+        weight: 2,
+      },
+      {
+        text: "<male_given_name> <name/initial> <name/initial>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial> <name/initial>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial> <male_given_name>",
+        weight: 2,
+      },
+
+      {
+        text: "<male_given_name> <male_given_name>",
+        weight: 1,
+      },
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<name/military/first:male/raw>",
+    text: [
+      {
+        text: "<male_given_name>",
+        weight: 20,
+      },
+
+      {
+        text: "<male_given_name> <name/initial:raw>",
+        weight: 2,
+      },
+      {
+        text: "<male_given_name> <name/initial:raw> <name/initial:raw>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial:raw> <name/initial:raw>",
+        weight: 2,
+      },
+      {
+        text: "<name/initial:raw> <male_given_name>",
+        weight: 2,
+      },
+
+      {
+        text: "<male_given_name> <male_given_name>",
+        weight: 1,
+      },
+    ],
+  },
+]

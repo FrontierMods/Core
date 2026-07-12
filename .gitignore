@@ -1,3 +1,4 @@
 .prettierrc
 *.todo
 TODO
+.frontier

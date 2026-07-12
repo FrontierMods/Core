@@ -6,16 +6,19 @@
       "Consists of a barrel, a bolt carrier group, and a handguard, all of which enable the use of the rifle as one would expect to."
     ]
   },
-
   {
     "type": "snippet",
     "category": "<upper_receiver/caliber:556>",
-    "text": ["This upper receiver is chambered in 5.56mm NATO/.223 Remington."]
+    "text": [
+      "This upper receiver is chambered in 5.56mm NATO/.223 Remington."
+    ]
   },
   {
     "type": "snippet",
     "category": "<upper_receiver/caliber:300blk>",
-    "text": ["This upper receiver is chambered in .300 Blackout."]
+    "text": [
+      "This upper receiver is chambered in .300 Blackout."
+    ]
   },
   {
     "type": "snippet",
@@ -27,14 +30,17 @@
   {
     "type": "snippet",
     "category": "<upper_receiver/caliber:450>",
-    "text": ["This upper receiver is chambered in .450 Bushmaster."]
+    "text": [
+      "This upper receiver is chambered in .450 Bushmaster."
+    ]
   },
   {
     "type": "snippet",
     "category": "<upper_receiver/caliber:50beowulf>",
-    "text": ["This upper receiver is chambered in .50 Beowulf."]
+    "text": [
+      "This upper receiver is chambered in .50 Beowulf."
+    ]
   },
-
   {
     "type": "snippet",
     "category": "<upper_receiver/barrel:10.3>",

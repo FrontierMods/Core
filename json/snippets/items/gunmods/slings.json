@@ -15,7 +15,6 @@
       "\n\nThe sling is currently hanging in front of you.  Activate to move it to the back."
     ]
   },
-
   {
     "type": "snippet",
     "category": "<sling/single:swiftness>",
@@ -26,6 +25,8 @@
   {
     "type": "snippet",
     "category": "<sling/double:comfort>",
-    "text": ["Two-point slings are more comfortable than single-point ones."]
+    "text": [
+      "Two-point slings are more comfortable than single-point ones."
+    ]
   }
 ]

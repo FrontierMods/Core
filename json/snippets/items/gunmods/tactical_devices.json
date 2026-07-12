@@ -2,7 +2,9 @@
   {
     "type": "snippet",
     "category": "<sight/laser:red>",
-    "text": ["It emits red laser: the most common kind of lasers."]
+    "text": [
+      "It emits red laser: the most common kind of lasers."
+    ]
   },
   {
     "type": "snippet",

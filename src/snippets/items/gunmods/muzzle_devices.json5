@@ -1,0 +1,89 @@
+[
+  {
+    type: "snippet",
+    category: "<muzzle/brake>",
+    text: [
+      "Like any muzzle brake, it makes the sound signature much louder.  Remember to wear hearing protection.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor>",
+    "//": "for use only with generic suppressor descriptions",
+    text: [
+      "The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor:short>",
+    text: [
+      "Being shorter than most suppressors, it cannot accept standard-size suppressor covers.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor/mount:thread>",
+    text: [
+      "It mounts directly onto muzzle threading, without requiring an adapter.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor/mount:brake>",
+    text: [
+      "It comes with an embedded muzzle brake that allows it to be installed directly onto muzzle threading.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor/mount:choke>",
+    text: [
+      "It comes with an embedded choke that allows it to be installed directly onto muzzle threading.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor/mount:none>",
+    text: ["This one also cannot be mounted directly onto muzzle threading."],
+  },
+
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor_cover>",
+    text: [
+      "Wraps around a suppressor and shields the user from the heat, reducing the heat mirage rising from it, as well as slightly dampening the sound of the shot.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/suppressor_cover/length>",
+    text: ["It requires a suppressor of around 7 in. or more in length."],
+  },
+
+  {
+    type: "snippet",
+    category: "<muzzle/choke>",
+    text: [
+      "Noticably reduces spread of shot, shaping it towards longer range and higher accuracy at the muzzle.",
+    ],
+  },
+
+  {
+    type: "snippet",
+    category: "<muzzle/rating:556>",
+    text: ["This model is rated primarily for 5.56mm NATO."],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/rating:9mm>",
+    text: ["This model is rated primarily for 9×19mm."],
+  },
+  {
+    type: "snippet",
+    category: "<muzzle/rating:wide>",
+    text: [
+      "This model is rated for a wide variety of common rifle cartridges.",
+    ],
+  },
+]

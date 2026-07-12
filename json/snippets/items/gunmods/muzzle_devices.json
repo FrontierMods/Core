@@ -45,9 +45,10 @@
   {
     "type": "snippet",
     "category": "<muzzle/suppressor/mount:none>",
-    "text": ["This one also cannot be mounted directly onto muzzle threading."]
+    "text": [
+      "This one also cannot be mounted directly onto muzzle threading."
+    ]
   },
-
   {
     "type": "snippet",
     "category": "<muzzle/suppressor_cover>",
@@ -58,9 +59,10 @@
   {
     "type": "snippet",
     "category": "<muzzle/suppressor_cover/length>",
-    "text": ["It requires a suppressor of around 7 in. or more in length."]
+    "text": [
+      "It requires a suppressor of around 7 in. or more in length."
+    ]
   },
-
   {
     "type": "snippet",
     "category": "<muzzle/choke>",
@@ -68,16 +70,19 @@
       "Noticably reduces spread of shot, shaping it towards longer range and higher accuracy at the muzzle."
     ]
   },
-
   {
     "type": "snippet",
     "category": "<muzzle/rating:556>",
-    "text": ["This model is rated primarily for 5.56mm NATO."]
+    "text": [
+      "This model is rated primarily for 5.56mm NATO."
+    ]
   },
   {
     "type": "snippet",
     "category": "<muzzle/rating:9mm>",
-    "text": ["This model is rated primarily for 9×19mm."]
+    "text": [
+      "This model is rated primarily for 9×19mm."
+    ]
   },
   {
     "type": "snippet",

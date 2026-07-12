@@ -1,0 +1,17 @@
+[
+  {
+    id: "screwdriver",
+    "copy-from": "screwdriver",
+    type: "ITEM",
+    subtypes: ["TOOL"],
+
+    name: {
+      str: "screwdriver",
+    },
+
+    qualities: [
+      ["SCREW", 1],
+      ["FINE_POINT", 1],
+    ],
+  },
+]

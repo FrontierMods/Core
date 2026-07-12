@@ -2,11 +2,15 @@
   {
     "type": "snippet",
     "category": "<variant:black/glossy>",
-    "text": ["This one is in glossy, metallic black."]
+    "text": [
+      "This one is in glossy, metallic black."
+    ]
   },
   {
     "type": "snippet",
     "category": "<variant:fde/glossy>",
-    "text": ["This one is in glossy, metallic earth brown."]
+    "text": [
+      "This one is in glossy, metallic earth brown."
+    ]
   }
 ]

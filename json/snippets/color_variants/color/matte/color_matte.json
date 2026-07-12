@@ -2,11 +2,15 @@
   {
     "type": "snippet",
     "category": "<variant:black/matte>",
-    "text": ["This one is in matte black."]
+    "text": [
+      "This one is in matte black."
+    ]
   },
   {
     "type": "snippet",
     "category": "<variant:silver/matte>",
-    "text": ["This one is in matte silver."]
+    "text": [
+      "This one is in matte silver."
+    ]
   }
 ]

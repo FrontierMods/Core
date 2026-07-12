@@ -1,0 +1,92 @@
+[
+  {
+    type: "snippet",
+    category: "<variant:black>",
+    text: ["This one is all black."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:white>",
+    text: ["This one is all white."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:offwhite>",
+    text: ["This one is a shade darker than white."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:coyote>",
+    text: ["This one is colored coyote brown."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:fde>",
+    text: ["This one is colored earth brown."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:ranger>",
+    text: ["This one is colored ranger green."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:olive>",
+    text: ["This one is colored olive drab."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:grey>",
+    text: ["This one is colored grey."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:khaki>",
+    text: ["This one comes in the color of sand."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:navy>",
+    text: ["This one is colored navy blue."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:red>",
+    text: ["This one is colored bright red."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:pink>",
+    text: ["This one is all pink."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:blue>",
+    text: ["This one is in blue."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:blue/light>",
+    text: ["This one is light blue."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:green>",
+    text: ["This one is in green."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:green/light>",
+    text: ["This one is light green."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:steel>",
+    text: ["This one is steely grey."],
+  },
+  {
+    type: "snippet",
+    category: "<variant:brown>",
+    text: ["This one is dark brown."],
+  },
+]

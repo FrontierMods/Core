@@ -2,9 +2,12 @@
   {
     "type": "snippet",
     "category": "<rank/military>",
-    "text": [{ "text": "<rank/military:army>" }]
+    "text": [
+      {
+        "text": "<rank/military:army>"
+      }
+    ]
   },
-
   {
     "type": "snippet",
     "category": "<rank/military:army>",
@@ -20,13 +23,11 @@
       "CPT",
       "1LT",
       "2LT",
-
       "CW5",
       "CW4",
       "CW3",
       "CW2",
       "WO1",
-
       "CSM",
       "SGM",
       "1SG",
@@ -69,13 +70,11 @@
       "2ndLt",
       "2nd LT",
       "2nd Lt",
-
       "CW5",
       "CW4",
       "CW3",
       "CW2",
       "WO1",
-
       "CSM",
       "SGM",
       "SgM",

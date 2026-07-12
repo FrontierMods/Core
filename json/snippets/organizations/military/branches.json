@@ -2,18 +2,31 @@
   {
     "type": "snippet",
     "category": "<branch/military>",
-    "text": [{ "text": "<branch/military:army>" }]
+    "text": [
+      {
+        "text": "<branch/military:army>"
+      }
+    ]
   },
-
   {
     "type": "snippet",
     "category": "<branch/military:army>",
     "text": [
-      { "text": "US ARMY" },
-      { "text": "US Army" },
-      { "text": "USA" },
-      { "text": "ARMY" },
-      { "text": "Army" }
+      {
+        "text": "US ARMY"
+      },
+      {
+        "text": "US Army"
+      },
+      {
+        "text": "USA"
+      },
+      {
+        "text": "ARMY"
+      },
+      {
+        "text": "Army"
+      }
     ]
   }
 ]

@@ -1,0 +1,38 @@
+[
+  {
+    type: "snippet",
+    category: "<magazine/ranger_plate>",
+    text: [
+      "Has a ranger plate attached, allowing the magazine to hang from carabiners.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<magazine/ranger_plate:generic>",
+    "//": "for use with generic/non-variant item description, where wording is different",
+    text: [
+      "This one has a ranger plate attached, allowing the magazine to hang from carabiners.",
+    ],
+  },
+
+  {
+    type: "snippet",
+    category: "<magazine/extension_plate:5>",
+    text: [
+      "Has an extension plate attached, which adds 5 extra rounds to its capacity.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<magazine/extension_plate:6>",
+    text: [
+      "Has an extension plate attached, which adds 6 extra rounds to its capacity.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<magazine/extension_plate:generic>",
+    "//": "for use with generic/non-variant item description, where wording is different",
+    text: ["This one has an extension plate attached, extending its capacity."],
+  },
+]
