@@ -2,24 +2,6 @@
   {
     "id": "FINE_POINT",
     "type": "tool_quality",
-    "//scaling": {
-      "1": [
-        "relatively-large points that are, nevertheless, fine in nature because they focus pressure on a very small area",
-        "e.g. rifle-caliber bullet, paper-grade scissors, 3.5mm audio plug"
-      ],
-      "2": [
-        "narrow-area tips that are too wide or thick to fit into 'danger zone' recess buttons",
-        "e.g. fork tooth"
-      ],
-      "3": [
-        "small-enough tip to press recessed 'danger zone' buttons, such WiFi router reset",
-        "e.g. pen"
-      ],
-      "4": [
-        "some of the tiniest consumer-grade tools",
-        "e.g. SIM card tray ejector"
-      ]
-    },
     "name": {
       "str": "fine point pressure"
     }
@@ -27,20 +9,6 @@
   {
     "id": "LATHE",
     "type": "tool_quality",
-    "//scaling": {
-      "1": [
-        "small hobby-grade lathes, usually benchtops"
-      ],
-      "2": [
-        "larger hobby-grade lathes, stationary or with a stand"
-      ],
-      "3": [
-        "industrial-grade lathes on a smaller scale"
-      ],
-      "4": [
-        "some of the largest industrial-grade lathes used, fit for survivor-grade crafting"
-      ]
-    },
     "name": {
       "str": "lathing"
     }

@@ -1,16 +1,16 @@
 [
   {
+    // NOTE: due to using line breaks, this snippet should always be attached to the very end of the description
     type: "snippet",
     category: "<sling/position:back>",
-    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
     text: [
       "\n\nRight now, the sling is strapped onto your back.  Activate to move it to the front.",
     ],
   },
   {
+    // NOTE: due to using line breaks, this snippet should always be attached to the very end of the description
     type: "snippet",
     category: "<sling/position:front>",
-    "//": "due to using line breaks, this snippet should always be attached to the very end of the description",
     text: [
       "\n\nThe sling is currently hanging in front of you.  Activate to move it to the back.",
     ],

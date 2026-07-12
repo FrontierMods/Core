@@ -9,7 +9,6 @@
   {
     "type": "snippet",
     "category": "<muzzle/suppressor>",
-    "//": "for use only with generic suppressor descriptions",
     "text": [
       "The main purpose of a suppressor is to reduce report to safe levels, allowing the shooter to sustain fire without damaging their hearing."
     ]

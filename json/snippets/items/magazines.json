@@ -9,7 +9,6 @@
   {
     "type": "snippet",
     "category": "<magazine/ranger_plate:generic>",
-    "//": "for use with generic/non-variant item description, where wording is different",
     "text": [
       "This one has a ranger plate attached, allowing the magazine to hang from carabiners."
     ]
@@ -31,7 +30,6 @@
   {
     "type": "snippet",
     "category": "<magazine/extension_plate:generic>",
-    "//": "for use with generic/non-variant item description, where wording is different",
     "text": [
       "This one has an extension plate attached, extending its capacity."
     ]

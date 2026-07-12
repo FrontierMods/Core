@@ -11,7 +11,6 @@
   {
     "type": "snippet",
     "category": "<rank/military:army>",
-    "//": "we're ignoring special ranks between Commander Sergeant Major and warrant officers because of how rare they're likely to be at the end of the world",
     "text": [
       "GEN",
       "LTG",
@@ -44,7 +43,6 @@
   {
     "type": "snippet",
     "category": "<rank/military:army/raw>",
-    "//": "same as <rank/military:army>, but spelled in non-official situations",
     "text": [
       "GEN",
       "Gen",

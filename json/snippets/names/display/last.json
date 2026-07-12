@@ -28,10 +28,6 @@
         "weight": 5
       },
       {
-        "//": [
-          "triple-barreled name cannot be adequately implemented with `<name/separator>` due to each separator generating a different, possibly distinct symbol",
-          "e.g. Vane-Tempest Stewart"
-        ],
         "text": "<family_name> <family_name> <family_name>",
         "weight": 1
       },

@@ -64,13 +64,11 @@
   },
   {
     "id": "CUMMERBUND",
-    "type": "json_flag",
-    "//": "used for negating an invisible encumbrance malus while wearing plate carriers without cummerbunds"
+    "type": "json_flag"
   },
   {
     "id": "PLATE_CARRIER",
-    "type": "json_flag",
-    "//": "used for calculating plate carrier proficiency progress"
+    "type": "json_flag"
   },
   {
     "id": "CUMMERBUND_VELCRO",

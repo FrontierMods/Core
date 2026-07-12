@@ -2,7 +2,6 @@
   {
     "type": "snippet",
     "category": "<name/unofficial>",
-    "//": "for random items found anywhere, excluding names undersigning official documents and similar epistolary",
     "text": [
       {
         "text": "<name/display/full>",
@@ -25,7 +24,6 @@
   {
     "type": "snippet",
     "category": "<name/unofficial:maybe>",
-    "//": "for random items found anywhere, excluding names undersigning official documents and similar epistolary",
     "text": [
       {
         "text": "<name/display:maybe>",

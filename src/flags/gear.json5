@@ -70,14 +70,14 @@
   },
 
   {
+    // * used for negating an invisible encumbrance malus while wearing plate carriers without cummerbunds
     id: "CUMMERBUND",
     type: "json_flag",
-    "//": "used for negating an invisible encumbrance malus while wearing plate carriers without cummerbunds",
   },
   {
+    // * used for calculating plate carrier proficiency progress
     id: "PLATE_CARRIER",
     type: "json_flag",
-    "//": "used for calculating plate carrier proficiency progress",
   },
 
   {
