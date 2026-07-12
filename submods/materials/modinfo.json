@@ -1,7 +1,8 @@
 [
   {
-    "type": "MOD_INFO",
     "id": "frontier_materials",
+    "type": "MOD_INFO",
+    "version": "v1.3.0",
 
     "name": "Core: Materials",
     "description": "Materials library for use by other mods",

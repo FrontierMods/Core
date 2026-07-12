@@ -1,7 +1,8 @@
 [
   {
-    "type": "MOD_INFO",
     "id": "frontier_core",
+    "type": "MOD_INFO",
+    "version": "v1.6.0",
 
     "name": "Frontier Mods Core",
     "description": "Frontier Mods Core serves as the foundation of mods in the Frontier Mods collection",
