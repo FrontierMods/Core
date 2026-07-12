@@ -1,6 +1,6 @@
 # Frontier Mods
 
-_last updated: Jul 1, 2026_
+_last updated: Jul 12, 2026_
 
 Frontier Mods is a collection of mods for _Cataclysm: Dark Days Ahead_. They're designed to work separately or in conjunction with one another; patches will be provided to bridge functionality between Frontier mods, should their content overlap.
 
@@ -16,21 +16,31 @@ The mods are designed to be compatible with the latest stable release only.
 
 Current version supported: **0.I**.
 
+## Mod IDs and Compatibility
+
+As of v2.0.0, Core uses the slash-based Frontier Mods ID system, and its former submods live in standalone repositories:
+
+| Mod                                     | Old ID               | New ID      | Location                                                            |
+| --------------------------------------- | -------------------- | ----------- | ------------------------------------------------------------------- |
+| Frontier Mods Core                      | `frontier_core`      | `frontier`  | this repository                                                     |
+| Materials Library (was Core: Materials) | `frontier_materials` | `materials` | [FrontierMods/Materials](https://github.com/FrontierMods/Materials) |
+| Item Audits (was Core: Audits)          | `frontier_audits`    | `audits`    | [FrontierMods/Audits](https://github.com/FrontierMods/Audits)       |
+
+This is a **breaking change**: worlds and mods that reference the old IDs must update their mod lists and dependencies.
+
+For mods compatible with version **0.H**, refer to the [`0.H` branch](https://github.com/FrontierMods/Core/tree/0.H).
+
 # Frontier Core
 
 **Frontier Core** is the base mod for the entirety of the Frontier Mods collection. It contains features, changes, and bug fixes used by most mods of the umbrella/brand.
 
 ## Auditing
 
-**Core**'s **Audit** submod contains a number of audits for the base game's items. Most of these audits concern physical dimensions and adding appropriate flags for use with Frontier Mods' other equipment.
-
-Audits are included as necessary. They are not designed to include all mischaracterized items from the base game, since not all items need to be changed for any of the Frontier mods to work.
-
-Some mods feature independent audits of items, each mod featuring audits within its own domain. This is done in order to enable playing any of the Frontier mods without encountering errors for audits that other mods necessitate.
+⚠️ Item audits now live in the standalone [Item Audits](https://github.com/FrontierMods/Audits) mod.
 
 ## Materials
 
-**Core**'s **Materials** submod serves as a library of materials that any mod, not just Frontier Mods, can use. It features several common and specific-use materials. Though supplied with **Core**, **Materials** doesn't require it to be active.
+⚠️ The materials library now lives in the standalone [Materials Library](https://github.com/FrontierMods/Materials) mod.
 
 # Frontier Mods Extra
 
