@@ -1,4 +1,4 @@
-.prettierrc
 *.todo
 TODO
-.frontier
+.frontier/
+json/
