@@ -70,6 +70,13 @@
   },
   {
     type: "snippet",
+    category: "<upper_receiver/barrel:16.1>",
+    text: [
+      "The barrel is 16.1 inches long, and is often used for long-range shooting, though it can just as easily be used against closer targets.",
+    ],
+  },
+  {
+    type: "snippet",
     category: "<upper_receiver/barrel:18>",
     text: [
       "The barrel is 18 inches long, and is often used for long-range shooting, though it can just as easily be used against closer targets.",
