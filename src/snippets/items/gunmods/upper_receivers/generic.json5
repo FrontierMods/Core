@@ -9,7 +9,7 @@
 
   {
     type: "snippet",
-    category: "<upper_receiver/caliber:556>",
+    category: "<upper_receiver/caliber:5.56x45mm>",
     text: ["This upper receiver is chambered in 5.56mm NATO/.223 Remington."],
   },
   {
@@ -19,14 +19,14 @@
   },
   {
     type: "snippet",
-    category: "<upper_receiver/caliber:762x39>",
+    category: "<upper_receiver/caliber:7.62x39mm>",
     text: [
       "This upper receiver is chambered in the rare 7.62×39mm caliber of Soviet origin.",
     ],
   },
   {
     type: "snippet",
-    category: "<upper_receiver/caliber:450>",
+    category: "<upper_receiver/caliber:450bushmaster>",
     text: ["This upper receiver is chambered in .450 Bushmaster."],
   },
   {
