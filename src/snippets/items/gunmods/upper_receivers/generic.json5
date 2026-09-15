@@ -34,6 +34,11 @@
     category: "<upper_receiver/caliber:50beowulf>",
     text: ["This upper receiver is chambered in .50 Beowulf."],
   },
+  {
+    type: "snippet",
+    category: "<upper_receiver/caliber:22lr>",
+    text: ["This upper receiver is chambered in .22 LR."],
+  },
 
   {
     type: "snippet",
