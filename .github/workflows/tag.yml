@@ -1,0 +1,22 @@
+name: Tag version on push
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - modinfo.json
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Assign tag from mod version
+        run: |
+          version="$(jq -er 'map(select(.type == "MOD_INFO"))[0].version' modinfo.json)"
+
+          git tag "$version" "$GITHUB_SHA"
+          git push origin "refs/tags/$version"
