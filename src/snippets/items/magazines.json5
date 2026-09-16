@@ -35,4 +35,19 @@
     category: "<magazine/extension_plate:generic>",
     text: ["This one has an extension plate attached, extending its capacity."],
   },
+
+  {
+    type: "snippet",
+    category: "<magazine/reduced:5>",
+    text: [
+      "This one has been reduced to 5 rounds of capacity to comply with local law.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<magazine/reduced:10>",
+    text: [
+      "This one has been reduced to 10 rounds of capacity to comply with local law.",
+    ],
+  },
 ]
