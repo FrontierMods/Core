@@ -50,4 +50,26 @@
       "This one has been reduced to 10 rounds of capacity to comply with local law.",
     ],
   },
+
+  {
+    type: "snippet",
+    category: "<magazine/body:generic>",
+    text: [
+      "Currently missing a base plate, which prevents it from being used for its intended purpose.  You can assemble it into a usable magazine if you have an appropriate base plate.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<magazine/body>",
+    text: [
+      "Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a STANAG base plate, you can assemble the body into a usable magazine.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<magazine/body/converted:50beowulf~5.56x45mm>",
+    text: [
+      "It has been machined to allow feeding large .50 Beowulf rounds without compromising 5.56mm or .300 Blackout performance.",
+    ],
+  },
 ]
