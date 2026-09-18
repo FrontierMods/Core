@@ -60,9 +60,16 @@
   },
   {
     type: "snippet",
-    category: "<magazine/body>",
+    category: "<magazine/body:stanag>",
     text: [
-      "Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a STANAG base plate, you can assemble the body into a usable magazine.",
+      "Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a STANAG base plate or extension, you can assemble the body into a usable magazine.",
+    ],
+  },
+  {
+    type: "snippet",
+    category: "<magazine/body:pmag>",
+    text: [
+      "Currently without use because it is missing the base plate, which keeps the spring interior and functional.  Should you find a PMAG base plate or extension, you can assemble the body into a usable magazine.",
     ],
   },
   {
