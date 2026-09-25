@@ -16,6 +16,14 @@ The mods are designed to be compatible with the latest stable release only.
 
 Current version supported: **0.I-1**.
 
+## Getting the Mod
+
+⚠️ This mod only publishes its source. To use this mod in your playthrough, get its built output.
+
+For stable releases, visit the Releases section to download the compiled, playable version.
+
+For experimental versions (in-progress work on `main`), you can build the mod locally using [`.devtools`](https://github.com/FrontierMods/.devtools): run `frontier run autodoc build` at root (in the directory where `frontier.json5` is located). See `.devtools` for more information.
+
 ## Mod IDs and Compatibility
 
 As of v2.0.0, Core uses the slash-based Frontier Mods ID system, and its former submods live in standalone repositories:
